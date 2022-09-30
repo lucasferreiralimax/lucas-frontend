@@ -1,3 +1,5 @@
+import { useTranslation } from 'react-i18next';
+
 import './App.scss'
 
 import linkedinLogo from './assets/linkedin-logo.svg'
@@ -6,8 +8,21 @@ import codepenLogo from './assets/codepen-logo.svg'
 import githubLogo from './assets/github-logo.svg'
 
 function App() {
+  const { t } = useTranslation();
+
   return (
     <div className='app'>
+      <select
+        className="App-language"
+        name="language"
+        value={store.lang}
+        onChange={e => dispatch({type: 'SET_LANG', payload: e.target.value})}
+      >
+        <option value="pt">{t('languages.pt')}</option>
+        <option value="en">{t('languages.en')}</option>
+        <option value="es">{t('languages.es')}</option>
+        <option value="fr">{t('languages.fr')}</option>
+      </select>
       <h1 className='name'>Lucas Ferreira de Lima</h1>
       <p>Desenvolvedor Front-end e Designer especialista em criar soluções tecnológicas nos padrões Web<br/>
       I study English, J'étudie Français, Yo estudio Espanol e falo Português.</p>
