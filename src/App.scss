@@ -3,3 +3,16 @@
   margin: 0 auto;
   padding: 2rem;
 }
+
+.social {
+  a {
+    margin: 2rem;
+    display: inline-block;
+    &:first-of-type {
+      margin-left: 0;
+    }
+    &:last-of-type {
+      margin-right: 0;
+    }
+  }
+}

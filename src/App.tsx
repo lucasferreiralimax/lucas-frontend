@@ -1,5 +1,10 @@
 import './App.scss'
 
+import linkedinLogo from './assets/linkedin-logo.svg'
+import duolingoLogo from './assets/duolingo-logo.svg'
+import codepenLogo from './assets/codepen-logo.svg'
+import githubLogo from './assets/github-logo.svg'
+
 function App() {
   return (
     <div className='app'>
@@ -22,6 +27,20 @@ function App() {
 
       <p>Desenvolvo minhas habilidades artísticas dentro e fora da tecnologia<br/>
       Escrevendo poesia e também criando desenhos e artes visuais (arte urbana)</p>
+      <section className='social'>
+        <a href="https://www.linkedin.com/in/lucasferreiralimax" target="_blank">
+          <img src={linkedinLogo} alt="Linkedin Lucas Ferreira de Lima" width="50" height="50" />
+        </a>
+        <a href="https://www.duolingo.com/profile/ferreiralimax" target="_blank">
+          <img src={duolingoLogo} alt="Duolingo Lucas Ferreira de Lima" width="50" height="50" />
+        </a>
+        <a href="https://codepen.io/lucaslimax" target="_blank">
+          <img src={codepenLogo} alt="Codepen Lucas Ferreira de Lima" width="50" height="50" />
+        </a>
+        <a href="https://github.com/lucasferreiralimax" target="_blank">
+          <img src={githubLogo} alt="Github Lucas Ferreira de Lima" width="50" height="50" />
+        </a>
+      </section>
     </div>
   )
 }
