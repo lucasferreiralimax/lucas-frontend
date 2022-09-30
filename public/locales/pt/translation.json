@@ -1,0 +1,14 @@
+{
+  "languages": {
+    "pt": "Português",
+    "en": "Inglês",
+    "es": "Espanhol",
+    "fr": "Francés"
+  },
+  "navigation": {
+    "home": "Início",
+    "projects": "Projetos",
+    "works": "Experiencias",
+    "courses": "Cursos"
+  }
+}
