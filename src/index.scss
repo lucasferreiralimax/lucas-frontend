@@ -1,0 +1,63 @@
+@import "./mixins/_responsive.scss";
+
+:root {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+
+  --main-color: #213547;
+  --main-color-primary: #3fb34f;
+  --main-color-secondary: #c7c418;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+a {
+  font-weight: 500;
+  color: var(--main-color-primary);
+  text-decoration: inherit;
+}
+
+a:hover {
+  color: var(--main-color-primary) + 22;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  min-width: 320px;
+}
+
+h1 {
+  font-size: 2.2em;
+  line-height: 1.1;
+  &.name {
+    font-size: 5.2em;
+    font-family: 'Kaushan Script', cursive;
+    @include desktop {
+      font-size: 3.2em;
+    }
+    @include mobile {
+      font-size: 2em;
+    }    
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: var(--main-color-primary) + 22;
+  }
+}
