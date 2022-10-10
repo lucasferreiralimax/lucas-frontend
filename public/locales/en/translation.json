@@ -1,0 +1,35 @@
+{
+  "languages": {
+    "pt": "Português",
+    "en": "Inglês",
+    "es": "Espanhol"
+  },
+  "navigation": {
+    "home": "Home",
+    "projects": "Projects",
+    "works": "Experiences",  
+    "courses": "Courses"
+  },
+  "pageHome": {
+    "paragraphOne": {
+      "textOne": "Front-end Developer and Designer specialist in creating technological solutions with Web standards",
+      "textTwo": "I study English, Yo estudio Espanol e falo Português."
+    },
+    "paragraphTwo": {
+      "textOne": "Always developing solutions with technologies: CSS, HTML, JavaScript",
+      "textTwo": "Webpack, Gulp.js, Grunt.js, ParcelJS, Cypress.io, jQuery, Quasar.js, Nuxt.js, Typescript, ES6",
+      "textThree": "React.js and the Framework's Angular, Vue.js, and Svelte.js"
+    },
+    "paragraphThree": {
+      "textOne": "I use Git as code versioner and Github, Bitbucket, Gitlab",
+      "textTwo": "The Stylus.js preprocessor for working with CSS, I also work with Less and Sass",
+      "textThree": "Always looking to develop and write semantic HTML with the latest version",
+      "textFour": "Using maximum that language offers, I also use Pug.js a template engine"
+    },
+    "paragraphFour": {
+      "textOne": "My focus is improving information with performance, a lot of quality, and innovation",
+      "textTwo": "Creating End-to-End tests with Cypress.io, generating positive results in projects",
+      "textThree": "Doing research and usability tests, improving the experience with CSS animations"
+    }
+  }
+}
