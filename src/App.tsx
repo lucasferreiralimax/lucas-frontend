@@ -7,21 +7,14 @@ import { ReactComponent as Duolingo } from './assets/duolingo-logo.svg'
 import { ReactComponent as Codepen } from './assets/codepen-logo.svg'
 import { ReactComponent as Github } from './assets/github-logo.svg'
 
+import Language from './components/Language'
+
 function App() {
-  const { t, i18n } = useTranslation();
+  const { t } = useTranslation();
 
   return (
     <div className='app'>
-      <select
-        className="App-language"
-        name="language"
-        value={i18n.language}
-        onChange={e => i18n.changeLanguage(e.target.value)}
-      >
-        <option value="pt">{t('languages.pt')}</option>
-        <option value="en">{t('languages.en')}</option>
-        <option value="es">{t('languages.es')}</option>
-      </select>
+      <Language />
       <h1 className='name'>Lucas Ferreira de Lima</h1>
       <p>
         {t('pageHome.paragraphOne.textOne')}<br/>
