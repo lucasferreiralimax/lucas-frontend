@@ -5,7 +5,7 @@ import './style.scss';
 
 function Header() {
   return (
-    <header className="app-header">
+    <header className="app-header" data-testid="app-header">
       <Navigation />
       <h1 className='name'>
         <Link to="/">

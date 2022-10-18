@@ -24,6 +24,7 @@ function Language() {
     <select
       name="language"
       className="app-language"
+      data-testid="app-language"
       value={i18n.language}
       onChange={changeLanguages}
     >
