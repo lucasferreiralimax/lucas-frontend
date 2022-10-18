@@ -29,7 +29,6 @@
   -webkit-tap-highlight-color: transparent;
   background: var(--main-bg-color-primary);
   border: 1px solid rgba(var(--main-color-rgb), .2);
-  border-bottom: 0;
   box-sizing: border-box;
   color: var(--main-color);
   cursor: pointer;
@@ -44,7 +43,7 @@
   &:hover,
   &:focus,
   &:active {
-    background: rgba(255,255,255,.2);
+    background: rgba(var(--main-color-rgb), .2);
     color: var(--main-color);
   }
   &:hover, &:active {
@@ -110,6 +109,7 @@
   pointer-events: none;
   opacity: 0;
   transition: .3s all;
+  backdrop-filter: blur(5px);
   &.active {
     opacity: 1;
     pointer-events: all;
