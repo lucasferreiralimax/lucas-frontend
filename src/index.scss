@@ -23,6 +23,11 @@
   -webkit-text-size-adjust: 100%;
 }
 
+::selection {
+  background: var(--main-bg-color-secondary);
+  color: var(--main-color-primary);
+}
+
 body {
   margin: 0;
   display: flex;
