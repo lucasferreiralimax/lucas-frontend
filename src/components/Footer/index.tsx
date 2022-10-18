@@ -3,7 +3,7 @@ import './style.scss';
 function Footer() {
   return (
     <footer className="app-footer">
-      2022 @lucasferreiralimax
+       <small>2022 @lucasferreiralimax</small>
     </footer>
   )
 }
