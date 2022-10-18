@@ -1,6 +1,8 @@
 import { useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 
+import './style.scss';
+
 function Language() {
   const { t, i18n } = useTranslation();
 
