@@ -8,10 +8,16 @@
     height: 30px;
     width: 30px;
     &:hover {
-      text-shadow: 0var(--main-color-primary) + 22;
+      box-shadow: 0 0 20px var(--main-color-primary);
+      .icon {
+        transform: scale(1.2);
+      }
     }
     &:first-of-type { margin-left: 0; }
     &:last-of-type { margin-right: 0; }
+    .icon {
+      transition: .3s all;
+    }
   }
 }
 
