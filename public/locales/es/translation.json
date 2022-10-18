@@ -1,13 +1,13 @@
 {
   "languages": {
-    "pt": "Portugués",
+    "pt": "Portugués Brasileiro",
     "en": "Inglés",
     "es": "Español"
   },
   "navigation": {
     "home": "Comienzo",
     "projects": "Proyectos",
-    "works": "Experiencias",  
+    "works": "Experiencias",
     "courses": "Cursos"
   },
   "pageHome": {
@@ -30,6 +30,34 @@
       "textOne": "Mi enfoque es mejorar la información con desempeño, brindando mucha calidad e innovación",
       "textTwo": "Creando pruebas End-to-End usando Cypress.io, generando resultados positivos en los proyectos",
       "textThree": "Realización de pruebas de investigación y usabilidad, mejorando la experiencia con animaciones CSS"
+    }
+  },
+  "pageProjects": {
+    "listSOS": "Lista de contactos mundial Prevención Vida",
+    "createCurriculum": "Proyecto Crear currículum",
+    "detran": "Detran Simulador",
+    "notes": "Aplicación de nota web escrita con Svelte.js",
+    "facebook": {
+      "title": "Clon de interfaz Facebook",
+      "description": "Desarrollado con Angular",
+      "old": "Interfaz de Facebook con Angular",
+      "new": "Nuevo Facebook con interfaz angular (Beta de desarrollo)"
+    },
+    "google": {
+      "title": "Clon de interfaz Google",
+      "description": "Desarrollado con teclado virtual y reconocimiento de voz con varios frameworks",
+      "react": "Interfaz Google con React.js",
+      "angular": "Interfaz Google con Angular",
+      "vue": "Interfaz Google con Vue.js",
+      "svelte": "Interfaz Google con Svelte"
+    },
+    "slide": {
+      "title": "Diapositiva de contenido",
+      "description": "Desarrollado en varios Frameworks",
+      "react": "SlideContent con React.js",
+      "vue": "SlideContent con Vue.js",
+      "angular": "SlideContent con Angular",
+      "ember": "SlideContent con Ember.js"
     }
   }
 }

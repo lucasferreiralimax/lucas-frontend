@@ -1,13 +1,13 @@
 {
   "languages": {
-    "pt": "Portuguese",
+    "pt": "Portuguese Brasileiro",
     "en": "English",
     "es": "Spanish"
   },
   "navigation": {
     "home": "Home",
     "projects": "Projects",
-    "works": "Experiences",  
+    "works": "Experiences",
     "courses": "Courses"
   },
   "pageHome": {
@@ -30,6 +30,34 @@
       "textOne": "My focus is improving information with performance, a lot of quality, and innovation",
       "textTwo": "Creating End-to-End tests with Cypress.io, generating positive results in projects",
       "textThree": "Doing research and usability tests, improving the experience with CSS animations"
+    }
+  },
+  "pageProjects": {
+    "listSOS": "World Contact List Prevention Life",
+    "createCurriculum": "Project Create Resume",
+    "detran": "Detran Simulador",
+    "notes": "Web Note Application written with Svelte.js",
+    "facebook": {
+      "title": "Clone of the UI Facebook",
+      "description": "Developed with Angular",
+      "old": "Interface Facebook with Angular",
+      "new": "Interface New Facebook with Angular (Development beta)"
+    },
+    "google": {
+      "title": "Clone of the UI Google",
+      "description": "Developed with virtual keyboard and voice recognition with a lot frameworks",
+      "react": "Google interface with React.js",
+      "angular": "Google interface with Angular",
+      "vue": "Google interface with Vue.js",
+      "svelte": "Google interface with Svelte"
+    },
+    "slide": {
+      "title": "Content Slide",
+      "description": "Developed in a lot Frameworks",
+      "react": "SlideContent with React.js",
+      "vue": "SlideContent with Vue.js",
+      "angular": "SlideContent with Angular",
+      "ember": "SlideContent with Ember.js"
     }
   }
 }

@@ -1,13 +1,13 @@
 {
   "languages": {
-    "pt": "Português",
+    "pt": "Português Brasileiro",
     "en": "Inglês",
     "es": "Espanhol"
   },
   "navigation": {
     "home": "Início",
     "projects": "Projetos",
-    "works": "Experiências",  
+    "works": "Experiências",
     "courses": "Cursos"
   },
   "pageHome": {
@@ -30,6 +30,34 @@
       "textOne": "Meu foco é a melhoria da informação com performance trazendo qualidade e inovação",
       "textTwo": "Criando testes End-to-End usando Cypress.io, gerando resultados positivos nos projetos",
       "textThree": "Fazendo pesquisas e testes de usabilidade, melhorando a experiência com animações em CSS"
+    }
+  },
+  "pageProjects": {
+    "listSOS": "Lista Mundial de Contatos Prevenção a Vida",
+    "createCurriculum": "Projeto Criar Currículo",
+    "detran": "Detran Simulador",
+    "notes": "Web Aplicativo de Notas escrito com Svelte.js",
+    "facebook": {
+      "title": "Clone da Interface do Facebook",
+      "description": "Desenvolvido com Angular",
+      "old": "Interface Facebook with Angular",
+      "new": "Interface New Facebook with Angular (Development beta)"
+    },
+    "google": {
+      "title": "Clone da Interface do Google",
+      "description": "Desenvolvido com teclado virtual e reconhecimento de voz com diversos frameworks",
+      "react": "Interface Google com React.js",
+      "angular": "Interface Google com Angular",
+      "vue": "Interface Google com Vue.js",
+      "svelte": "Interface Google com Svelte"
+    },
+    "slide": {
+      "title": "Slide de Conteúdo",
+      "description": "Desenvolvido em diversos Frameworks",
+      "react": "SlideContent com React.js",
+      "vue": "SlideContent com Vue.js",
+      "angular": "SlideContent com Angular",
+      "ember": "SlideContent com Ember.js"
     }
   }
 }
