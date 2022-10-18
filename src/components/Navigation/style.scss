@@ -39,6 +39,7 @@
   text-decoration: none;
   transition: .3s all;
   width: 100%;
+  border-radius: 10px;
   &:hover,
   &:focus,
   &:active {
@@ -47,11 +48,6 @@
   }
   &:hover, &:active {
     svg { transform: scale(1.2); }
-  }
-  &:first-of-type { border-radius: 5px 5px 0 0; }
-  &:last-of-type {
-    border-bottom: 1px solid rgba(var(--main-color-rgb), .2);
-    border-radius: 0 0 5px 5px;
   }
   svg {
     float: left;
