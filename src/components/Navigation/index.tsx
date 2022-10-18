@@ -1,6 +1,9 @@
 import { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Link } from "react-router-dom";
+
+import Language from '../Language';
+
 import './style.scss';
 
 function Navigation() {
@@ -46,6 +49,7 @@ function Navigation() {
           </svg>
           <span>{t('navigation.projects')}</span>
         </Link>
+        <Language />
       </div>
       <div className={ `overlay${nav ? ' active' : '' }`} onClick={menu}></div>
     </nav>
