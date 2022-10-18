@@ -1,7 +1,7 @@
 {
   "name": "lucas-front",
   "private": true,
-  "version": "0.0.2",
+  "version": "0.0.3",
   "author": "lucasferreiralimax (https://github.com/lucasferreiralimax)",
   "repository": "https://github.com/lucasferreiralimax/lucas-frontend",
   "bugs": {
@@ -24,6 +24,7 @@
     "react-dom": "^18.2.0",
     "react-i18next": "^11.18.6",
     "react-redux": "^8.0.4",
+    "react-router-dom": "^6.4.2",
     "vite-plugin-svgr": "^2.2.1"
   },
   "devDependencies": {
