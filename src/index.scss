@@ -6,9 +6,12 @@
   line-height: 24px;
   font-weight: 400;
 
-  --main-color: #213547;
+  --main-color: #fff;
   --main-color-primary: #3fb34f;
   --main-color-secondary: #c7c418;
+  --main-color-rgb: '255, 255, 255';
+  --main-bg-color-primary: #222222;
+  --main-bg-color-secondary: #181818;
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
@@ -48,7 +51,7 @@ h1 {
     }
     @include mobile {
       font-size: 2em;
-    }    
+    }
   }
 }
 
