@@ -7,7 +7,7 @@ import i18n from './i18n';
 
 import './index.scss'
 
-ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
+ReactDOM.createRoot(document.getElementById('app') as HTMLElement).render(
   <React.StrictMode>
     <I18nextProvider i18n={i18n}>
       <BrowserRouter>
