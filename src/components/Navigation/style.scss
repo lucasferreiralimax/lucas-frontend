@@ -1,0 +1,120 @@
+.app-nav {
+  position: relative;
+  z-index: 99;
+  &.active .app-nav-content {
+    box-shadow: 0 10px 20px rgba(0,0,0,.2);
+    transform: translateX(0);
+  }
+}
+
+.app-nav-content {
+  background-color: var(--main-bg-color-primary);
+  border-left: 1px solid rgba(var(--main-color-rgb), .2);
+  bottom: 0;
+  box-sizing: border-box;
+  color: rgba(0,0,0,.54);
+  right: 0;
+  min-width: 250px;
+  padding: 30px;
+  position: fixed;
+  top: 0;
+  transform: translateX(100%);
+  transition: .5s all;
+  width: calc(80% - 20px);
+  z-index: 99;
+  max-width: 300px;
+}
+
+.app-nav-item {
+  -webkit-tap-highlight-color: transparent;
+  background: var(--main-bg-color-primary);
+  border: 1px solid rgba(var(--main-color-rgb), .2);
+  border-bottom: 0;
+  box-sizing: border-box;
+  color: var(--main-color);
+  cursor: pointer;
+  display: block;
+  outline: none;
+  padding: 1rem;
+  text-decoration: none;
+  transition: .3s all;
+  width: 100%;
+  &:hover,
+  &:focus,
+  &:active {
+    background: rgba(255,255,255,.2);
+    color: var(--main-color);
+  }
+  &:hover, &:active {
+    svg { transform: scale(1.2); }
+  }
+  &:first-of-type { border-radius: 5px 5px 0 0; }
+  &:last-of-type {
+    border-bottom: 1px solid rgba(var(--main-color-rgb), .2);
+    border-radius: 0 0 5px 5px;
+  }
+  svg {
+    float: left;
+    transition: .3s all;
+  }
+  span {
+    display: block;
+    padding-left: 35px;
+    text-align: left;
+  }
+}
+
+.app-nav-menu {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  opacity: .8;
+  cursor: pointer;
+  border: 0;
+  background: transparent;
+  user-select: none;
+  outline: none;
+  -webkit-tap-highlight-color: transparent;
+  &:hover,
+  &:focus,
+  &:active {
+    &:after {
+      transform: scale(1) translate(-50%, -50%);
+      opacity: 1;
+      transition: .5s all;
+    }
+  }
+  &:after {
+    content: '';
+    display: block;
+    background: rgba(var(--main-color-rgb), .2);
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: scale(0) translate(-50%, -50%);
+    transform-origin: top left;
+    transition: .2s all;
+    opacity: 0;
+    z-index: -1;
+  }
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background: rgba(0,0,0,.3);
+  z-index: 2;
+  pointer-events: none;
+  opacity: 0;
+  transition: .3s all;
+  &.active {
+    opacity: 1;
+    pointer-events: all;
+  }
+}
