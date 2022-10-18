@@ -8,12 +8,16 @@ function Language() {
 
   useEffect(() => {
     const language = localStorage.getItem("language");
-    if (language) i18n.changeLanguage(language);
+    if (language) {
+      i18n.changeLanguage(language)
+      document.documentElement.lang = language;
+    };
   }, []);
 
   const changeLanguages = (e: any) => {
     i18n.changeLanguage(e.target.value);
     localStorage.setItem("language", e.target.value);
+    document.documentElement.lang = e.target.value;
   }
 
   return (
