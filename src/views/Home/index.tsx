@@ -9,7 +9,6 @@ function Home() {
 
   return (
     <>
-      <h1 className='name'>Lucas Ferreira de Lima</h1>
       <p>
         {t('pageHome.paragraphOne.textOne')}<br/>
         {t('pageHome.paragraphOne.textTwo')}
