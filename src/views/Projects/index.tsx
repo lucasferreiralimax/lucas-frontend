@@ -1,6 +1,6 @@
 import { useTranslation } from 'react-i18next';
 
-function Projects() {
+const Projects = () => {
   const { t } = useTranslation();
 
   return (
@@ -94,4 +94,4 @@ function Projects() {
   )
 }
 
-export default Projects
+export default Projects;

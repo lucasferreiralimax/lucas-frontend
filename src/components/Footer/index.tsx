@@ -1,6 +1,6 @@
 import './style.scss';
 
-function Footer() {
+const Footer = () => {
   return (
     <footer className="app-footer" data-testid="app-footer">
        <small>2022 @lucasferreiralimax</small>
@@ -8,4 +8,4 @@ function Footer() {
   )
 }
 
-export default Footer
+export default Footer;

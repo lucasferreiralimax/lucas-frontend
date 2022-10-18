@@ -3,7 +3,7 @@ import Navigation from '../../components/Navigation';
 
 import './style.scss';
 
-function Header() {
+const Header = () => {
   return (
     <header className="app-header" data-testid="app-header">
       <Navigation />
@@ -16,4 +16,4 @@ function Header() {
   )
 }
 
-export default Header
+export default Header;

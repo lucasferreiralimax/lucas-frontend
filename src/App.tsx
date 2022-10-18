@@ -8,7 +8,7 @@ import Loading from './components/Loading';
 const Home = lazy(() => import('./views/Home'));
 const Projects = lazy(() => import('./views/Projects'));
 
-function App() {
+const App = () => {
   return (
     <Suspense fallback={<Loading/>}>
       <Header />
@@ -23,4 +23,4 @@ function App() {
   )
 }
 
-export default App
+export default App;

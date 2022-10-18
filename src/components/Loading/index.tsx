@@ -1,7 +1,7 @@
 import { useTranslation } from 'react-i18next';
 import './style.scss';
 
-function Loading() {
+const Loading = () => {
   const { t } = useTranslation();
 
   return (

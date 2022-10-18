@@ -1,4 +1,5 @@
 import { useTranslation } from 'react-i18next';
+
 import { ReactComponent as Linkedin } from '../../assets/linkedin-logo.svg';
 import { ReactComponent as Duolingo } from '../../assets/duolingo-logo.svg';
 import { ReactComponent as Codepen } from '../../assets/codepen-logo.svg';
@@ -6,7 +7,7 @@ import { ReactComponent as Github } from '../../assets/github-logo.svg';
 
 import './style.scss';
 
-function Home() {
+const Home = () => {
   const { t } = useTranslation();
 
   return (
@@ -52,4 +53,4 @@ function Home() {
   )
 }
 
-export default Home
+export default Home;

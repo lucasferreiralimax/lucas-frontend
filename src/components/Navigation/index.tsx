@@ -6,7 +6,7 @@ import Language from '../Language';
 
 import './style.scss';
 
-function Navigation() {
+const Navigation = () => {
   const { t } = useTranslation();
   const [nav, setNav] = useState(false)
   const menu = () => setNav(!nav)

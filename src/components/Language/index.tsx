@@ -3,7 +3,7 @@ import { useTranslation } from 'react-i18next';
 
 import './style.scss';
 
-function Language() {
+const Language = () => {
   const { t, i18n } = useTranslation();
 
   useEffect(() => {
@@ -35,4 +35,4 @@ function Language() {
   )
 }
 
-export default Language
+export default Language;
