@@ -11,7 +11,9 @@
     "start": "npm run dev",
     "dev": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "test:unit": "vitest",
+    "coverage": "vitest run --coverage"
   },
   "dependencies": {
     "@emotion/react": "^11.10.4",
@@ -28,12 +30,18 @@
     "vite-plugin-svgr": "^2.2.1"
   },
   "devDependencies": {
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/react-hooks": "^8.0.1",
+    "@testing-library/user-event": "^14.4.3",
     "@types/react": "^18.0.21",
     "@types/react-dom": "^18.0.6",
     "@vitejs/plugin-react": "^2.1.0",
+    "jsdom": "^20.0.1",
     "sass": "^1.55.0",
     "typescript": "^4.6.4",
     "vite": "^3.1.0",
-    "vite-plugin-react-svg": "^0.2.0"
+    "vite-plugin-react-svg": "^0.2.0",
+    "vitest": "^0.24.3"
   }
 }
