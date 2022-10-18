@@ -1,0 +1,27 @@
+.social {
+  a {
+    margin: 1rem;
+    display: inline-block;
+    background: rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    border-radius: 100px;
+    height: 30px;
+    width: 30px;
+    &:hover {
+      text-shadow: 0var(--main-color-primary) + 22;
+    }
+    &:first-of-type { margin-left: 0; }
+    &:last-of-type { margin-right: 0; }
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .social .icon {
+    &.codepen,
+    &.github {
+      path {
+        fill: #fff;
+      }
+    }
+  }
+}

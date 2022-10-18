@@ -4,6 +4,8 @@ import { ReactComponent as Duolingo } from '../../assets/duolingo-logo.svg';
 import { ReactComponent as Codepen } from '../../assets/codepen-logo.svg';
 import { ReactComponent as Github } from '../../assets/github-logo.svg';
 
+import './style.scss';
+
 function Home() {
   const { t } = useTranslation();
 
