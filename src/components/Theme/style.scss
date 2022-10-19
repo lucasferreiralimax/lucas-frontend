@@ -1,0 +1,35 @@
+.app-theme {
+  -webkit-tap-highlight-color: transparent;
+  background: var(--main-bg-color-primary);
+  border: 1px solid rgba(var(--main-color-rgb), .2);
+  box-sizing: border-box;
+  color: var(--main-color);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  outline: none;
+  padding: 1rem;
+  margin: 1rem 0;
+  text-decoration: none;
+  transition: .3s all;
+  width: 100%;
+  border-radius: 10px;
+  &:hover,
+  &:focus,
+  &:active {
+    background: rgba(var(--main-color-rgb), .2);
+    color: var(--main-color);
+  }
+  &:hover, &:active {
+    svg { transform: scale(1.2); }
+  }
+  svg {
+    float: left;
+    transition: .3s all;
+  }
+  span {
+    display: block;
+    padding-left: 15px;
+    text-align: left;
+  }
+}
