@@ -23,27 +23,27 @@ const Contact = () => {
         </a>
         <a href="https://www.duolingo.com/profile/ferreiralimax" target="_blank">
           <Duolingo className="icon duolingo" />
-          <span>duolingo.com/profile/ferreiralimax</span>
+          <span>duolingo.com</span>
         </a>
         <a href="https://www.freecodecamp.org/lucasferreiralimax" target="_blank">
           <img width="30" height="30" src={FreeCodeCamp} className="icon freecodecamp" />
-          <span>freecodecamp.org/lucasferreiralimax</span>
+          <span>freecodecamp.org</span>
         </a>
         <a href="https://app.pluralsight.com/profile/lucasferreiralimax" target="_blank">
           <img width="30" height="30" src={PluralSight} className="icon pluralsight" />
-          <span>app.pluralsight.com/profile/lucasferreiralimax</span>
+          <span>app.pluralsight.com</span>
         </a>
         <a href="https://codepen.io/lucaslimax" target="_blank">
           <Codepen className="icon codepen" />
-          <span>codepen.io/lucaslimax</span>
+          <span>codepen.io</span>
         </a>
         <a href="https://github.com/lucasferreiralimax" target="_blank">
           <Github className="icon github" />
-          <span>github.com/lucasferreiralimax</span>
+          <span>github.com</span>
         </a>
         <a href="https://www.linkedin.com/in/lucasferreiralimax" target="_blank">
           <Linkedin className="icon linkedin" />
-          <span>linkedin.com/in/lucasferreiralimax</span>
+          <span>linkedin.com</span>
         </a>
       </section>
     </>
