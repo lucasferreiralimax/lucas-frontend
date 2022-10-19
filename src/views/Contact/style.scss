@@ -16,6 +16,18 @@
     &:last-of-type { margin-right: 0; }
     .icon { transition: .3s all; }
     span { margin-left: .5rem; }
+    @media (max-width: 600px) {
+      padding: .3rem 1rem .3rem .3rem;
+      .icon { transform: scale(.8); }
+      span { margin-left: .4rem; }
+      .linkedin.icon { transform: scale(.6); }
+      .email.icon { transform: scale(.7); }
+      &:hover {
+        .icon { transform: scale(1); }
+        .linkedin.icon { transform: scale(.7); }
+        .email.icon { transform: scale(.9); }
+      }
+    }
   }
 }
 
