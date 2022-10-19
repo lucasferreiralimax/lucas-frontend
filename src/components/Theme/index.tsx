@@ -2,6 +2,11 @@ import { useEffect, useState } from 'react';
 
 import './style.scss';
 
+interface ObjectVariable {
+  name: string;
+  value: string;
+}
+
 const Theme = () => {
   const darkmode = localStorage.getItem("darkmode");
   const [ themeValue, setThemeValue ] = useState(
@@ -10,7 +15,7 @@ const Theme = () => {
 
   const changeTheme = () => setThemeValue(!themeValue);
 
-  const setStyleVariables = (objectVariables: any) => {
+  const setStyleVariables = (objectVariables: ObjectVariable[]) => {
     for(let { name, value } of objectVariables) {
       document.documentElement.style.setProperty(name, value);
     }
