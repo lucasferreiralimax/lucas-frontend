@@ -39,7 +39,7 @@ const Theme = () => {
         { name: 'background',              value: '#fff'        },
         { name: '--main-color',            value: '#222'        },
         { name: '--main-color-rgb',        value: '0,0,0'       },
-        { name: '--main-bg-color-primary', value: '#eeeeee'     }
+        { name: '--main-bg-color-primary', value: '#fff'        }
       ]);
     }
   }, [themeValue]);
