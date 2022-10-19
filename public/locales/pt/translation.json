@@ -8,7 +8,8 @@
     "home": "Início",
     "projects": "Projetos",
     "works": "Experiências",
-    "courses": "Cursos"
+    "courses": "Cursos",
+    "contact": "Contato"
   },
   "pageHome": {
     "paragraphOne": {
@@ -59,5 +60,8 @@
       "angular": "SlideContent com Angular",
       "ember": "SlideContent com Ember.js"
     }
+  },
+  "pageContact": {
+    "title": "Contatos"
   }
 }
