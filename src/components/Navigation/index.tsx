@@ -37,6 +37,7 @@ const Navigation = () => {
         </svg>
       </button>
       <div className="app-nav-content">
+        <Language />
         <Link to="/" className="app-nav-item">
           <svg fill="var(--main-color)" height="25px" viewBox="0 0 25 25" width="25px" xmlns="http://www.w3.org/2000/svg">
             <path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"></path>
@@ -50,7 +51,6 @@ const Navigation = () => {
           </svg>
           <span>{t('navigation.projects')}</span>
         </Link>
-        <Language />
         <Theme />
       </div>
       <div className={ `overlay${nav ? ' active' : '' }`} onClick={menu}></div>
