@@ -3,6 +3,7 @@ import { useTranslation } from 'react-i18next';
 import { Link } from "react-router-dom";
 
 import Language from '../Language';
+import Theme from '../Theme';
 
 import './style.scss';
 
@@ -50,6 +51,7 @@ const Navigation = () => {
           <span>{t('navigation.projects')}</span>
         </Link>
         <Language />
+        <Theme />
       </div>
       <div className={ `overlay${nav ? ' active' : '' }`} onClick={menu}></div>
     </nav>
