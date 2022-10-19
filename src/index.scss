@@ -38,6 +38,9 @@ body {
   margin: 0;
   display: flex;
   min-width: 320px;
+  @media (min-width: 1000px) {
+    max-width: calc(100vw - 300px);
+  }
 }
 
 #app {

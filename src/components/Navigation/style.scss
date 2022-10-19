@@ -23,7 +23,7 @@
   width: calc(80% - 20px);
   z-index: 99;
   max-width: 300px;
-  @media (min-width: 1300px) {
+  @media (min-width: 1000px) {
     box-shadow: 0 10px 20px rgba(0,0,0,.2);
     transform: translateX(0);
   }
@@ -124,7 +124,7 @@
     opacity: 1;
     pointer-events: all;
   }
-  @media (min-width: 1300px) {
+  @media (min-width: 1000px) {
     display: none;
   }
 }
