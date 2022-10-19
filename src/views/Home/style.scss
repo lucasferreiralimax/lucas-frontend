@@ -9,25 +9,16 @@
     width: 30px;
     &:hover {
       box-shadow: 0 0 20px var(--main-color-primary);
-      .icon {
-        transform: scale(1.2);
-      }
+      .icon { transform: scale(1.2); }
     }
     &:first-of-type { margin-left: 0; }
     &:last-of-type { margin-right: 0; }
-    .icon {
-      transition: .3s all;
-    }
+    .icon { transition: .3s all; }
   }
 }
 
-@media (prefers-color-scheme: dark) {
-  .social .icon {
-    &.codepen,
-    &.github {
-      path {
-        fill: #fff;
-      }
-    }
+.theme-dark .social .icon {
+  &.codepen, &.github {
+    path { fill: #fff; }
   }
 }
