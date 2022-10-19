@@ -4,6 +4,10 @@
   cursor: pointer;
   border-radius: 10px;
   border: 1px solid rgba(var(--main-color-rgb), .2);
-  background: var(--main-bg-color);
+  background: var(--main-bg-color-primary);
   color: var(--main-color);
+  option {
+    background: var(--main-bg-color-primary);
+    color: var(--main-color);
+  }
 }
