@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 import { ReactComponent as EmailIcon } from '../../assets/email-icon.svg';
 import { ReactComponent as HomeIcon } from '../../assets/home-icon.svg';
@@ -40,21 +40,21 @@ const Navigation = () => {
       </button>
       <div className="app-nav-content">
         <Language />
-        <Link to="/" className="app-nav-item">
+        <NavLink to="/" className={({ isActive }) => (isActive ? 'app-nav-item active' : 'app-nav-item')} end>
           <svg fill="var(--main-color)" height="25px" viewBox="0 0 25 25" width="25px" xmlns="http://www.w3.org/2000/svg">
             <path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"></path>
             <path d="M0 0h24v24H0z" fill="none"></path>
           </svg>
           <span>{t('navigation.home')}</span>
-        </Link>
-        <Link to="/projects" className="app-nav-item">
+        </NavLink>
+        <NavLink to="/projects" className={({ isActive }) => (isActive ? 'app-nav-item active' : 'app-nav-item')} end>
           <ProjectIcon />
           <span>{t('navigation.projects')}</span>
-        </Link>
-        <Link to="/contact" className="app-nav-item">
+        </NavLink>
+        <NavLink to="/contact" className={({ isActive }) => (isActive ? 'app-nav-item active' : 'app-nav-item')} end>
           <EmailIcon />
           <span>{t('navigation.contact')}</span>
-        </Link>
+        </NavLink>
         <Theme />
       </div>
       <div className={ `overlay${nav ? ' active' : '' }`} onClick={menu}></div>
