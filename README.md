@@ -1,4 +1,4 @@
-[Live preview Project Online https://lucas-frontend.web.app](https://lucas-frontend.web.app/).
+[Live Project Online](https://lucas-frontend.web.app/).
 
 This project was bootstrapped with [Vite](https://github.com/vitejs/vite).
 
