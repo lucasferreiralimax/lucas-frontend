@@ -1,0 +1,26 @@
+.social {
+  a, p {
+    display: inline-flex;
+    align-items: center;
+    padding: 1rem;
+    border-radius: 100px;
+    box-shadow: 0 0 10px rgba(var(--main-color-rgb), 0.2);
+    margin: 1rem 1rem 0 0;
+    color: var(--main-color);
+    &:hover {
+      box-shadow: 0 0 20px var(--main-color-primary);
+      color: var(--main-color-primary);
+      .icon { transform: scale(1.2); }
+    }
+    &:first-of-type { margin-left: 0; }
+    &:last-of-type { margin-right: 0; }
+    .icon { transition: .3s all; }
+    span { margin-left: .5rem; }
+  }
+}
+
+.theme-dark .social .icon {
+  &.codepen, &.github {
+    path { fill: #fff; }
+  }
+}
