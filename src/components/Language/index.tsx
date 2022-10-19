@@ -14,10 +14,10 @@ const Language = () => {
     };
   }, []);
 
-  const changeLanguages = (e: any) => {
-    i18n.changeLanguage(e.target.value);
-    localStorage.setItem("language", e.target.value);
-    document.documentElement.lang = e.target.value;
+  const changeLanguages = (value: string) => {
+    i18n.changeLanguage(value);
+    localStorage.setItem("language", value);
+    document.documentElement.lang = value;
   }
 
   return (
@@ -26,7 +26,7 @@ const Language = () => {
       className="app-language"
       data-testid="app-language"
       value={i18n.language}
-      onChange={changeLanguages}
+      onChange={({ target: { value }}) => changeLanguages(value)}
     >
       <option value="pt">{t('languages.pt')}</option>
       <option value="en">{t('languages.en')}</option>
