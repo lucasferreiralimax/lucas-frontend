@@ -10,7 +10,7 @@
   "scripts": {
     "start": "npm run dev",
     "dev": "vite",
-    "build": "tsc && vite build",
+    "build": "tsc && vite build --mode production",
     "preview": "vite preview",
     "test:unit": "vitest",
     "coverage": "vitest run --coverage"
@@ -41,6 +41,7 @@
     "sass": "^1.55.0",
     "typescript": "^4.6.4",
     "vite": "^3.1.0",
+    "vite-plugin-html-env": "^1.2.7",
     "vite-plugin-react-svg": "^0.2.0",
     "vitest": "^0.24.3"
   }
