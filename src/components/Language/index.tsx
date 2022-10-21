@@ -21,17 +21,20 @@ const Language = () => {
   }
 
   return (
-    <select
-      name="language"
-      className="app-language"
-      data-testid="app-language"
-      value={i18n.language}
-      onChange={({ target: { value }}) => changeLanguages(value)}
-    >
-      <option value="pt">{t('languages.pt')}</option>
-      <option value="en">{t('languages.en')}</option>
-      <option value="es">{t('languages.es')}</option>
-    </select>
+    <>
+      <h4>{t('languages.title')}</h4>
+      <select
+        name="language"
+        className="app-language"
+        data-testid="app-language"
+        value={i18n.language}
+        onChange={({ target: { value }}) => changeLanguages(value)}
+      >
+        <option value="pt">{t('languages.pt')}</option>
+        <option value="en">{t('languages.en')}</option>
+        <option value="es">{t('languages.es')}</option>
+      </select>
+    </>
   )
 }
 

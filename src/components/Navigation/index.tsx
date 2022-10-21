@@ -49,7 +49,7 @@ const Navigation = () => {
         <MenuIcon />
       </button>
       <div className="app-nav-content">
-        <Language />
+        <h4>{t('navigation.title')}</h4>
         <NavLink
           className={({ isActive }: any) => (isActive ? 'app-nav-item active' : 'app-nav-item')}
           to="/"
@@ -82,8 +82,11 @@ const Navigation = () => {
           <EmailIcon />
           <span>{t('navigation.contact')}</span>
         </NavLink>
-        <Theme />
-        <p className="version">{t('version')} {appVersion}</p>
+        <div className='nav-footer'>
+          <Language />
+          <Theme />
+          <p className="version">{t('version')} {appVersion}</p>
+        </div>
       </div>
       <div  className={`overlay${nav ? ' active' : '' }`} onClick={menu}></div>
     </nav>

@@ -2,11 +2,13 @@
   "version": "Versión",
   "loading": "Esperar a cargar...",
   "languages": {
+    "title": "Idiomas",
     "pt": "Portugués Brasileiro",
     "en": "Inglés",
     "es": "Español"
   },
   "navigation": {
+    "title": "Navegación",
     "home": "Comienzo",
     "projects": "Proyectos",
     "works": "Experiencias",
