@@ -55,5 +55,8 @@
       "angular": "SlideContent con Angular",
       "ember": "SlideContent con Ember.js"
     }
+  },
+  "pageContact": {
+    "title": "Contactos"
   }
 }
