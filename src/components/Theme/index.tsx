@@ -10,7 +10,7 @@ interface ObjectVariable {
 const Theme = () => {
   const darkmode = localStorage.getItem("darkmode");
   const [ themeValue, setThemeValue ] = useState(
-    darkmode == null ? false : JSON.parse(darkmode)
+    darkmode == null ? true : JSON.parse(darkmode)
   );
 
   const changeTheme = () => setThemeValue(!themeValue);
