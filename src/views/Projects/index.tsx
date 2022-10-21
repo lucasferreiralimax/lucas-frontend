@@ -21,7 +21,7 @@ const Projects = () => {
   const { t } = useTranslation();
 
   useEffect(() => {
-    document.title = "Lucas Projetos";
+    document.title = `Lucas ${t('navigation.projects')}`;
   }, []);
 
   const projects = [
