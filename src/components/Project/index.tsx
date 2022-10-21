@@ -1,3 +1,4 @@
+import { useTranslation } from 'react-i18next';
 import { ReactComponent as Github } from '../../assets/icons/github-logo.svg';
 import { ReactComponent as LinkIcon } from '../../assets/icons/link-icon.svg';
 
@@ -16,13 +17,15 @@ type ProjectProps = {
 }
 
 const Project = ({ dataTestid, data }: ProjectProps) => {
+  const { t } = useTranslation();
+
   return (
     <div data-testid={dataTestid} className="App-project">
       <a className="title" href={`http://${data.url}`} target="_blank">
-        <h3>{data.title}</h3>
+        <h3>{t(data.title)}</h3>
       </a>
       <a href={`http://${data.url}`} target="_blank">
-        <img width="300" src={data.photo} alt={data.title} />
+        <img width="300" src={data.photo} alt={t(data.title)} />
       </a>
       <div className="actions">
         <a href={`http://${data.url}`} target="_blank">
