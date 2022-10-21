@@ -15,7 +15,7 @@ const Contact = () => {
   const { t } = useTranslation();
 
   useEffect(() => {
-    document.title = "Lucas Contato";
+    document.title = `Lucas ${t('navigation.contact')}`;
   }, []);
 
   return (
