@@ -9,6 +9,7 @@
     "home": "Comienzo",
     "projects": "Proyectos",
     "works": "Experiencias",
+    "formation": "Formación",
     "courses": "Cursos",
     "contact": "Contacto"
   },
@@ -58,5 +59,24 @@
   },
   "pageContact": {
     "title": "Contactos"
+  },
+  "pageFormations": {
+    "title": "Formación académica",
+    "senac": {
+      "title": "Senac Brasil",
+      "description": "Desarrollé un portafolio usando CSS, HTML, JavaScript, PHP y MySQL\nAprendí conceptos y uso de las herramientas del paquete Adobe\nAyudé a los compañeros a comprender mejor el tema y los motivé a evolucionar, buscando consolidar y compartir todo el aprendizaje y conocimiento con ejemplos prácticos y funcional\nDurante el curso desarrollé mi página personal aplicando los conocimientos allí aprendidos, además de ya practicar y aplicar los conocimientos en las prácticas que estaba realizando a la vez en la Intima Store"
+    },
+    "alura": {
+      "title": "Alura",
+      "description": "Capacitación front-end\nReact Training\nDesarrollador de TypeScript\nDesarrollador de Vue.js\nProgramador de Angular"
+    },
+    "mesquita": {
+      "title": "E.E.Jornalista Francisco Mesquita",
+      "description": "1º año de secundaria\n2º año de secundaria\nº año de secundaria"
+    },
+    "cei": {
+      "title": "CEI - Centro Integrado de Enseñanza",
+      "description": "Aprendí los conceptos básicos de computación\nTrabajé con todo el paquete de Microsoft Office\nWindows, Word, Excel, Power Point, Internet, Acceso y Mecanografía"
+    }
   }
 }

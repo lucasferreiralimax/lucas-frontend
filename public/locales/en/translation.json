@@ -9,6 +9,7 @@
     "home": "Home",
     "projects": "Projects",
     "works": "Experiences",
+    "formation": "Formation",
     "courses": "Courses",
     "contact": "Contact"
   },
@@ -58,5 +59,24 @@
   },
   "pageContact": {
     "title": "Contacts"
+  },
+  "pageFormations": {
+    "title": "Academic education",
+    "senac": {
+      "title": "Senac Brasil",
+      "description": "I developed a portfolio using CSS, HTML, JavaScript, PHP and MySQL\nI learned concepts and use of the Adobe package tools\nHelped classmates to better understand the subject and encouraged them to evolve, seeking to consolidate and share all learning and knowledge with practical examples and functional\nDuring the course I developed my personal page applying the knowledge I learned there, in addition to already practicing and applying the knowledge in the internship I was doing at the same time at the Intima Store"
+    },
+    "alura": {
+      "title": "Alura",
+      "description": "Front-end Developer\nReact Developer\nTypescript Developer\nVue.js Developer\nAngular Programmer"
+    },
+    "mesquita": {
+      "title": "E.E.Jornalista Francisco Mesquita",
+      "description": "1º Year of High School\n2º Year of High School\n3º Year of High School"
+    },
+    "cei": {
+      "title": "CEI - Integrated Teaching Center",
+      "description": "I learned the basics of computing\nI worked with the entire Microsoft Office package\nWindows, Word, Excel, Power Point, Internet, Access and Typing"
+    }
   }
 }
