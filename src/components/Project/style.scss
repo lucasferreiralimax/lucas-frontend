@@ -24,8 +24,13 @@
       display: inline-flex;
       align-items: center;
       justify-content: center;
-      &:hover .icon {
-        transform: scale(1.2);
+      color: var(--main-color);
+      &:hover {
+        color: var(--main-color-primary);
+        .icon {
+          transform: scale(1.2);
+          fill: var(--main-color-primary);
+        }
       }
     }
     .icon {
