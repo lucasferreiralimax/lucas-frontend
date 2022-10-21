@@ -1,0 +1,28 @@
+.App-project {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border: 1px solid rgba(var(--main-color-rgb), .2);
+  border-radius: 10px;
+  padding: 1rem;
+  box-shadow: 0 10px 20px rgba(0,0,0,.2);
+  img {
+    box-shadow: 0 10px 10px rgba(0,0,0,.2);
+    border-radius: 10px;
+    transition: .3s all;
+    &:hover {
+      transform: scale(1.05);
+    }
+  }
+  .actions {
+    display: flex;
+    .icon {
+      margin: 1rem;
+      transition: .3s all;
+      &:hover {
+        transform: scale(1.5);
+      }
+    }
+  }
+}
