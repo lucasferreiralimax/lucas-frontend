@@ -20,16 +20,19 @@
     box-shadow: 0 10px 10px rgba(0,0,0,.2);
     border-radius: 10px;
     transition: .3s all;
+    margin-bottom: 1rem;
     &:hover {
       transform: scale(1.05);
     }
   }
   .title {
     background: rgba(var(--main-color-rgb), .08);
-    margin: .1rem 0 1rem;
+    box-shadow: 0 10px 20px rgba(0,0,0,.2);
+    margin: 0 0 2rem;
     text-align: center;
-    width: calc(100% + 1.9rem);
+    width: calc(100% + 2rem);
     border-radius: 10px 10px 0 0;
+    text-shadow: 1px 1px var(--main-bg-color-primary);
   }
   a {
     color: var(--main-color);
