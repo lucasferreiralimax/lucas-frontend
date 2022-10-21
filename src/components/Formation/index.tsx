@@ -23,9 +23,7 @@ type FormationProps = {
 const Formation = ({ dataTestid, data }: FormationProps) => {
   return (
     <div data-testid={dataTestid} className="App-formation">
-      <a className="title" href={`http://${data.url}`} target="_blank">
-        <h3>{data.title}</h3>
-      </a>
+      <h3 className="title">{data.title}</h3>
       <div className='detail'>
         <a href={`http://${data.url}`} target="_blank">
           <img width="70" src={data.photo} alt={data.title} />
