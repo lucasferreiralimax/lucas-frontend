@@ -18,7 +18,7 @@ type ProjectProps = {
 const Project = ({ dataTestid, data }: ProjectProps) => {
   return (
     <div data-testid={dataTestid} className="App-project">
-      <a href={`http://${data.url}`} target="_blank">
+      <a className="title" href={`http://${data.url}`} target="_blank">
         <h3>{data.title}</h3>
       </a>
       <a href={`http://${data.url}`} target="_blank">

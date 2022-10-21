@@ -14,7 +14,7 @@
   flex-direction: column;
   border: 1px solid rgba(var(--main-color-rgb), .2);
   border-radius: 10px;
-  padding: 1rem;
+  padding: 0 1rem 1rem;
   box-shadow: 0 10px 20px rgba(0,0,0,.2);
   img {
     box-shadow: 0 10px 10px rgba(0,0,0,.2);
@@ -23,6 +23,13 @@
     &:hover {
       transform: scale(1.05);
     }
+  }
+  .title {
+    background: rgba(var(--main-color-rgb), .08);
+    margin: .1rem 0 1rem;
+    text-align: center;
+    width: calc(100% + 1.9rem);
+    border-radius: 10px 10px 0 0;
   }
   a {
     color: var(--main-color);
