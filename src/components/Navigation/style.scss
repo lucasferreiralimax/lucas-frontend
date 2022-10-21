@@ -12,7 +12,7 @@
   border-left: 1px solid rgba(var(--main-color-rgb), .2);
   bottom: 0;
   box-sizing: border-box;
-  color: rgba(0,0,0,.54);
+  color: var(--main-color);
   right: 0;
   min-width: 250px;
   padding: 30px;
@@ -29,7 +29,10 @@
     box-shadow: 0 10px 20px rgba(0,0,0,.2);
     transform: translateX(0);
   }
-  .version { margin-top: auto; }
+  .version {
+    margin-top: auto;
+    text-align: center;
+  }
 }
 
 .app-nav-item {
