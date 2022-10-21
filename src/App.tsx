@@ -5,10 +5,12 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import Loading from './components/Loading';
 
-const Home = lazy(() => import('./views/Home'));
-const Projects = lazy(() => import('./views/Projects'));
-const Contact = lazy(() => import('./views/Contact'));
-const Formations = lazy(() => import('./views/Formations'));
+const views = [
+  { url: '/',          component: lazy(() => import('./views/Home'))       },
+  { url: '/projects',  component: lazy(() => import('./views/Projects'))   },
+  { url: '/contact',   component: lazy(() => import('./views/Contact'))    },
+  { url: '/formation', component: lazy(() => import('./views/Formations')) },
+];
 
 const App = () => {
   return (
@@ -17,10 +19,7 @@ const App = () => {
         <Header />
         <main>
           <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/projects" element={<Projects />} />
-            <Route path="/contact" element={<Contact />} />
-            <Route path="/formation" element={<Formations />} />
+            {views.map((view) => <Route path={view.url} element={<view.component />} />)}
           </Routes>
         </main>
         <Footer />
