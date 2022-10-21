@@ -87,12 +87,6 @@ const Projects = () => {
       photo: SlideReact
     },
     {
-      title: t('pageProjects.slide.react'),
-      url: "slidecontent-reactjs.web.app",
-      repo: "https://github.com/lucasferreiralimax/slidecontent-react",
-      photo: SlideReact
-    },
-    {
       title: t('pageProjects.slide.vue'),
       url: "slidecontent-vue.web.app",
       repo: "https://github.com/lucasferreiralimax/slidecontent-vue",
