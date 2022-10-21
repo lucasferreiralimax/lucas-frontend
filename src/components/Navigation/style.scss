@@ -28,10 +28,19 @@
   @media (min-width: 1000px) {
     box-shadow: 0 10px 20px rgba(0,0,0,.2);
     transform: translateX(0);
+    background-color: transparent;
+    backdrop-filter: brightness(0.5) blur(5px);
   }
   .version {
     margin-top: auto;
     text-align: center;
+  }
+}
+
+.theme-light .app-nav-content {
+  @media (min-width: 1000px) {
+    background-color: var(--main-bg-color-primary);
+    backdrop-filter: none;
   }
 }
 
@@ -124,12 +133,11 @@
   right: 0;
   left: 0;
   bottom: 0;
-  background: rgba(0,0,0,.7);
   z-index: 2;
   pointer-events: none;
   opacity: 0;
   transition: .3s all;
-  backdrop-filter: blur(5px);
+  backdrop-filter: brightness(0.3) blur(5px);
   &.active {
     opacity: 1;
     pointer-events: all;
