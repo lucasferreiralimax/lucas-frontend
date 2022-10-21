@@ -15,6 +15,12 @@
       transform: scale(1.05);
     }
   }
+  a {
+    color: var(--main-color);
+    &:hover {
+      color: var(--main-color-primary);
+    }
+  }
   .actions {
     display: flex;
     align-items: center;
@@ -24,9 +30,7 @@
       display: inline-flex;
       align-items: center;
       justify-content: center;
-      color: var(--main-color);
       &:hover {
-        color: var(--main-color-primary);
         .icon {
           transform: scale(1.2);
           fill: var(--main-color-primary);
