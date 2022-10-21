@@ -45,12 +45,17 @@ body {
   &.theme-light {
     background: #fff url(./assets/shattered.png);
   }
+}
+
+#app {
+  display: flex;
+  width: 100%;
   @media (min-width: 1000px) {
     max-width: calc(100vw - 300px);
   }
 }
 
-#app {
+.container {
   max-width: 980px;
   width: 100%;
   display: flex;
@@ -59,6 +64,7 @@ body {
   padding: 2rem;
   min-height: calc(100vh - 4rem);
   p, h2 { text-shadow: 1px 1px var(--main-bg-color-primary); }
+
 }
 
 a {
