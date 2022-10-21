@@ -71,6 +71,10 @@
       "title": "Alura",
       "description": "Front-end Developer\nReact Developer\nTypescript Developer\nVue.js Developer\nAngular Programmer"
     },
+    "origamid": {
+      "title": "Origamid",
+      "description": "React Complete\nuseState, useEffect, useRef\nuseMemo, useCallback, useContext"
+    },
     "mesquita": {
       "title": "E.E.Jornalista Francisco Mesquita",
       "description": "1º Year of High School\n2º Year of High School\n3º Year of High School"

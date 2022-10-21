@@ -40,6 +40,16 @@ const Formations = () => {
       }
     },
     {
+      title: t('pageFormations.origamid.title'),
+      description: t('pageFormations.origamid.description'),
+      url: "www.origamid.com/certificate/475653bd",
+      photo: Origamid,
+      date: {
+        start: "2021",
+        end: "2022"
+      }
+    },
+    {
       title: t('pageFormations.cei.title'),
       description: t('pageFormations.cei.description'),
       photo: CEI,

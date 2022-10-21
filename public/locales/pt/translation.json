@@ -71,6 +71,10 @@
       "title": "Alura",
       "description": "Formação Front-end\nFormação React\nDesenvolvedor Typescript\nDesenvolvedor Vue.js\nProgramador Angular"
     },
+    "origamid": {
+      "title": "Origamid",
+      "description": "React Completo\nuseState, useEffect, useRef\nuseMemo, useCallback, useContext"
+    },
     "mesquita": {
       "title": "E.E.Jornalista Francisco Mesquita",
       "description": "1º Ano do Ensino Médio\n2º Ano do Ensino Médio\n3º Ano do Ensino Médio"
