@@ -7,6 +7,7 @@ import pkg from '../../../package.json';
 import { ReactComponent as MenuIcon } from '../../assets/menu-icon.svg';
 import { ReactComponent as EmailIcon } from '../../assets/email-icon.svg';
 import { ReactComponent as HomeIcon } from '../../assets/home-icon.svg';
+import { ReactComponent as BookIcon } from '../../assets/book-icon.svg';
 import { ReactComponent as ProjectIcon } from '../../assets/project-icon.svg';
 
 import Language from '../Language';
@@ -70,7 +71,7 @@ const Navigation = () => {
           to="/formation"
           end
         >
-          <ProjectIcon />
+          <BookIcon />
           <span>{t('navigation.formation')}</span>
         </NavLink>
         <NavLink
