@@ -1,13 +1,13 @@
 import { useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 
-import { ReactComponent as Linkedin } from '../../assets/linkedin-logo.svg';
-import { ReactComponent as Duolingo } from '../../assets/duolingo-logo.svg';
-import { ReactComponent as Codepen } from '../../assets/codepen-logo.svg';
-import { ReactComponent as Github } from '../../assets/github-logo.svg';
-import { ReactComponent as EmailIcon } from '../../assets/email-icon.svg';
-import FreeCodeCamp from '../../assets/freecodecamp-logo.png';
-import PluralSight from '../../assets/pluralsight-logo.png';
+import { ReactComponent as Linkedin } from '../../assets/icons/linkedin-logo.svg';
+import { ReactComponent as Duolingo } from '../../assets/icons/duolingo-logo.svg';
+import { ReactComponent as Codepen } from '../../assets/icons/codepen-logo.svg';
+import { ReactComponent as Github } from '../../assets/icons/github-logo.svg';
+import { ReactComponent as EmailIcon } from '../../assets/icons/email-icon.svg';
+import FreeCodeCamp from '../../assets/icons/freecodecamp-logo.png';
+import PluralSight from '../../assets/icons/pluralsight-logo.png';
 
 import './style.scss';
 

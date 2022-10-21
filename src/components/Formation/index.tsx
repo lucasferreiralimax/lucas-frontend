@@ -1,4 +1,4 @@
-import { ReactComponent as LinkIcon } from '../../assets/link-icon.svg';
+import { ReactComponent as LinkIcon } from '../../assets/icons/link-icon.svg';
 
 import './style.scss';
 
