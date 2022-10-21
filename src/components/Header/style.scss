@@ -7,6 +7,7 @@
     &.name {
       font-size: 5.2em;
       font-family: 'Kaushan Script', cursive;
+      text-shadow: 2px 2px 2px var(--main-bg-color-primary);
       @include desktop {
         font-size: 3.2em;
       }
