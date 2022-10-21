@@ -67,6 +67,14 @@ const Navigation = () => {
         </NavLink>
         <NavLink
           className={({ isActive }: any) => (isActive ? 'app-nav-item active' : 'app-nav-item')}
+          to="/formation"
+          end
+        >
+          <ProjectIcon />
+          <span>{t('navigation.formation')}</span>
+        </NavLink>
+        <NavLink
+          className={({ isActive }: any) => (isActive ? 'app-nav-item active' : 'app-nav-item')}
           to="/contact"
           end
         >
