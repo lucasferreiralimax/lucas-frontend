@@ -1,0 +1,16 @@
+.app-tech {
+  margin-bottom: 2rem;
+  a {
+    margin-right: 1rem;
+    margin-top: 1rem;
+    transition: .3s all;
+    display: inline-block;
+    &:hover {
+      transform: scale(1.2);
+    }
+    svg {
+      width: 50px;
+      height: 50px;
+    }
+  }
+}
