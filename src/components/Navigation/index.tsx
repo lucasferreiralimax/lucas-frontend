@@ -2,6 +2,8 @@ import { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import { NavLink } from "react-router-dom";
 
+import pkg from '../../../package.json';
+
 import { ReactComponent as MenuIcon } from '../../assets/menu-icon.svg';
 import { ReactComponent as EmailIcon } from '../../assets/email-icon.svg';
 import { ReactComponent as HomeIcon } from '../../assets/home-icon.svg';
@@ -13,6 +15,7 @@ import Theme from '../Theme';
 import './style.scss';
 
 const Navigation = () => {
+  const appVersion = pkg.version;
   const { t } = useTranslation();
   const [nav, setNav] = useState(false)
   const menu = () => setNav(!nav)
@@ -47,7 +50,7 @@ const Navigation = () => {
       <div className="app-nav-content">
         <Language />
         <NavLink
-          className={({ isActive }) => (isActive ? 'app-nav-item active' : 'app-nav-item')}
+          className={({ isActive }: any) => (isActive ? 'app-nav-item active' : 'app-nav-item')}
           to="/"
           end
         >
@@ -55,7 +58,7 @@ const Navigation = () => {
           <span>{t('navigation.home')}</span>
         </NavLink>
         <NavLink
-          className={({ isActive }) => (isActive ? 'app-nav-item active' : 'app-nav-item')}
+          className={({ isActive }: any) => (isActive ? 'app-nav-item active' : 'app-nav-item')}
           to="/projects"
           end
         >
@@ -63,7 +66,7 @@ const Navigation = () => {
           <span>{t('navigation.projects')}</span>
         </NavLink>
         <NavLink
-          className={({ isActive }) => (isActive ? 'app-nav-item active' : 'app-nav-item')}
+          className={({ isActive }: any) => (isActive ? 'app-nav-item active' : 'app-nav-item')}
           to="/contact"
           end
         >
@@ -71,6 +74,7 @@ const Navigation = () => {
           <span>{t('navigation.contact')}</span>
         </NavLink>
         <Theme />
+        <p className="version">{t('version')} {appVersion}</p>
       </div>
       <div  className={`overlay${nav ? ' active' : '' }`} onClick={menu}></div>
     </nav>
