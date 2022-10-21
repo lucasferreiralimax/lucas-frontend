@@ -27,9 +27,11 @@ const Project = ({ dataTestid, data }: ProjectProps) => {
       <div className="actions">
         <a href={`http://${data.url}`} target="_blank">
           <LinkIcon className="icon link" />
+          <span>Link</span>
         </a>
         <a href={`http://${data.repo}`} target="_blank">
           <Github className="icon github" />
+          <span>Github</span>
         </a>
       </div>
     </div>

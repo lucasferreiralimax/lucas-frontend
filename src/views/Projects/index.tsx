@@ -57,30 +57,6 @@ const Projects = () => {
       photo: AngularBookNew
     },
     {
-      title: t('pageProjects.google.react'),
-      url: "g00gle-reactjs.web.app",
-      repo: "https://github.com/lucasferreiralimax/google-react",
-      photo: Google
-    },
-    {
-      title: t('pageProjects.google.angular'),
-      url: "g00gle-angular.web.app",
-      repo: "https://github.com/lucasferreiralimax/google-angular",
-      photo: Google
-    },
-    {
-      title: t('pageProjects.google.vue'),
-      url: "g00gle-vue.web.app",
-      repo: "https://github.com/lucasferreiralimax/google-vue",
-      photo: Google
-    },
-    {
-      title: t('pageProjects.google.svelte'),
-      url: "g00gle-svelte.web.app",
-      repo: "https://github.com/lucasferreiralimax/google-svelte",
-      photo: Google
-    },
-    {
       title: t('pageProjects.slide.react'),
       url: "slidecontent-reactjs.web.app",
       repo: "https://github.com/lucasferreiralimax/slidecontent-react",
@@ -103,6 +79,30 @@ const Projects = () => {
       url: "slidecontent-ember.web.app",
       repo: "https://github.com/lucasferreiralimax/slidecontent-ember",
       photo: SlideEmber
+    },
+    {
+      title: t('pageProjects.google.react'),
+      url: "g00gle-reactjs.web.app",
+      repo: "https://github.com/lucasferreiralimax/google-react",
+      photo: Google
+    },
+    {
+      title: t('pageProjects.google.angular'),
+      url: "g00gle-angular.web.app",
+      repo: "https://github.com/lucasferreiralimax/google-angular",
+      photo: Google
+    },
+    {
+      title: t('pageProjects.google.vue'),
+      url: "g00gle-vue.web.app",
+      repo: "https://github.com/lucasferreiralimax/google-vue",
+      photo: Google
+    },
+    {
+      title: t('pageProjects.google.svelte'),
+      url: "g00gle-svelte.web.app",
+      repo: "https://github.com/lucasferreiralimax/google-svelte",
+      photo: Google
     }
   ];
 

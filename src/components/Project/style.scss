@@ -17,12 +17,20 @@
   }
   .actions {
     display: flex;
-    .icon {
-      margin: 1rem;
-      transition: .3s all;
-      &:hover {
-        transform: scale(1.5);
+    align-items: center;
+    justify-content: center;
+    a {
+      padding: 1rem;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      &:hover .icon {
+        transform: scale(1.2);
       }
+    }
+    .icon {
+      transition: .3s all;
+      margin-right: .5rem;
     }
   }
 }
