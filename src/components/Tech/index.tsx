@@ -67,8 +67,8 @@ const techs = [
 const Tech = () => {
   return (
     <section className="app-tech" data-testid="app-tech">
-      {techs.map((item) => (
-        <a href={item.url} target="_blank">
+      {techs.map((item, index) => (
+        <a href={item.url} target="_blank" key={`tech-${index}`}>
           {item.icon}
         </a>
       ))}

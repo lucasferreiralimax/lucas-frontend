@@ -79,6 +79,7 @@ const Formations = () => {
             <Formation
               dataTestid={`app-formation-${++index}`}
               data={item}
+              key={`formation-${index}`}
             />
           </>
         })}

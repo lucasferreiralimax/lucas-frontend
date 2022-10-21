@@ -120,6 +120,7 @@ const Projects = () => {
             <Project
               dataTestid={`app-project-${++index}`}
               data={item}
+              key={`project-${index}`}
             />
           </>
         })}
