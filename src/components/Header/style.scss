@@ -22,8 +22,9 @@
       @include mobile {
         font-size: 2em;
         svg {
-          transform: scale(.5);
-          margin-right: 0;
+          width: 40px;
+          height: 28px;
+          margin-right: .5rem;
         }
       }
     }
