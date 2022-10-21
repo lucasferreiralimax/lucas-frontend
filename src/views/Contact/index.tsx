@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 
 import { ReactComponent as Linkedin } from '../../assets/linkedin-logo.svg';
@@ -12,6 +13,10 @@ import './style.scss';
 
 const Contact = () => {
   const { t } = useTranslation();
+
+  useEffect(() => {
+    document.title = "Lucas Contato";
+  }, []);
 
   return (
     <>

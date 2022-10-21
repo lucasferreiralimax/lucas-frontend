@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 
 import Project from '../../components/Project';
@@ -18,6 +19,10 @@ import SlideEmber from '../../../src/assets/projects/slide-content-ember.png';
 
 const Projects = () => {
   const { t } = useTranslation();
+
+  useEffect(() => {
+    document.title = "Lucas Projetos";
+  }, []);
 
   const projects = [
     {

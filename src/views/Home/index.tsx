@@ -1,9 +1,14 @@
+import { useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 
 import './style.scss';
 
 const Home = () => {
   const { t } = useTranslation();
+
+  useEffect(() => {
+    document.title = "Lucas Front-end";
+  }, []);
 
   return (
     <>
