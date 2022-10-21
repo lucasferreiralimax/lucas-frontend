@@ -105,6 +105,9 @@
   user-select: none;
   outline: none;
   -webkit-tap-highlight-color: transparent;
+  @media (min-width: 1000px) {
+    display: none;
+  }
   &:hover,
   &:focus,
   &:active {
