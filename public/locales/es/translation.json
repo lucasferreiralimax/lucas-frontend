@@ -37,24 +37,18 @@
     "listSOS": "Lista de contactos mundial Prevención Vida",
     "createCurriculum": "Proyecto Crear currículum",
     "detran": "Detran Simulador",
-    "notes": "Aplicación de nota web escrita con Svelte.js",
+    "notes": "Aplicación de nota con Svelte",
     "facebook": {
-      "title": "Clon de interfaz Facebook",
-      "description": "Desarrollado con Angular",
       "old": "Interfaz de Facebook con Angular",
-      "new": "Nuevo Facebook con interfaz angular (Beta de desarrollo)"
+      "new": "Nuevo Facebook con Angular"
     },
     "google": {
-      "title": "Clon de interfaz Google",
-      "description": "Desarrollado con teclado virtual y reconocimiento de voz con varios frameworks",
       "react": "Interfaz Google con React.js",
       "angular": "Interfaz Google con Angular",
       "vue": "Interfaz Google con Vue.js",
       "svelte": "Interfaz Google con Svelte"
     },
     "slide": {
-      "title": "Diapositiva de contenido",
-      "description": "Desarrollado en varios Frameworks",
       "react": "SlideContent con React.js",
       "vue": "SlideContent con Vue.js",
       "angular": "SlideContent con Angular",

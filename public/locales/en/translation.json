@@ -37,24 +37,18 @@
     "listSOS": "World Contact List Prevention Life",
     "createCurriculum": "Project Create Resume",
     "detran": "Detran Simulador",
-    "notes": "Web Note Application written with Svelte.js",
+    "notes": "Web Note Application Svelte",
     "facebook": {
-      "title": "Clone of the UI Facebook",
-      "description": "Developed with Angular",
       "old": "Interface Facebook with Angular",
-      "new": "Interface New Facebook with Angular (Development beta)"
+      "new": "Interface New Facebook with Angular"
     },
     "google": {
-      "title": "Clone of the UI Google",
-      "description": "Developed with virtual keyboard and voice recognition with a lot frameworks",
       "react": "Google interface with React.js",
       "angular": "Google interface with Angular",
       "vue": "Google interface with Vue.js",
       "svelte": "Google interface with Svelte"
     },
     "slide": {
-      "title": "Content Slide",
-      "description": "Developed in a lot Frameworks",
       "react": "SlideContent with React.js",
       "vue": "SlideContent with Vue.js",
       "angular": "SlideContent with Angular",
