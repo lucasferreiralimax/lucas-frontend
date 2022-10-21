@@ -5,12 +5,12 @@
   row-gap: 20px;
   margin-bottom: 2rem;
   @media (min-width: 900px) {
-    grid-template-columns: calc(50% - 20px) calc(50% - 20px);
+    grid-template-columns: calc(50% - 10px) calc(50% - 10px);
   }
   @media (min-width: 1000px) {
-    grid-template-columns: calc(100% - 20px);
+    grid-template-columns: calc(100% - 10px);
   }
   @media (min-width: 1200px) {
-    grid-template-columns: calc(50% - 20px) calc(50% - 20px);
+    grid-template-columns: calc(50% - 10px) calc(50% - 10px);
   }
 }
