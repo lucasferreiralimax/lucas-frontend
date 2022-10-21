@@ -26,6 +26,18 @@ const Contact = () => {
           <EmailIcon className="icon email" />
           <span>lucasferreiralimax@gmail.com</span>
         </a>
+        <a href="https://www.linkedin.com/in/lucasferreiralimax" target="_blank">
+          <Linkedin className="icon linkedin" />
+          <span>linkedin.com</span>
+        </a>
+        <a href="https://github.com/lucasferreiralimax" target="_blank">
+          <Github className="icon github" />
+          <span>github.com</span>
+        </a>
+        <a href="https://codepen.io/lucaslimax" target="_blank">
+          <Codepen className="icon codepen" />
+          <span>codepen.io</span>
+        </a>
         <a href="https://www.duolingo.com/profile/ferreiralimax" target="_blank">
           <Duolingo className="icon duolingo" />
           <span>duolingo.com</span>
@@ -37,18 +49,6 @@ const Contact = () => {
         <a href="https://app.pluralsight.com/profile/lucasferreiralimax" target="_blank">
           <img width="30" height="30" src={PluralSight} className="icon pluralsight" />
           <span>app.pluralsight.com</span>
-        </a>
-        <a href="https://codepen.io/lucaslimax" target="_blank">
-          <Codepen className="icon codepen" />
-          <span>codepen.io</span>
-        </a>
-        <a href="https://github.com/lucasferreiralimax" target="_blank">
-          <Github className="icon github" />
-          <span>github.com</span>
-        </a>
-        <a href="https://www.linkedin.com/in/lucasferreiralimax" target="_blank">
-          <Linkedin className="icon linkedin" />
-          <span>linkedin.com</span>
         </a>
       </section>
     </>
