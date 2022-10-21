@@ -1,5 +1,6 @@
 {
   "version": "Version",
+  "loading": "Wait to load...",
   "languages": {
     "pt": "Portuguese Brasileiro",
     "en": "English",
