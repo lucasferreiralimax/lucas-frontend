@@ -1,6 +1,6 @@
 import './style.scss';
 
-import { ReactComponent as HTML } from '../../assets/techs/HTML.svg';
+import { ReactComponent as HTML } from '../../assets/techs/html.svg';
 import { ReactComponent as CSS } from '../../assets/techs/css.svg';
 import { ReactComponent as Vue } from '../../assets/techs/vue.svg';
 import { ReactComponent as JS } from '../../assets/techs/js.svg';
