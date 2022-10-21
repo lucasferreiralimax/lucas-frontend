@@ -15,7 +15,7 @@ const Contact = () => {
 
   return (
     <>
-      <h2>{ t('pageContact.title') }</h2>
+      <h2>🌎 { t('pageContact.title') }</h2>
       <section className='social'>
         <a href="mailto:lucasferreiralimax@gmail.com" target="_blank">
           <EmailIcon className="icon email" />
