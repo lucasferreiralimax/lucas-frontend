@@ -1,3 +1,12 @@
+.theme-dark .App-project {
+  background: rgba(var(--main-bg-color-primary), .5);
+  backdrop-filter: blur(5px);
+}
+
+.theme-light .App-project {
+  background: var(--main-bg-color-primary);
+}
+
 .App-project {
   align-items: center;
   display: flex;

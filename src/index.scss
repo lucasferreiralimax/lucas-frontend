@@ -38,6 +38,12 @@ body {
   margin: 0;
   display: flex;
   min-width: 320px;
+  &.theme-dark {
+    background: #000 url('https://keep-cybernetically.web.app/assets/shattered.png');
+  }
+  &.theme-light {
+    background: #fff url('https://keep-cybernetically.web.app/assets/shattered.png');
+  }
   @media (min-width: 1000px) {
     max-width: calc(100vw - 300px);
   }
