@@ -49,7 +49,7 @@ const Navigation = () => {
         <MenuIcon />
       </button>
       <div className="app-nav-content">
-        <h4>{t('navigation.title')}</h4>
+        <h4 className='app-nav-title'>{t('navigation.title')}</h4>
         <NavLink
           className={({ isActive }: any) => (isActive ? 'app-nav-item active' : 'app-nav-item')}
           to="/"

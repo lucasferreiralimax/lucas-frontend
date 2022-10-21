@@ -25,16 +25,18 @@
   max-width: 300px;
   display: flex;
   flex-direction: column;
-  h4 {
-    margin-top: 0;
-    margin-bottom: .5rem;
-  }
+  overflow-y: auto;
   @media (min-width: 1000px) {
     box-shadow: 0 10px 20px rgba(0,0,0,.2);
     transform: translateX(0);
     background-color: transparent;
     backdrop-filter: brightness(0.5) blur(5px);
   }
+}
+
+.app-nav-title {
+  margin-top: 0;
+  margin-bottom: .5rem;
 }
 
 .nav-footer {
