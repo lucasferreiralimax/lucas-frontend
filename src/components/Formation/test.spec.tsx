@@ -10,6 +10,9 @@ describe("Should render <Formation/>", () => {
           title: 'Test',
           description: 'Description test',
           url: 'test/test',
+          date: {
+            start: '2022'
+          },
           photo: 'assts/test'
         }}
       />
