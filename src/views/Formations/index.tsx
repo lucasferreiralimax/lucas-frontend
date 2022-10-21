@@ -23,24 +23,40 @@ const Formations = () => {
       title: t('pageFormations.senac.title'),
       description: t('pageFormations.senac.description'),
       url: "www.senac.br",
-      photo: Senac
+      photo: Senac,
+      date: {
+        start: "2012",
+        end: "2013"
+      }
     },
     {
       title: t('pageFormations.alura.title'),
       description: t('pageFormations.alura.description'),
       url: "cursos.alura.com.br/user/lucasferreiralimax",
-      photo: Alura
+      photo: Alura,
+      date: {
+        start: "2019",
+        end: "2022"
+      }
     },
     {
       title: t('pageFormations.cei.title'),
       description: t('pageFormations.cei.description'),
-      photo: CEI
+      photo: CEI,
+      date: {
+        start: "2008",
+        end: "2009"
+      }
     },
     {
       title: t('pageFormations.mesquita.title'),
       description: t('pageFormations.mesquita.description'),
       url: "jornalista-francisco-mesquita.web.app",
-      photo: Mesquita
+      photo: Mesquita,
+      date: {
+        start: "2010",
+        end: "2013"
+      }
     }
   ];
 

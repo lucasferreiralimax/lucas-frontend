@@ -45,6 +45,8 @@
   .description {
     white-space: pre-wrap;
     margin: 0;
+    width: 100%;
+    hr { opacity: .3; }
   }
   a {
     color: var(--main-color);

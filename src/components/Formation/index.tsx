@@ -2,11 +2,17 @@ import { ReactComponent as LinkIcon } from '../../assets/link-icon.svg';
 
 import './style.scss';
 
+type FormationDate = {
+  start: string;
+  end?: string;
+}
+
 type FormationType = {
   title: string;
   description: string;
   url?: string;
   photo: string;
+  date: FormationDate
 }
 
 type FormationProps = {
@@ -24,7 +30,11 @@ const Formation = ({ dataTestid, data }: FormationProps) => {
         <a href={`http://${data.url}`} target="_blank">
           <img width="70" src={data.photo} alt={data.title} />
         </a>
-        <p className="description">{data.description}</p>
+        <p className="description">
+          {data.date.start} - {data.date.end}<br/>
+          <hr />
+          {data.description}
+        </p>
       </div>
       {data.url && (
         <div className="actions">
