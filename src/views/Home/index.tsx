@@ -3,6 +3,8 @@ import { useTranslation } from 'react-i18next';
 
 import './style.scss';
 
+import Tech from '../../components/Tech';
+
 const Home = () => {
   const { t } = useTranslation();
 
@@ -34,6 +36,8 @@ const Home = () => {
         {t('pageHome.paragraphFour.textTwo')}<br/>
         {t('pageHome.paragraphFour.textThree')}
       </p>
+
+      <Tech />
     </>
   )
 }
