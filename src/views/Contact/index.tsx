@@ -1,14 +1,8 @@
 import { useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 
-import { ReactComponent as Linkedin } from '../../assets/icons/linkedin-logo.svg';
-import { ReactComponent as Duolingo } from '../../assets/icons/duolingo-logo.svg';
-import { ReactComponent as Codepen } from '../../assets/icons/codepen-logo.svg';
-import { ReactComponent as Github } from '../../assets/icons/github-logo.svg';
-import { ReactComponent as EmailIcon } from '../../assets/icons/email-icon.svg';
-import { ReactComponent as Youtube } from '../../assets/icons/youtube-icon.svg';
-import FreeCodeCamp from '../../assets/icons/freecodecamp-logo.png';
-import PluralSight from '../../assets/icons/pluralsight-logo.png';
+import { ContactItem } from './types';
+import contacts from './data';
 
 import './style.scss';
 
@@ -23,38 +17,33 @@ const Contact = () => {
     <>
       <h2>🌎 { t('pageContact.title') }</h2>
       <section className='social'>
-        <a href="mailto:lucasferreiralimax@gmail.com" target="_blank">
-          <EmailIcon className="icon email" />
-          <span>lucasferreiralimax@gmail.com</span>
-        </a>
-        <a href="https://www.linkedin.com/in/lucasferreiralimax" target="_blank">
-          <Linkedin className="icon linkedin" />
-          <span>linkedin.com</span>
-        </a>
-        <a href="https://github.com/lucasferreiralimax" target="_blank">
-          <Github className="icon github" />
-          <span>github.com</span>
-        </a>
-        <a href="https://codepen.io/lucaslimax" target="_blank">
-          <Codepen className="icon codepen" />
-          <span>codepen.io</span>
-        </a>
-        <a href="https://www.youtube.com/channel/UCZBURloZW7kmNqzgPS9OHrA" target="_blank">
-          <Youtube className="icon youtube" />
-          <span>youtube.com</span>
-        </a>
-        <a href="https://www.duolingo.com/profile/ferreiralimax" target="_blank">
-          <Duolingo className="icon duolingo" />
-          <span>duolingo.com</span>
-        </a>
-        <a href="https://www.freecodecamp.org/lucasferreiralimax" target="_blank">
-          <img width="30" height="30" src={FreeCodeCamp} className="icon freecodecamp" />
-          <span>freecodecamp.org</span>
-        </a>
-        <a href="https://app.pluralsight.com/profile/lucasferreiralimax" target="_blank">
-          <img width="30" height="30" src={PluralSight} className="icon pluralsight" />
-          <span>app.pluralsight.com</span>
-        </a>
+        {contacts.map((item: ContactItem) => (
+          <a
+            href={item.link}
+            target="_blank"
+            key={item.name}
+          >
+            {item.icon
+              ? (
+                <item.icon
+                  className={
+                    `icon ${item.className ? item.className : item.name.toLocaleLowerCase()}`
+                  }
+                />
+              )
+              : (
+                <img
+                  width="30"
+                  height="30"
+                  src={item.img}
+                  className={
+                    `icon ${item.className ? item.className : item.name.toLocaleLowerCase()}`
+                  }
+                />
+              )}
+            <span>{ item.name }</span>
+          </a>
+        ))}
       </section>
     </>
   )
