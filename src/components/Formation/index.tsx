@@ -31,11 +31,11 @@ const Formation = ({ dataTestid, data }: FormationProps) => {
         <a href={`http://${data.url}`} target="_blank">
           <img width="70" src={data.photo} alt={t(data.title)} />
         </a>
-        <p className="description">
+        <div className="description">
           {data.date.start} - {data.date.end}<br/>
-          <hr />
+          <hr></hr>
           {t(data.description)}
-        </p>
+        </div>
       </div>
       {data.url && (
         <div className="actions">
