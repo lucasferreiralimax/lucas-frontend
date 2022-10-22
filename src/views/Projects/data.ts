@@ -13,85 +13,85 @@ import SlideEmber from '../../../src/assets/projects/slide-content-ember.png';
 const projects = [
   {
     title: 'pageProjects.listSOS',
-    url: "lucasferreiralimax.github.io/save-our-soul",
+    url: "https://lucasferreiralimax.github.io/save-our-soul",
     repo: "github.com/lucasferreiralimax/save-our-soul",
     photo: SOS
   },
   {
     title: 'pageProjects.createCurriculum',
-    url: "criar-curriculo.web.app",
+    url: "https://criar-curriculo.web.app",
     repo: "github.com/lucasferreiralimax/criarcurriculo",
     photo: ProjetoCriar
   },
   {
     title: 'pageProjects.detran',
-    url: "detran-simulador.web.app",
+    url: "https://detran-simulador.web.app",
     repo: "github.com/lucasferreiralimax/detran-simulador",
     photo: Detran
   },
   {
     title: 'pageProjects.notes',
-    url: "keep-cybernetically.web.app",
+    url: "https://keep-cybernetically.web.app",
     repo: "https://github.com/lucasferreiralimax/keep_cybernetically",
     photo: Keep
   },
   {
     title: 'pageProjects.facebook.old',
-    url: "angular-facebook.web.app",
+    url: "https://angular-facebook.web.app",
     repo: "https://github.com/lucasferreiralimax/angularbook",
     photo: AngularBook
   },
   {
     title: 'pageProjects.facebook.new',
-    url: "angular-facebook-new.web.app",
+    url: "https://angular-facebook-new.web.app",
     repo: "https://github.com/lucasferreiralimax/angularbook-new",
     photo: AngularBookNew
   },
   {
     title: 'pageProjects.slide.react',
-    url: "slidecontent-reactjs.web.app",
+    url: "https://slidecontent-reactjs.web.app",
     repo: "https://github.com/lucasferreiralimax/slidecontent-react",
     photo: SlideReact
   },
   {
     title: 'pageProjects.slide.vue',
-    url: "slidecontent-vue.web.app",
+    url: "https://slidecontent-vuejs.web.app",
     repo: "https://github.com/lucasferreiralimax/slidecontent-vue",
     photo: SlideVue
   },
   {
     title: 'pageProjects.slide.angular',
-    url: "slidecontent-angular.web.app",
+    url: "https://angular-slidecontent.web.app",
     repo: "https://github.com/lucasferreiralimax/slidecontent-angular",
     photo: SlideAngular
   },
   {
     title: 'pageProjects.slide.ember',
-    url: "slidecontent-ember.web.app",
+    url: "https://slidecontent-ember.web.app",
     repo: "https://github.com/lucasferreiralimax/slidecontent-ember",
     photo: SlideEmber
   },
   {
     title: 'pageProjects.google.react',
-    url: "g00gle-reactjs.web.app",
+    url: "https://g00gle-reactjs.web.app",
     repo: "https://github.com/lucasferreiralimax/google-react",
     photo: Google
   },
   {
     title: 'pageProjects.google.angular',
-    url: "g00gle-angular.web.app",
+    url: "https://g00gle-angular.web.app",
     repo: "https://github.com/lucasferreiralimax/google-angular",
     photo: Google
   },
   {
     title: 'pageProjects.google.vue',
-    url: "g00gle-vue.web.app",
+    url: "https://g00gle-vue.web.app",
     repo: "https://github.com/lucasferreiralimax/google-vue",
     photo: Google
   },
   {
     title: 'pageProjects.google.svelte',
-    url: "g00gle-svelte.web.app",
+    url: "https://g00gle-svelte.web.app",
     repo: "https://github.com/lucasferreiralimax/google-svelte",
     photo: Google
   }
