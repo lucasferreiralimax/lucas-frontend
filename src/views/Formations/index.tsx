@@ -17,13 +17,13 @@ const Formations = () => {
       <h2>📚 { t('navigation.formation') }</h2>
       <div className='formations'>
         {formations.map((item, index) => {
-          return <>
+          return (
             <Formation
               dataTestid={`app-formation-${++index}`}
               data={item}
-              key={`formation-${index}`}
+              key={`formation-${++index}`}
             />
-          </>
+          )
         })}
       </div>
     </>

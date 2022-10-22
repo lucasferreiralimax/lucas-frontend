@@ -17,13 +17,13 @@ const Projects = () => {
       <h2>🌿 { t('navigation.projects') }</h2>
       <div className='projects'>
         {projects.map((item, index) => {
-          return <>
+          return (
             <Project
               dataTestid={`app-project-${++index}`}
               data={item}
-              key={`project-${index}`}
+              key={`project-${++index}`}
             />
-          </>
+          )
         })}
       </div>
     </>

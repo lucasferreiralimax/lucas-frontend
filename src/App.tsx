@@ -19,7 +19,7 @@ const App = () => {
         <Header />
         <main>
           <Routes>
-            {views.map((view) => <Route path={view.url} element={<view.component />} />)}
+            {views.map((view, index) => <Route key={++index} path={view.url} element={<view.component />} />)}
           </Routes>
         </main>
         <Footer />
