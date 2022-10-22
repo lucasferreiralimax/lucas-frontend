@@ -17,5 +17,9 @@
         height: 70px;
       }
     }
+    &.tech-jQuery {
+      padding: 0 2rem;
+      svg { transform: scale(1.8); }
+    }
   }
 }

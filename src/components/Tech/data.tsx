@@ -8,6 +8,13 @@ import { ReactComponent as Typescript } from '../../assets/techs/typescript.svg'
 import { ReactComponent as Svelte } from '../../assets/techs/svelte.svg';
 import { ReactComponent as Webpack } from '../../assets/techs/webpack.svg';
 import { ReactComponent as Vite } from '../../assets/techs/vite.svg';
+import { ReactComponent as JQuery } from '../../assets/techs/jquery.svg';
+import { ReactComponent as Gulp } from '../../assets/techs/gulp.svg';
+import { ReactComponent as Cypress } from '../../assets/techs/cypress.svg';
+import { ReactComponent as Git } from '../../assets/techs/git.svg';
+import { ReactComponent as Stylus } from '../../assets/techs/stylus.svg';
+import { ReactComponent as Less } from '../../assets/techs/less.svg';
+import { ReactComponent as Sass } from '../../assets/techs/sass.svg';
 
 const techs = [
   {
@@ -51,6 +58,21 @@ const techs = [
     url: "https://svelte.dev"
   },
   {
+    title: "Stylus",
+    icon: <Stylus />,
+    url: "https://stylus-lang.com"
+  },
+  {
+    title: "Less",
+    icon: <Less />,
+    url: "https://lesscss.org"
+  },
+  {
+    title: "Sass",
+    icon: <Sass />,
+    url: "https://sass-lang.com"
+  },
+  {
     title: "Webpack",
     icon: <Webpack />,
     url: "https://webpack.js.org"
@@ -59,6 +81,26 @@ const techs = [
     title: "Vite",
     icon: <Vite />,
     url: "https://vitejs.dev"
+  },
+  {
+    title: "Gulp.js",
+    icon: <Gulp />,
+    url: "https://gulpjs.com"
+  },
+  {
+    title: "Cypress.io",
+    icon: <Cypress />,
+    url: "https://www.cypress.io"
+  },
+  {
+    title: "Git",
+    icon: <Git />,
+    url: "https://git-scm.com"
+  },
+  {
+    title: "jQuery",
+    icon: <JQuery />,
+    url: "https://jquery.com"
   }
 ];
 
