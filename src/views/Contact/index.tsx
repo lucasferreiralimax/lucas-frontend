@@ -6,6 +6,7 @@ import { ReactComponent as Duolingo } from '../../assets/icons/duolingo-logo.svg
 import { ReactComponent as Codepen } from '../../assets/icons/codepen-logo.svg';
 import { ReactComponent as Github } from '../../assets/icons/github-logo.svg';
 import { ReactComponent as EmailIcon } from '../../assets/icons/email-icon.svg';
+import { ReactComponent as Youtube } from '../../assets/icons/youtube-icon.svg';
 import FreeCodeCamp from '../../assets/icons/freecodecamp-logo.png';
 import PluralSight from '../../assets/icons/pluralsight-logo.png';
 
@@ -37,6 +38,10 @@ const Contact = () => {
         <a href="https://codepen.io/lucaslimax" target="_blank">
           <Codepen className="icon codepen" />
           <span>codepen.io</span>
+        </a>
+        <a href="https://www.youtube.com/channel/UCZBURloZW7kmNqzgPS9OHrA" target="_blank">
+          <Youtube className="icon youtube" />
+          <span>youtube.com</span>
         </a>
         <a href="https://www.duolingo.com/profile/ferreiralimax" target="_blank">
           <Duolingo className="icon duolingo" />
