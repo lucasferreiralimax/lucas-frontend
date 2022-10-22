@@ -13,7 +13,7 @@ const Home = () => {
   }, []);
 
   return (
-    <>
+    <div className='home'>
       <p>
         {t('pageHome.paragraphOne.textOne')}<br/>
         {t('pageHome.paragraphOne.textTwo')}
@@ -38,7 +38,7 @@ const Home = () => {
       </p>
 
       <Tech />
-    </>
+    </div>
   )
 }
 

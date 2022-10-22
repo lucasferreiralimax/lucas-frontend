@@ -1,0 +1,5 @@
+.home p { transition: .3s all; }
+
+@media (min-width: 1440px) {
+  .home p { font-size: 1.2rem; }
+}
