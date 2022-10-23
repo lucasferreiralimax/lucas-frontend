@@ -1,9 +1,10 @@
 import { useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 
+import { ProjectType } from '../../components/Project/types';
 import Project from '../../components/Project';
-import './style.scss';
 import projects from './data';
+import './style.scss';
 
 const Projects = () => {
   const { t } = useTranslation();
@@ -16,7 +17,7 @@ const Projects = () => {
     <>
       <h2>🌿 { t('navigation.projects') }</h2>
       <div className='projects'>
-        {projects.map((item, index) => {
+        {projects.map((item: ProjectType, index: number) => {
           return (
             <Project
               dataTestid={`app-project-${++index}`}

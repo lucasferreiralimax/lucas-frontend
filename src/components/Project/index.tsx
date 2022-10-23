@@ -2,19 +2,9 @@ import { useTranslation } from 'react-i18next';
 import { ReactComponent as Github } from '../../assets/icons/github-logo.svg';
 import { ReactComponent as LinkIcon } from '../../assets/icons/link-icon.svg';
 
+import { ProjectProps } from './types';
+
 import './style.scss';
-
-type ProjectType = {
-  title: string;
-  url: string;
-  repo: string;
-  photo: string;
-}
-
-type ProjectProps = {
-  dataTestid: string;
-  data: ProjectType;
-}
 
 const Project = ({ dataTestid, data }: ProjectProps) => {
   const { t } = useTranslation();

@@ -1,3 +1,5 @@
+import { ProjectType } from '../../components/Project/types';
+
 import SOS from '../../../src/assets/projects/sos.png';
 import ProjetoCriar from '../../../src/assets/projects/projeto-criar-curriculo.png';
 import Detran from '../../../src/assets/projects/detran-simulador.png';
@@ -10,7 +12,7 @@ import SlideVue from '../../../src/assets/projects/slide-content-vue.png';
 import SlideAngular from '../../../src/assets/projects/slide-content-angular.png';
 import SlideEmber from '../../../src/assets/projects/slide-content-ember.png';
 
-const projects = [
+const projects: ProjectType[] = [
   {
     title: 'pageProjects.listSOS',
     url: "https://lucasferreiralimax.github.io/save-our-soul",
