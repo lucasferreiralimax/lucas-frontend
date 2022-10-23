@@ -39,25 +39,67 @@
     }
   },
   "pageProjects": {
-    "listSOS": "Contatos de Prevenção a Vida",
-    "createCurriculum": "Projeto Criar Currículo",
-    "detran": "Detran Simulador",
-    "notes": "Web Aplicativo de Notas com Svelte",
+    "listSOS": {
+      "title": "Contatos de Prevenção a Vida",
+      "description": "Projeto com listagem de contatos internacionais para prevenção a vida, escrito do zero com JavaScript puro"
+    },
+    "createCurriculum": {
+      "title": "Projeto Criar Currículo",
+      "description": "Esse web aplicativo é uma ação social e auxilia as pessoas a criar um curriculo profissional, elegante, de uma forma simples e objetiva"
+    },
+    "detran": {
+      "title": "Detran Simulador",
+      "description": "Esse projeto social tem o intuito de ajudar as pessoas a se preparar para uma prova com questões sobre leis de trânsito brasileira\nConstruído de uma forma simples para atingir todo cidadão brasileiro e ajudar em seu momento de preparo"
+    },
+    "notes": {
+      "title": "Web Aplicativo de Notas com Svelte",
+      "description": "Interface de notas criada com Svelte, Pug.js e Stylus\nExemplos de notas gravadas no localStorage\ncom design responsivo e darkmode\nAnimações nos botões e transições no modais"
+    },
     "facebook": {
-      "old": "Facebook com Angular",
-      "new": "Novo Facebook com Angular"
+      "old": {
+        "title": "Facebook com Angular",
+        "description": "Clone da interface antiga do Facebook com Angular"
+      },
+      "new": {
+        "title": "Novo Facebook com Angular",
+        "description": "Clone da interface nova do Facebook com Angular\nDarkmode e Design Responsivo"
+      }
     },
     "google": {
-      "react": "Interface Google com React.js",
-      "angular": "Interface Google com Angular",
-      "vue": "Interface Google com Vue.js",
-      "svelte": "Interface Google com Svelte"
+      "react": {
+        "title": "Interface Google com React.js",
+        "description": "Clone da interface do Google escrito com React.js\nCom teclado virtual, darkmode, internalização de idiomas\nReconhecimento de voz, testes unitários e testes e2e"
+      },
+      "angular": {
+        "title": "Interface Google com Angular",
+        "description": "Clone da interface do Google escrito com Angular\nCom teclado virtual, darkmode, internalização de idiomas\nReconhecimento de voz, testes unitários"
+      },
+      "vue": {
+        "title": "Interface Google com Vue.js",
+        "description": "Clone da interface do Google escrito com Vue.js\nCom teclado virtual, darkmode, internalização de idiomas\nReconhecimento de voz, testes unitários e testes e2e"
+      },
+      "svelte": {
+        "title": "Interface Google com Svelte",
+        "description": "Clone da interface do Google escrito com Svelte\nCom teclado virtual, darkmode, internalização de idiomas\nReconhecimento de voz, testes unitários"
+      }
     },
     "slide": {
-      "react": "SlideContent com React.js",
-      "vue": "SlideContent com Vue.js",
-      "angular": "SlideContent com Angular",
-      "ember": "SlideContent com Ember.js"
+      "react": {
+        "title": "SlideContent com React.js",
+        "description": "Slide de conteúdo escrito com React.js\nModo Slide infinito, Slide sem botões de navegação\nSlide com temporizador e internalização de idiomas"
+      },
+      "vue": {
+        "title": "SlideContent com Vue.js",
+        "description": "Slide de conteúdo escrito com Vue.js\nModo Slide infinito, Slide sem botões de navegação\nSlide com temporizador e internalização de idiomas"
+      },
+      "angular": {
+        "title": "SlideContent com Angular",
+        "description": "Slide de conteúdo escrito com Angular\nModo Slide infinito, Slide sem botões de navegação\nSlide com temporizador"
+      },
+      "ember": {
+        "title": "SlideContent com Ember.js",
+        "description": "Slide de conteúdo escrito com Ember.js\nModo Slide infinito, Slide sem botões de navegação\nSlide com temporizador e internalização de idiomas"
+      }
     }
   },
   "pageContact": {

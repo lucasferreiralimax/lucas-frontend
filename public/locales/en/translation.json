@@ -39,25 +39,67 @@
     }
   },
   "pageProjects": {
-    "listSOS": "Contact Prevention of Life",
-    "createCurriculum": "Project Create Resume",
-    "detran": "Detran Simulador",
-    "notes": "Web Note Application Svelte",
+    "listSOS": {
+      "title": "Contact Prevention of Life",
+      "description": "Project with listing of international contacts for life prevention, written from scratch with pure JavaScript"
+    },
+    "createCurriculum": {
+      "title": "Project Create Resume",
+      "description": "This web application is a social action and helps people to create a professional, elegant curriculum in a simple and objective way."
+    },
+    "detran": {
+      "title": "Detran Simulator",
+      "description": "This social project to help people prepare for a test with questions about Brazilian traffic laws\nConstructed in a simple way to reach every Brazilian citizen and help in their preparation time"
+    },
+    "notes": {
+      "title": "Web Note Application Svelte",
+      "description": "Notes interface created with Svelte, Pug.js and Stylus\nExamples of notes recorded in localStorage\nwith responsive design and darkmode\nButton animations and modal transitions"
+    },
     "facebook": {
-      "old": "Interface Facebook with Angular",
-      "new": "Interface New Facebook with Angular"
+      "old": {
+        "title": "Interface Facebook with Angular",
+        "description": "Clone of old Facebook interface with Angular"
+      },
+      "new": {
+        "title": "Interface New Facebook with Angular",
+        "description": "Clone of the new Facebook interface with Angular\nDarkmode and Responsive Design"
+      }
     },
     "google": {
-      "react": "Google interface with React.js",
-      "angular": "Google interface with Angular",
-      "vue": "Google interface with Vue.js",
-      "svelte": "Google interface with Svelte"
+      "react": {
+        "title": "Google interface with React.js",
+        "description": "Google UI clone written with React.js\nWith virtual keyboard, darkmode, language internalization\nSpeech recognition, unit tests and e2e tests"
+      },
+      "angular": {
+        "title": "Google interface with Angular",
+        "description": "Google UI clone written with Angular\nWith virtual keyboard, darkmode, language internalization\nSpeech recognition, unit tests"
+      },
+      "vue": {
+        "title": "Google interface with Vue.js",
+        "description": "Google UI clone written with Vue.js\nWith virtual keyboard, darkmode, language internalization\nSpeech recognition, unit tests and e2e tests"
+      },
+      "svelte": {
+        "title": "Google interface with Svelte",
+        "description": "Google UI clone written with Angular\nWith virtual keyboard, darkmode, language internalization\nSpeech recognition, unit tests"
+      }
     },
     "slide": {
-      "react": "SlideContent with React.js",
-      "vue": "SlideContent with Vue.js",
-      "angular": "SlideContent with Angular",
-      "ember": "SlideContent with Ember.js"
+      "react": {
+        "title": "SlideContent with React.js",
+        "description": "Content slide written with React.js\nInfinite Slide Mode, Slide without navigation buttons\nSlide with timer and language internalization"
+      },
+      "vue": {
+        "title": "SlideContent with Vue.js",
+        "description": "Content slide written with Vue.js\nInfinite Slide Mode, Slide without navigation buttons\nSlide with timer and language internalization"
+      },
+      "angular": {
+        "title": "SlideContent with Angular",
+        "description": "Content slide written with Angular\nInfinite Slide Mode, Slide without navigation buttons\nSlide with timer"
+      },
+      "ember": {
+        "title": "SlideContent with Ember.js",
+        "description": "Content slide written with Ember.js\nInfinite Slide Mode, Slide without navigation buttons\nSlide with timer and language internalization"
+      }
     }
   },
   "pageContact": {

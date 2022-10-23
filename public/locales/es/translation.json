@@ -39,25 +39,67 @@
     }
   },
   "pageProjects": {
-    "listSOS": "Contactos Prevención de la Vida",
-    "createCurriculum": "Proyecto Crear currículum",
-    "detran": "Detran Simulador",
-    "notes": "Aplicación de nota con Svelte",
+    "listSOS": {
+      "title": "Contactos Prevención de la Vida",
+      "description": "Proyecto con listado de contactos internacionales para la prevención de la vida, escrito desde cero con puro JavaScript"
+    },
+    "createCurriculum": {
+      "title": "Proyecto Crear currículum",
+      "description": "Esta aplicación web es una acción social y ayuda a las personas a crear un plan de estudios elegante y profesional de una manera simple y objetiva."
+    },
+    "detran": {
+      "title": "Detran Simulador",
+      "description": "Este proyecto social tiene como objetivo ayudar a las personas a prepararse para un examen con preguntas sobre las leyes de tránsito de Brasil\nConstruido de manera simple para llegar a todos los ciudadanos brasileños y ayudarlos en su tiempo de preparación"
+    },
+    "notes": {
+      "title": "Aplicación de notas con Svelte",
+      "description": "Interfaz de notas creada con Svelte, Pug.js y Stylus\nEjemplos de notas grabadas en localStorage\ncon diseño receptivo y modo oscuro\nAnimaciones de botones y transiciones modales"
+    },
     "facebook": {
-      "old": "Interfaz de Facebook con Angular",
-      "new": "Nuevo Facebook con Angular"
+      "old": {
+        "title": "Facebook con Angular",
+        "description": "Clon de la antigua interfaz de Facebook con Angular"
+      },
+      "new": {
+        "title": "Facebook Nuevo con Angular",
+        "description": "Clon de la nueva interfaz de Facebook con Angular\nDarkmode y Responsive Design"
+      }
     },
     "google": {
-      "react": "Interfaz Google con React.js",
-      "angular": "Interfaz Google con Angular",
-      "vue": "Interfaz Google con Vue.js",
-      "svelte": "Interfaz Google con Svelte"
+      "react": {
+        "title": "Interfaz Google con React.js",
+        "description": "Clon de la interfaz de usuario de Google escrito con React.js\nCon teclado virtual, modo oscuro, internalización del idioma\nReconocimiento de voz, pruebas unitarias y pruebas e2e"
+      },
+      "angular": {
+        "title": "Interfaz Google con Angular",
+        "description": "Clon de la interfaz de usuario de Google escrito con Angular\nCon teclado virtual, modo oscuro, internalización del idioma\nReconocimiento de voz, pruebas unitarias"
+      },
+      "vue": {
+        "title": "Interfaz Google con Vue.js",
+        "description": "Clon de la interfaz de usuario de Google escrito con Vue.js\nCon teclado virtual, modo oscuro, internalización del idioma\nReconocimiento de voz, pruebas unitarias y pruebas e2e"
+      },
+      "svelte": {
+        "title": "Interfaz Google con Svelte",
+        "description": "Clon de la interfaz de usuario de Google escrito con Svelte\nCon teclado virtual, modo oscuro, internalización del idioma\nReconocimiento de voz, pruebas unitarias"
+      }
     },
     "slide": {
-      "react": "SlideContent con React.js",
-      "vue": "SlideContent con Vue.js",
-      "angular": "SlideContent con Angular",
-      "ember": "SlideContent con Ember.js"
+      "react": {
+        "title": "SlideContent con React.js",
+        "description": "Slide de contenido escrita con React.js\nInfinite Slide Mode, Slide sin botones de navegación\nSlide con temporizador e internalización de idioma"
+      },
+      "vue": {
+        "title": "SlideContent con Vue.js",
+        "description": "Slide de contenido escrita con Vue.js\nInfinite Slide Mode, Slide sin botones de navegación\nSlide con temporizador e internalización de idioma"
+      },
+      "angular": {
+        "title": "SlideContent con Angular",
+        "description": "Slide de contenido escrita con Angular\nInfinite Slide Mode, Slide sin botones de navegación\nSlide con temporizador"
+      },
+      "ember": {
+        "title": "SlideContent con Ember.js",
+        "description": "Slide de contenido escrita con Ember.js\nInfinite Slide Mode, Slide sin botones de navegación\nSlide con temporizador e internalización de idioma"
+      }
     }
   },
   "pageContact": {
