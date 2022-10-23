@@ -14,102 +14,88 @@ import SlideEmber from '@/assets/projects/slide-content-ember.png';
 
 const projects: ProjectType[] = [
   {
-    title: 'pageProjects.listSOS.title',
+    translate: 'pageProjects.listSOS',
     url: "https://lucasferreiralimax.github.io/save-our-soul",
     repo: "https://github.com/lucasferreiralimax/save-our-soul",
-    photo: SOS,
-    description: "pageProjects.listSOS.description"
+    photo: SOS
   },
   {
-    title: 'pageProjects.createCurriculum.title',
+    translate: 'pageProjects.createCurriculum',
     url: "https://criar-curriculo.web.app",
     repo: "https://github.com/lucasferreiralimax/criarcurriculo",
-    photo: ProjetoCriar,
-    description: "pageProjects.createCurriculum.description"
+    photo: ProjetoCriar
   },
   {
-    title: 'pageProjects.detran.title',
+    translate: 'pageProjects.detran',
     url: "https://detran-simulador.web.app",
     repo: "https://github.com/lucasferreiralimax/detran-simulador",
-    photo: Detran,
-    description: "pageProjects.detran.description"
+    photo: Detran
   },
   {
-    title: 'pageProjects.notes.title',
+    translate: 'pageProjects.notes',
     url: "https://keep-cybernetically.web.app",
     repo: "https://github.com/lucasferreiralimax/keep_cybernetically",
-    photo: Keep,
-    description: "pageProjects.notes.description"
+    photo: Keep
   },
   {
-    title: 'pageProjects.facebook.old.title',
+    translate: 'pageProjects.facebook.old',
     url: "https://angular-facebook.web.app",
     repo: "https://github.com/lucasferreiralimax/angularbook",
-    photo: AngularBook,
-    description: "pageProjects.facebook.old.description"
+    photo: AngularBook
   },
   {
-    title: 'pageProjects.facebook.new.title',
+    translate: 'pageProjects.facebook.new',
     url: "https://angular-facebook-new.web.app",
     repo: "https://github.com/lucasferreiralimax/angularbook-new",
-    photo: AngularBookNew,
-    description: "pageProjects.facebook.new.description"
+    photo: AngularBookNew
   },
   {
-    title: 'pageProjects.slide.react.title',
+    translate: 'pageProjects.slide.react',
     url: "https://slidecontent-reactjs.web.app",
     repo: "https://github.com/lucasferreiralimax/slidecontent-react",
-    photo: SlideReact,
-    description: "pageProjects.slide.react.description"
+    photo: SlideReact
   },
   {
-    title: 'pageProjects.slide.vue.title',
+    translate: 'pageProjects.slide.vue',
     url: "https://slidecontent-vuejs.web.app",
     repo: "https://github.com/lucasferreiralimax/slidecontent-vue",
-    photo: SlideVue,
-    description: "pageProjects.slide.vue.description"
+    photo: SlideVue
   },
   {
-    title: 'pageProjects.slide.angular.title',
+    translate: 'pageProjects.slide.angular',
     url: "https://angular-slidecontent.web.app",
     repo: "https://github.com/lucasferreiralimax/slidecontent-angular",
-    photo: SlideAngular,
-    description: "pageProjects.slide.angular.description"
+    photo: SlideAngular
   },
   {
-    title: 'pageProjects.slide.ember.title',
+    translate: 'pageProjects.slide.ember',
     url: "https://slidecontent-ember.web.app",
     repo: "https://github.com/lucasferreiralimax/slidecontent-ember",
-    photo: SlideEmber,
-    description: "pageProjects.slide.ember.description"
+    photo: SlideEmber
   },
   {
-    title: 'pageProjects.google.react.title',
+    translate: 'pageProjects.google.react',
     url: "https://g00gle-reactjs.web.app",
     repo: "https://github.com/lucasferreiralimax/google-react",
-    photo: Google,
-    description: "pageProjects.google.react.description"
+    photo: Google
   },
   {
-    title: 'pageProjects.google.angular.title',
+    translate: 'pageProjects.google.angular',
     url: "https://g00gle-angular.web.app",
     repo: "https://github.com/lucasferreiralimax/google-angular",
-    photo: Google,
-    description: "pageProjects.google.angular.description"
+    photo: Google
   },
   {
-    title: 'pageProjects.google.vue.title',
+    translate: 'pageProjects.google.vue',
     url: "https://g00gle-vue.web.app",
     repo: "https://github.com/lucasferreiralimax/google-vue",
-    photo: Google,
-    description: "pageProjects.google.vue.description"
+    photo: Google
   },
   {
-    title: 'pageProjects.google.svelte.title',
+    translate: 'pageProjects.google.svelte',
     url: "https://g00gle-svelte.web.app",
     repo: "https://github.com/lucasferreiralimax/google-svelte",
-    photo: Google,
-    description: "pageProjects.google.svelte.description"
+    photo: Google
   }
 ];
 

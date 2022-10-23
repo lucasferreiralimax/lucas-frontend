@@ -1,9 +1,8 @@
 export type ProjectType = {
-  title: string;
+  translate: string;
   url: string;
   repo: string;
   photo: string;
-  description: string;
 }
 
 export type ProjectProps = {
