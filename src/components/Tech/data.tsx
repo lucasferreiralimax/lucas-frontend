@@ -1,3 +1,5 @@
+import { TechType } from './types';
+
 import { ReactComponent as HTML } from '../../assets/techs/html.svg';
 import { ReactComponent as CSS } from '../../assets/techs/css.svg';
 import { ReactComponent as Vue } from '../../assets/techs/vue.svg';
@@ -16,92 +18,24 @@ import { ReactComponent as Stylus } from '../../assets/techs/stylus.svg';
 import { ReactComponent as Less } from '../../assets/techs/less.svg';
 import { ReactComponent as Sass } from '../../assets/techs/sass.svg';
 
-const techs = [
-  {
-    title: "HTML",
-    icon: <HTML />,
-    url: "https://developer.mozilla.org/en-US/docs/Glossary/HTML5"
-  },
-  {
-    title: "CSS",
-    icon: <CSS />,
-    url: "https://developer.mozilla.org/en-US/docs/Glossary/CSS"
-  },
-  {
-    title: "JavaScript",
-    icon: <JS />,
-    url: "https://developer.mozilla.org/en-US/docs/Glossary/Javascript"
-  },
-  {
-    title: "Typescript",
-    icon: <Typescript />,
-    url: "https://www.typescriptlang.org/docs"
-  },
-  {
-    title: "Vue",
-    icon: <Vue />,
-    url: "https://vuejs.org"
-  },
-  {
-    title: "React",
-    icon: <React />,
-    url: "https://reactjs.org"
-  },
-  {
-    title: "Angular",
-    icon: <Angular />,
-    url: "https://angular.io"
-  },
-  {
-    title: "Svelte",
-    icon: <Svelte />,
-    url: "https://svelte.dev"
-  },
-  {
-    title: "Stylus",
-    icon: <Stylus />,
-    url: "https://stylus-lang.com"
-  },
-  {
-    title: "Less",
-    icon: <Less />,
-    url: "https://lesscss.org"
-  },
-  {
-    title: "Sass",
-    icon: <Sass />,
-    url: "https://sass-lang.com"
-  },
-  {
-    title: "Webpack",
-    icon: <Webpack />,
-    url: "https://webpack.js.org"
-  },
-  {
-    title: "Vite",
-    icon: <Vite />,
-    url: "https://vitejs.dev"
-  },
-  {
-    title: "Gulp.js",
-    icon: <Gulp />,
-    url: "https://gulpjs.com"
-  },
-  {
-    title: "Cypress.io",
-    icon: <Cypress />,
-    url: "https://www.cypress.io"
-  },
-  {
-    title: "Git",
-    icon: <Git />,
-    url: "https://git-scm.com"
-  },
-  {
-    title: "jQuery",
-    icon: <JQuery />,
-    url: "https://jquery.com"
-  }
+const techs: TechType[] = [
+  { title: "HTML",       icon: HTML,       url: "https://developer.mozilla.org/en-US/docs/Glossary/HTML5"      },
+  { title: "CSS",        icon: CSS,        url: "https://developer.mozilla.org/en-US/docs/Glossary/CSS"        },
+  { title: "JavaScript", icon: JS,         url: "https://developer.mozilla.org/en-US/docs/Glossary/Javascript" },
+  { title: "Typescript", icon: Typescript, url: "https://www.typescriptlang.org/docs"                          },
+  { title: "Vue",        icon: Vue,        url: "https://vuejs.org"                                            },
+  { title: "React",      icon: React,      url: "https://reactjs.org"                                          },
+  { title: "Angular",    icon: Angular,    url: "https://angular.io"                                           },
+  { title: "Svelte",     icon: Svelte,     url: "https://svelte.dev"                                           },
+  { title: "Stylus",     icon: Stylus,     url: "https://stylus-lang.com"                                      },
+  { title: "Less",       icon: Less,       url: "https://lesscss.org"                                          },
+  { title: "Sass",       icon: Sass,       url: "https://sass-lang.com"                                        },
+  { title: "Webpack",    icon: Webpack,    url: "https://webpack.js.org"                                       },
+  { title: "Vite",       icon: Vite,       url: "https://vitejs.dev"                                           },
+  { title: "Gulp.js",    icon: Gulp,       url: "https://gulpjs.com"                                           },
+  { title: "Cypress.io", icon: Cypress,    url: "https://www.cypress.io"                                       },
+  { title: "Git",        icon: Git,        url: "https://git-scm.com"                                          },
+  { title: "jQuery",     icon: JQuery,     url: "https://jquery.com"                                           }
 ];
 
 export default techs;
