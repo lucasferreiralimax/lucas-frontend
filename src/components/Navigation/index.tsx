@@ -16,10 +16,10 @@ import Theme from '../Theme';
 import './style.scss';
 
 const Navigation = () => {
-  const appVersion = pkg.version;
+  const appVersion: string = pkg.version;
   const { t } = useTranslation();
-  const [nav, setNav] = useState(false)
-  const menu = () => setNav(!nav)
+  const [nav, setNav] = useState<boolean>(false);
+  const menu: VoidFunction = () => setNav(!nav);
   const menuEvent = (e: KeyboardEvent) => {
     if (e.key === 'Escape') setNav(false);
   }
