@@ -7,7 +7,7 @@ describe("Should render <Project/>", () => {
       <Project
         dataTestid='test-1'
         data={{
-          title: 'Test',
+          translate: 'translate.object',
           url: 'test/test',
           repo: 'test/test',
           photo: 'assts/test'

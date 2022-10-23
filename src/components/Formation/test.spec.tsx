@@ -7,8 +7,7 @@ describe("Should render <Formation/>", () => {
       <Formation
         dataTestid='test-1'
         data={{
-          title: 'Test',
-          description: 'Description test',
+          translate: 'translate.object',
           url: 'test/test',
           date: {
             start: '2022'
