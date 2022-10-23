@@ -9,11 +9,11 @@ interface ObjectVariable {
 
 const Theme = () => {
   const darkmode = localStorage.getItem("darkmode");
-  const [ themeValue, setThemeValue ] = useState(
+  const [ themeValue, setThemeValue ] = useState<boolean>(
     darkmode == null ? true : JSON.parse(darkmode)
   );
 
-  const changeTheme = () => setThemeValue(!themeValue);
+  const changeTheme: VoidFunction = () => setThemeValue(!themeValue);
 
   const setStyleVariables = (objectVariables: ObjectVariable[]) => {
     for(let { name, value } of objectVariables) {
