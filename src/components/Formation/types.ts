@@ -4,8 +4,7 @@ type FormationDate = {
 }
 
 export type FormationType = {
-  title: string;
-  description: string;
+  translate: string;
   url?: string;
   photo: string;
   date: FormationDate

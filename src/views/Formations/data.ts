@@ -8,8 +8,7 @@ import Senac from '@/assets/formations/senac.jpg';
 
 const formations: FormationType[] = [
   {
-    title: 'pageFormations.senac.title',
-    description: 'pageFormations.senac.description',
+    translate: 'pageFormations.senac',
     url: "www.senac.br",
     photo: Senac,
     date: {
@@ -18,8 +17,7 @@ const formations: FormationType[] = [
     }
   },
   {
-    title: 'pageFormations.alura.title',
-    description: 'pageFormations.alura.description',
+    translate: 'pageFormations.alura',
     url: "cursos.alura.com.br/user/lucasferreiralimax",
     photo: Alura,
     date: {
@@ -28,8 +26,7 @@ const formations: FormationType[] = [
     }
   },
   {
-    title: 'pageFormations.origamid.title',
-    description: 'pageFormations.origamid.description',
+    translate: 'pageFormations.origamid',
     url: "www.origamid.com/certificate/475653bd",
     photo: Origamid,
     date: {
@@ -38,8 +35,7 @@ const formations: FormationType[] = [
     }
   },
   {
-    title: 'pageFormations.cei.title',
-    description: 'pageFormations.cei.description',
+    translate: 'pageFormations.cei',
     photo: CEI,
     date: {
       start: "2008",
@@ -47,8 +43,7 @@ const formations: FormationType[] = [
     }
   },
   {
-    title: 'pageFormations.mesquita.title',
-    description: 'pageFormations.mesquita.description',
+    translate: 'pageFormations.mesquita',
     url: "jornalista-francisco-mesquita.web.app",
     photo: Mesquita,
     date: {

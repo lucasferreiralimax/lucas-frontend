@@ -10,15 +10,15 @@ const Formation = ({ dataTestid, data }: FormationProps) => {
 
   return (
     <div data-testid={dataTestid} className="App-formation">
-      <h3 className="title">{t(data.title)}</h3>
+      <h3 className="title">{t(`${data.translate}.title`)}</h3>
       <div className='detail'>
         <a href={`http://${data.url}`} target="_blank">
-          <img width="70" src={data.photo} alt={t(data.title)} />
+          <img width="70" src={data.photo} alt={t(`${data.translate}.title`)} />
         </a>
         <div className="description">
           {data.date.start} - {data.date.end}<br/>
           <hr></hr>
-          {t(data.description)}
+          {t(`${data.translate}.description`)}
         </div>
       </div>
       {data.url && (
