@@ -1,8 +1,8 @@
 import { useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 
-import { FormationType } from '../../components/Formation/types';
-import Formation from '../../components/Formation';
+import { FormationType } from '@/components/Formation/types';
+import Formation from '@/components/Formation';
 import formations from './data';
 
 import './style.scss';

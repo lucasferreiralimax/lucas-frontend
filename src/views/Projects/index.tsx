@@ -1,8 +1,8 @@
 import { useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 
-import { ProjectType } from '../../components/Project/types';
-import Project from '../../components/Project';
+import { ProjectType } from '@/components/Project/types';
+import Project from '@/components/Project';
 import projects from './data';
 import './style.scss';
 

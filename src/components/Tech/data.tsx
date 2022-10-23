@@ -1,22 +1,22 @@
 import { TechType } from './types';
 
-import { ReactComponent as HTML } from '../../assets/techs/html.svg';
-import { ReactComponent as CSS } from '../../assets/techs/css.svg';
-import { ReactComponent as Vue } from '../../assets/techs/vue.svg';
-import { ReactComponent as JS } from '../../assets/techs/js.svg';
-import { ReactComponent as React } from '../../assets/techs/react.svg';
-import { ReactComponent as Angular } from '../../assets/techs/angular.svg';
-import { ReactComponent as Typescript } from '../../assets/techs/typescript.svg';
-import { ReactComponent as Svelte } from '../../assets/techs/svelte.svg';
-import { ReactComponent as Webpack } from '../../assets/techs/webpack.svg';
-import { ReactComponent as Vite } from '../../assets/techs/vite.svg';
-import { ReactComponent as JQuery } from '../../assets/techs/jquery.svg';
-import { ReactComponent as Gulp } from '../../assets/techs/gulp.svg';
-import { ReactComponent as Cypress } from '../../assets/techs/cypress.svg';
-import { ReactComponent as Git } from '../../assets/techs/git.svg';
-import { ReactComponent as Stylus } from '../../assets/techs/stylus.svg';
-import { ReactComponent as Less } from '../../assets/techs/less.svg';
-import { ReactComponent as Sass } from '../../assets/techs/sass.svg';
+import { ReactComponent as HTML } from '@/assets/techs/html.svg';
+import { ReactComponent as CSS } from '@/assets/techs/css.svg';
+import { ReactComponent as Vue } from '@/assets/techs/vue.svg';
+import { ReactComponent as JS } from '@/assets/techs/js.svg';
+import { ReactComponent as React } from '@/assets/techs/react.svg';
+import { ReactComponent as Angular } from '@/assets/techs/angular.svg';
+import { ReactComponent as Typescript } from '@/assets/techs/typescript.svg';
+import { ReactComponent as Svelte } from '@/assets/techs/svelte.svg';
+import { ReactComponent as Webpack } from '@/assets/techs/webpack.svg';
+import { ReactComponent as Vite } from '@/assets/techs/vite.svg';
+import { ReactComponent as JQuery } from '@/assets/techs/jquery.svg';
+import { ReactComponent as Gulp } from '@/assets/techs/gulp.svg';
+import { ReactComponent as Cypress } from '@/assets/techs/cypress.svg';
+import { ReactComponent as Git } from '@/assets/techs/git.svg';
+import { ReactComponent as Stylus } from '@/assets/techs/stylus.svg';
+import { ReactComponent as Less } from '@/assets/techs/less.svg';
+import { ReactComponent as Sass } from '@/assets/techs/sass.svg';
 
 const techs: TechType[] = [
   { title: "HTML",       icon: HTML,       url: "https://developer.mozilla.org/en-US/docs/Glossary/HTML5"      },

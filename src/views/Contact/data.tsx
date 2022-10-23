@@ -1,13 +1,13 @@
 import { ContactItem } from './types';
 
-import { ReactComponent as Linkedin } from '../../assets/icons/linkedin-logo.svg';
-import { ReactComponent as Duolingo } from '../../assets/icons/duolingo-logo.svg';
-import { ReactComponent as Codepen } from '../../assets/icons/codepen-logo.svg';
-import { ReactComponent as Github } from '../../assets/icons/github-logo.svg';
-import { ReactComponent as Emailicon } from '../../assets/icons/email-icon.svg';
-import { ReactComponent as Youtube } from '../../assets/icons/youtube-icon.svg';
-import FreeCodeCamp from '../../assets/icons/freecodecamp-logo.png';
-import PluralSight from '../../assets/icons/pluralsight-logo.png';
+import { ReactComponent as Linkedin } from '@/assets/icons/linkedin-logo.svg';
+import { ReactComponent as Duolingo } from '@/assets/icons/duolingo-logo.svg';
+import { ReactComponent as Codepen } from '@/assets/icons/codepen-logo.svg';
+import { ReactComponent as Github } from '@/assets/icons/github-logo.svg';
+import { ReactComponent as Emailicon } from '@/assets/icons/email-icon.svg';
+import { ReactComponent as Youtube } from '@/assets/icons/youtube-icon.svg';
+import FreeCodeCamp from '@/assets/icons/freecodecamp-logo.png';
+import PluralSight from '@/assets/icons/pluralsight-logo.png';
 
 const contacts: ContactItem[] = [
   {

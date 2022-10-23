@@ -4,14 +4,14 @@ import { NavLink } from "react-router-dom";
 
 import pkg from '../../../package.json';
 
-import { ReactComponent as MenuIcon } from '../../assets/icons/menu-icon.svg';
-import { ReactComponent as EmailIcon } from '../../assets/icons/email-icon.svg';
-import { ReactComponent as HomeIcon } from '../../assets/icons/home-icon.svg';
-import { ReactComponent as BookIcon } from '../../assets/icons/book-icon.svg';
-import { ReactComponent as ProjectIcon } from '../../assets/icons/project-icon.svg';
+import { ReactComponent as MenuIcon } from '@/assets/icons/menu-icon.svg';
+import { ReactComponent as EmailIcon } from '@/assets/icons/email-icon.svg';
+import { ReactComponent as HomeIcon } from '@/assets/icons/home-icon.svg';
+import { ReactComponent as BookIcon } from '@/assets/icons/book-icon.svg';
+import { ReactComponent as ProjectIcon } from '@/assets/icons/project-icon.svg';
 
-import Language from '../Language';
-import Theme from '../Theme';
+import Language from '@/components/Language';
+import Theme from '@/components/Theme';
 
 import './style.scss';
 

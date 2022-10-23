@@ -1,16 +1,16 @@
-import { ProjectType } from '../../components/Project/types';
+import { ProjectType } from '@/components/Project/types';
 
-import SOS from '../../../src/assets/projects/sos.png';
-import ProjetoCriar from '../../../src/assets/projects/projeto-criar-curriculo.png';
-import Detran from '../../../src/assets/projects/detran-simulador.png';
-import Keep from '../../../src/assets/projects/keep-cybernetically.png';
-import AngularBook from '../../../src/assets/projects/angularbook.png';
-import AngularBookNew from '../../../src/assets/projects/angularbook-new.png';
-import Google from '../../../src/assets/projects/google-interface.png';
-import SlideReact from '../../../src/assets/projects/slide-content-react.png';
-import SlideVue from '../../../src/assets/projects/slide-content-vue.png';
-import SlideAngular from '../../../src/assets/projects/slide-content-angular.png';
-import SlideEmber from '../../../src/assets/projects/slide-content-ember.png';
+import SOS from '@/assets/projects/sos.png';
+import ProjetoCriar from '@/assets/projects/projeto-criar-curriculo.png';
+import Detran from '@/assets/projects/detran-simulador.png';
+import Keep from '@/assets/projects/keep-cybernetically.png';
+import AngularBook from '@/assets/projects/angularbook.png';
+import AngularBookNew from '@/assets/projects/angularbook-new.png';
+import Google from '@/assets/projects/google-interface.png';
+import SlideReact from '@/assets/projects/slide-content-react.png';
+import SlideVue from '@/assets/projects/slide-content-vue.png';
+import SlideAngular from '@/assets/projects/slide-content-angular.png';
+import SlideEmber from '@/assets/projects/slide-content-ember.png';
 
 const projects: ProjectType[] = [
   {

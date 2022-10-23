@@ -2,7 +2,7 @@ import { render, screen } from '@testing-library/react';
 import { BrowserRouter } from "react-router-dom";
 import { I18nextProvider } from 'react-i18next';
 import Language from './index';
-import i18n from '../../i18n';
+import i18n from '@/i18n';
 
 describe("Should render <Language/>", () => {
   it('renders simple', () => {

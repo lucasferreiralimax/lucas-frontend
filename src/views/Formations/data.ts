@@ -1,10 +1,10 @@
-import { FormationType } from '../../components/Formation/types';
+import { FormationType } from '@/components/Formation/types';
 
-import Mesquita from '../../../src/assets/formations/mesquita.jpg';
-import Alura from '../../../src/assets/formations/alura.jpg';
-import Origamid from '../../../src/assets/formations/origamid.jpg';
-import CEI from '../../../src/assets/formations/cei.jpg';
-import Senac from '../../../src/assets/formations/senac.jpg';
+import Mesquita from '@/assets/formations/mesquita.jpg';
+import Alura from '@/assets/formations/alura.jpg';
+import Origamid from '@/assets/formations/origamid.jpg';
+import CEI from '@/assets/formations/cei.jpg';
+import Senac from '@/assets/formations/senac.jpg';
 
 const formations: FormationType[] = [
   {

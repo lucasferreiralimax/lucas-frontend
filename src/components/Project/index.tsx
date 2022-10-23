@@ -1,6 +1,6 @@
 import { useTranslation } from 'react-i18next';
-import { ReactComponent as Github } from '../../assets/icons/github-logo.svg';
-import { ReactComponent as LinkIcon } from '../../assets/icons/link-icon.svg';
+import { ReactComponent as Github } from '@/assets/icons/github-logo.svg';
+import { ReactComponent as LinkIcon } from '@/assets/icons/link-icon.svg';
 
 import { ProjectProps } from './types';
 

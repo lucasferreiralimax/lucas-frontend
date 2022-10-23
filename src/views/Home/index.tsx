@@ -3,7 +3,7 @@ import { useTranslation } from 'react-i18next';
 
 import './style.scss';
 
-import Tech from '../../components/Tech';
+import Tech from '@/components/Tech';
 
 const Home = () => {
   const { t } = useTranslation();
