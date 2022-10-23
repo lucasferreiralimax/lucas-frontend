@@ -40,10 +40,10 @@ body {
   display: flex;
   min-width: 320px;
   &.theme-dark {
-    background: #000 url(./assets/icons/shattered.png) fixed;
+    background: #000 url(./assets/icons/shattered.png);
   }
   &.theme-light {
-    background: #fff url(./assets/icons/shattered.png) fixed;
+    background: #fff url(./assets/icons/shattered.png);
   }
 }
 
