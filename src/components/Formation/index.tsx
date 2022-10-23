@@ -1,25 +1,9 @@
 import { useTranslation } from 'react-i18next';
 import { ReactComponent as LinkIcon } from '../../assets/icons/link-icon.svg';
 
+import { FormationProps } from './types';
+
 import './style.scss';
-
-type FormationDate = {
-  start: string;
-  end?: string;
-}
-
-type FormationType = {
-  title: string;
-  description: string;
-  url?: string;
-  photo: string;
-  date: FormationDate
-}
-
-type FormationProps = {
-  dataTestid: string;
-  data: FormationType;
-}
 
 const Formation = ({ dataTestid, data }: FormationProps) => {
   const { t } = useTranslation();
