@@ -3,7 +3,7 @@ type FormationDate = {
   end?: string;
 }
 
-type FormationType = {
+export type FormationType = {
   title: string;
   description: string;
   url?: string;

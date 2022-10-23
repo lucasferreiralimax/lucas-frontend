@@ -1,9 +1,11 @@
 import { useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 
+import { FormationType } from '../../components/Formation/types';
 import Formation from '../../components/Formation';
+import formations from './data';
+
 import './style.scss';
-import formations from './data'
 
 const Formations = () => {
   const { t } = useTranslation();
@@ -16,7 +18,7 @@ const Formations = () => {
     <>
       <h2>📚 { t('navigation.formation') }</h2>
       <div className='formations'>
-        {formations.map((item, index) => {
+        {formations.map((item: FormationType, index: number) => {
           return (
             <Formation
               dataTestid={`app-formation-${++index}`}
