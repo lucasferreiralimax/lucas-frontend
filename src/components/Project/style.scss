@@ -10,7 +10,7 @@
 .App-project {
   align-items: center;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   flex-direction: column;
   border: 1px solid rgba(var(--main-color-rgb), .2);
   border-radius: 10px;
@@ -35,6 +35,11 @@
     text-shadow: 1px 1px var(--main-bg-color-primary);
     border-bottom: 1px solid rgba(var(--main-color-rgb), .2);
   }
+  .description {
+    text-align: center;
+    padding: 0 1rem 1rem;
+    white-space: pre-wrap;
+  }
   a {
     color: var(--main-color);
     &:hover {
@@ -46,7 +51,7 @@
     align-items: center;
     justify-content: center;
     width: 100%;
-    margin-top: 1rem;
+    margin-top: auto;
     a {
       padding: 1rem;
       display: inline-flex;

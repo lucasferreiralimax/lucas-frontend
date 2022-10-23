@@ -17,6 +17,9 @@ const Project = ({ dataTestid, data }: ProjectProps) => {
       <a href={data.url} target="_blank">
         <img width="300" src={data.photo} alt={t(data.title)} />
       </a>
+      <div className='description'>
+        {t(data.description)}
+      </div>
       <div className="actions">
         <a href={data.url} target="_blank">
           <LinkIcon className="icon link" />
