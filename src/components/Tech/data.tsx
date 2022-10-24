@@ -18,6 +18,9 @@ import { ReactComponent as Stylus } from '@/assets/techs/stylus.svg';
 import { ReactComponent as Less } from '@/assets/techs/less.svg';
 import { ReactComponent as Sass } from '@/assets/techs/sass.svg';
 import { ReactComponent as Ember } from '@/assets/techs/ember.svg';
+import { ReactComponent as Jest } from '@/assets/techs/jest.svg';
+import { ReactComponent as Vitest } from '@/assets/techs/vitest.svg';
+import { ReactComponent as Karma } from '@/assets/techs/karma.svg';
 
 const techs: TechType[] = [
   { title: "HTML",       icon: HTML,       url: "https://developer.mozilla.org/en-US/docs/Glossary/HTML5"      },
@@ -35,9 +38,13 @@ const techs: TechType[] = [
   { title: "Webpack",    icon: Webpack,    url: "https://webpack.js.org"                                       },
   { title: "Vite",       icon: Vite,       url: "https://vitejs.dev"                                           },
   { title: "Gulp.js",    icon: Gulp,       url: "https://gulpjs.com"                                           },
+  { title: "Jest",       icon: Jest,       url: "https://jestjs.io/pt-BR"                                      },
+  { title: "Karma",      icon: Karma,      url: "https://karma-runner.github.io"                               },
+  { title: "Vitest",     icon: Vitest,     url: "https://vitest.dev"                                           },
   { title: "Cypress.io", icon: Cypress,    url: "https://www.cypress.io"                                       },
   { title: "Git",        icon: Git,        url: "https://git-scm.com"                                          },
   { title: "jQuery",     icon: JQuery,     url: "https://jquery.com"                                           }
+
 ];
 
 export default techs;
