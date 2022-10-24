@@ -3,6 +3,7 @@ export type ProjectType = {
   url: string;
   repo: string;
   photo: string;
+  techs?: string[];
 }
 
 export type ProjectProps = {

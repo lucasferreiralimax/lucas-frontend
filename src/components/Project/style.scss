@@ -46,12 +46,14 @@
       color: var(--main-color-primary);
     }
   }
+  .footer {
+    margin-top: auto;
+  }
   .actions {
     display: flex;
     align-items: center;
     justify-content: center;
     width: 100%;
-    margin-top: auto;
     a {
       padding: 1rem;
       display: inline-flex;
