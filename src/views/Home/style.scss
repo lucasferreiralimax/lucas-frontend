@@ -1,5 +1,33 @@
-.home p { transition: .3s all; }
+.home {
+  text-align: center;
+  p {
+    transition: .3s all;
+    text-align: left;
+  }
+}
 
 @media (min-width: 1440px) {
   .home p { font-size: 1.2rem; }
+}
+
+.profile-photo {
+  border-radius: 100%;
+  shape-outside: ellipse();
+  margin: 1rem auto;
+  border: 2px solid var(--main-bg-color-primary);
+  box-shadow: 0 0 0 5px var(--main-color-primary), 0 5px 20px 5px var(--main-bg-color-primary);
+  transition: .3s all;
+  cursor: crosshair;
+  @media (min-width: 640px) {
+    width: 300px;
+    float: right;
+    margin: 1rem;
+    border: 4px dashed var(--main-bg-color-primary);
+  }
+  @media (min-width: 1440px) {
+    width: 550px;
+  }
+  &:hover {
+    box-shadow: 0 0 0 5px var(--main-color-primary), 0 5px 20px 5px var(--main-bg-color-primary), 0 0 20px 5px var(--main-color-primary);
+  }
 }

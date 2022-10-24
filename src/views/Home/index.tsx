@@ -2,6 +2,7 @@ import { useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 
 import './style.scss';
+import Lucas from '@/assets/lucaslucas.jpg';
 
 import Tech from '@/components/Tech';
 
@@ -14,6 +15,7 @@ const Home = () => {
 
   return (
     <div className='home'>
+      <img width="70%" className='profile-photo' src={Lucas} alt='Lucas Ferreira de Lima' />
       <p>
         {t('pageHome.paragraphOne.textOne')}<br/>
         {t('pageHome.paragraphOne.textTwo')}
