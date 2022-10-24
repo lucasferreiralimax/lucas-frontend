@@ -24,7 +24,8 @@
     "paragraphTwo": {
       "textOne": "Always developing solutions with technologies: CSS, HTML, JavaScript",
       "textTwo": "Webpack, Gulp.js, Grunt.js, ParcelJS, Cypress.io, jQuery, Quasar.js, Nuxt.js, Typescript, ES6",
-      "textThree": "React.js and the Framework's Angular, Vue.js, and Svelte.js"
+      "textThree": "React.js and the Framework's Angular, Vue.js, and Svelte.js",
+      "textFour": "Working with unit tests in Vitest, Jest and Karma"
     },
     "paragraphThree": {
       "textOne": "I use Git as code versioner and Github, Bitbucket, Gitlab",
