@@ -77,7 +77,7 @@
       },
       "angular": {
         "title": "Interface Google com Angular",
-        "description": "Clone da interface do Google escrito com Angular\nCom teclado virtual, darkmode, internalização de idiomas\nReconhecimento de voz, testes unitários"
+        "description": "Clone da interface do Google escrito com Angular\nCom teclado virtual, darkmode\nReconhecimento de voz, testes unitários"
       },
       "vue": {
         "title": "Interface Google com Vue.js",
@@ -85,7 +85,7 @@
       },
       "svelte": {
         "title": "Interface Google com Svelte",
-        "description": "Clone da interface do Google escrito com Svelte\nCom teclado virtual, darkmode, internalização de idiomas\nReconhecimento de voz, testes unitários"
+        "description": "Clone da interface do Google escrito com Svelte\nCom teclado virtual, darkmode\nReconhecimento de voz, testes unitários"
       }
     },
     "slide": {
