@@ -42,19 +42,19 @@
     "techUsage": "Technologies used",
     "listSOS": {
       "title": "Contact Prevention of Life",
-      "description": "Project with listing of international contacts for life prevention, written from scratch with pure JavaScript"
+      "description": "Project with listing of international contacts for life prevention, written with pure JavaScript, HTML and CSS"
     },
     "createCurriculum": {
       "title": "Project Create Resume",
-      "description": "This web application is a social action and helps people to create a professional, elegant curriculum in a simple and objective way."
+      "description": "This web application is a social action and helps peoples to create a professional, elegant curriculum in a simple and objective"
     },
     "detran": {
       "title": "Detran Simulator",
-      "description": "This social project to help people prepare for a test with questions about Brazilian traffic laws\nConstructed in a simple way to reach every Brazilian citizen and help in their preparation time"
+      "description": "This social project to help peoples prepare for a test with questions about Brazilian traffic laws\nConstructed in a simple objective to helper every Brazilian citizen for preparation exam"
     },
     "notes": {
       "title": "Web Note Application Svelte",
-      "description": "Notes interface created with Svelte, Pug.js and Stylus\nExamples of notes recorded in localStorage\nwith responsive design and darkmode\nButton animations and modal transitions"
+      "description": "Notes interface created with Svelte, Pug.js and Stylus\nExamples of notes saved in localStorage\nwith responsive design and darkmode\nButton with animations and modal transitions"
     },
     "facebook": {
       "old": {
