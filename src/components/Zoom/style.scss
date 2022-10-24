@@ -3,7 +3,7 @@
   transition: none;
   width: 300px;
   height: 250px;
-  .content .active {
+  .content.active {
     background: rgba(#000, .3);
     position: fixed;
     top: 0;
