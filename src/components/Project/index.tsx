@@ -2,6 +2,7 @@ import { useTranslation } from 'react-i18next';
 import { ReactComponent as Github } from '@/assets/icons/github-logo.svg';
 import { ReactComponent as LinkIcon } from '@/assets/icons/link-icon.svg';
 import Tech from '@/components/Tech';
+import Zoom from '@/components/Zoom';
 
 import { ProjectProps } from './types';
 
@@ -13,9 +14,7 @@ const Project = ({ dataTestid, data }: ProjectProps) => {
   return (
     <div data-testid={dataTestid} className="App-project">
       <h3 className="title">{t(`${data.translate}.title`)}</h3>
-      <a href={data.url} target="_blank">
-        <img width="300" src={data.photo} alt={t(`${data.translate}.title`)} />
-      </a>
+      <Zoom size={{ width: '300px' }} img={data.photo} alt={t(`${data.translate}.title`)} />
       <div className='description'>
         {t(`${data.translate}.description`)}
       </div>
