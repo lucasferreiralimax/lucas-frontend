@@ -9,6 +9,7 @@ import { ReactComponent as MenuIcon } from '@/assets/icons/menu-icon.svg';
 import Language from '@/components/Language';
 import Theme from '@/components/Theme';
 
+import { NavigationTypes } from './types';
 import './style.scss';
 
 const Navigation = () => {
@@ -48,7 +49,7 @@ const Navigation = () => {
       </button>
       <div className="app-nav-content">
         <h4 className='app-nav-title'>{t('navigation.title')}</h4>
-        {listNavigation.map((item) => (
+        {listNavigation.map((item: NavigationTypes) => (
           <NavLink
             className={({ isActive }: any) => (isActive ? 'app-nav-item active' : 'app-nav-item')}
             to={item.url}
