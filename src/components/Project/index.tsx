@@ -12,9 +12,7 @@ const Project = ({ dataTestid, data }: ProjectProps) => {
 
   return (
     <div data-testid={dataTestid} className="App-project">
-      <a className="title" href={data.url} target="_blank">
-        <h3>{t(`${data.translate}.title`)}</h3>
-      </a>
+      <h3 className="title">{t(`${data.translate}.title`)}</h3>
       <a href={data.url} target="_blank">
         <img width="300" src={data.photo} alt={t(`${data.translate}.title`)} />
       </a>
