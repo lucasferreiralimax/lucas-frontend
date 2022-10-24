@@ -109,7 +109,7 @@ const projects: ProjectType[] = [
     url: "https://g00gle-svelte.web.app",
     repo: "https://github.com/lucasferreiralimax/google-svelte",
     photo: Google,
-    techs: ['HTML', 'CSS', 'JavaScript', 'Svelte', 'Sass']
+    techs: ['HTML', 'CSS', 'JavaScript', 'Svelte', 'Sass', 'Git']
   }
 ];
 
