@@ -22,7 +22,12 @@ const Project = ({ dataTestid, data }: ProjectProps) => {
         {t(`${data.translate}.description`)}
       </div>
       <div className='footer'>
-        {data.techs && <Tech show={data.techs} />}
+        {data.techs && (
+          <>
+            <strong>{t('pageProjects.techUsage')}</strong>
+            <Tech show={data.techs} />
+          </>
+        )}
         <div className="actions">
           <a href={data.url} target="_blank">
             <LinkIcon className="icon link" />

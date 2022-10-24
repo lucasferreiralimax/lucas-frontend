@@ -39,6 +39,7 @@
     }
   },
   "pageProjects": {
+    "techUsage": "Technologies used",
     "listSOS": {
       "title": "Contact Prevention of Life",
       "description": "Project with listing of international contacts for life prevention, written from scratch with pure JavaScript"
