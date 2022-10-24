@@ -17,6 +17,7 @@ import { ReactComponent as Git } from '@/assets/techs/git.svg';
 import { ReactComponent as Stylus } from '@/assets/techs/stylus.svg';
 import { ReactComponent as Less } from '@/assets/techs/less.svg';
 import { ReactComponent as Sass } from '@/assets/techs/sass.svg';
+import { ReactComponent as Ember } from '@/assets/techs/ember.svg';
 
 const techs: TechType[] = [
   { title: "HTML",       icon: HTML,       url: "https://developer.mozilla.org/en-US/docs/Glossary/HTML5"      },
@@ -27,6 +28,7 @@ const techs: TechType[] = [
   { title: "React",      icon: React,      url: "https://reactjs.org"                                          },
   { title: "Angular",    icon: Angular,    url: "https://angular.io"                                           },
   { title: "Svelte",     icon: Svelte,     url: "https://svelte.dev"                                           },
+  { title: "Ember",      icon: Ember,      url: "https://emberjs.com"                                          },
   { title: "Stylus",     icon: Stylus,     url: "https://stylus-lang.com"                                      },
   { title: "Less",       icon: Less,       url: "https://lesscss.org"                                          },
   { title: "Sass",       icon: Sass,       url: "https://sass-lang.com"                                        },
