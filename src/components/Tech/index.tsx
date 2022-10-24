@@ -26,7 +26,7 @@ const Tech = ({ show } : TechProps) => {
           key={`tech-${item.title}`}
           className={`tech-${item.title}`}
         >
-          <item.icon />
+          <item.icon className='tech-icon' />
         </a>
       ))}
     </section>
