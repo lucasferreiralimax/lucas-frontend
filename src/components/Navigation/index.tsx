@@ -39,6 +39,8 @@ const Navigation = () => {
     <nav
       data-testid="app-nav"
       className={ `app-nav${nav ? ' active' : '' }`}
+      role="navigation"
+      aria-label={t('navigation.aria.description')}
     >
       <button
         className="app-nav-menu"

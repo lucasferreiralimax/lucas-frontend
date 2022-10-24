@@ -14,7 +14,10 @@
     "works": "Experiencias",
     "formation": "Formación",
     "courses": "Cursos",
-    "contact": "Contacto"
+    "contact": "Contacto",
+    "aria": {
+      "description": "Navegación a las páginas de el portfolio"
+    }
   },
   "pageHome": {
     "paragraphOne": {
