@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import './style.scss';
 
 import Portal from '@/components/Portal'
+import { useTranslation } from 'react-i18next';
 
 type ZoomSize = {
   width?: string;
@@ -15,6 +16,8 @@ type ZoomTypes = {
 };
 
 const Zoom = ({size, img, alt} : ZoomTypes) => {
+  const { t } = useTranslation();
+
   const initialCodition = window.innerWidth < window.innerHeight;
 
   const getWidth = (condition: boolean) => condition ? '90%' : 'auto';
@@ -28,7 +31,9 @@ const Zoom = ({size, img, alt} : ZoomTypes) => {
   useEffect(() => {
     if (figureZoom) {
       document.body.style.overflow = 'hidden';
+      document.title = `Zoom ${alt}`;
     } else {
+      document.title = `Lucas ${t('navigation.projects')}`;
       document.body.removeAttribute('style');
     }
   }, [figureZoom]);
