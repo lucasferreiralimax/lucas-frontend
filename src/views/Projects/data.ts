@@ -17,85 +17,99 @@ const projects: ProjectType[] = [
     translate: 'pageProjects.listSOS',
     url: "https://lucasferreiralimax.github.io/save-our-soul",
     repo: "https://github.com/lucasferreiralimax/save-our-soul",
-    photo: SOS
+    photo: SOS,
+    techs: ['HTML', 'CSS', 'JavaScript']
   },
   {
     translate: 'pageProjects.createCurriculum',
     url: "https://criar-curriculo.web.app",
     repo: "https://github.com/lucasferreiralimax/criarcurriculo",
-    photo: ProjetoCriar
+    photo: ProjetoCriar,
+    techs: ['HTML', 'CSS', 'JavaScript', 'Vue']
   },
   {
     translate: 'pageProjects.detran',
     url: "https://detran-simulador.web.app",
     repo: "https://github.com/lucasferreiralimax/detran-simulador",
-    photo: Detran
+    photo: Detran,
+    techs: ['HTML', 'CSS', 'Typescript', 'Angular']
   },
   {
     translate: 'pageProjects.notes',
     url: "https://keep-cybernetically.web.app",
     repo: "https://github.com/lucasferreiralimax/keep_cybernetically",
-    photo: Keep
+    photo: Keep,
+    techs: ['HTML', 'CSS', 'JavaScript', 'Svelte']
   },
   {
     translate: 'pageProjects.facebook.old',
     url: "https://angular-facebook.web.app",
     repo: "https://github.com/lucasferreiralimax/angularbook",
-    photo: AngularBook
+    photo: AngularBook,
+    techs: ['HTML', 'CSS', 'Typescript', 'Angular']
   },
   {
     translate: 'pageProjects.facebook.new',
     url: "https://angular-facebook-new.web.app",
     repo: "https://github.com/lucasferreiralimax/angularbook-new",
-    photo: AngularBookNew
+    photo: AngularBookNew,
+    techs: ['HTML', 'CSS', 'Typescript', 'Angular']
   },
   {
     translate: 'pageProjects.slide.react',
     url: "https://slidecontent-reactjs.web.app",
     repo: "https://github.com/lucasferreiralimax/slidecontent-react",
-    photo: SlideReact
+    photo: SlideReact,
+    techs: ['HTML', 'CSS', 'JavaScript', 'React']
   },
   {
     translate: 'pageProjects.slide.vue',
     url: "https://slidecontent-vuejs.web.app",
     repo: "https://github.com/lucasferreiralimax/slidecontent-vue",
-    photo: SlideVue
+    photo: SlideVue,
+    techs: ['HTML', 'CSS', 'JavaScript', 'Vue']
   },
   {
     translate: 'pageProjects.slide.angular',
     url: "https://angular-slidecontent.web.app",
     repo: "https://github.com/lucasferreiralimax/slidecontent-angular",
-    photo: SlideAngular
+    photo: SlideAngular,
+    techs: ['HTML', 'CSS', 'Typescript', 'Angular']
   },
   {
     translate: 'pageProjects.slide.ember',
     url: "https://slidecontent-ember.web.app",
     repo: "https://github.com/lucasferreiralimax/slidecontent-ember",
-    photo: SlideEmber
+    photo: SlideEmber,
+    techs: ['HTML', 'CSS', 'JavaScript', 'Ember']
   },
   {
     translate: 'pageProjects.google.react',
     url: "https://g00gle-reactjs.web.app",
     repo: "https://github.com/lucasferreiralimax/google-react",
-    photo: Google
+    photo: Google,
+    techs: ['HTML', 'CSS', 'JavaScript', 'React']
   },
   {
     translate: 'pageProjects.google.angular',
     url: "https://g00gle-angular.web.app",
     repo: "https://github.com/lucasferreiralimax/google-angular",
-    photo: Google
+    photo: Google,
+    techs: ['HTML', 'CSS', 'Typescript', 'Angular']
   },
   {
     translate: 'pageProjects.google.vue',
     url: "https://g00gle-vue.web.app",
     repo: "https://github.com/lucasferreiralimax/google-vue",
-    photo: Google
+    photo: Google,
+    techs: ['HTML', 'CSS', 'JavaScript', 'Vue']
   },
   {
     translate: 'pageProjects.google.svelte',
     url: "https://g00gle-svelte.web.app",
     repo: "https://github.com/lucasferreiralimax/google-svelte",
-    photo: Google
+    photo: Google,
+    techs: ['HTML', 'CSS', 'JavaScript', 'Svelte']
   }
 ];
 
