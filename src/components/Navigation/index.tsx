@@ -4,12 +4,8 @@ import { NavLink } from "react-router-dom";
 
 import pkg from '../../../package.json';
 
+import listNavigation from './data';
 import { ReactComponent as MenuIcon } from '@/assets/icons/menu-icon.svg';
-import { ReactComponent as EmailIcon } from '@/assets/icons/email-icon.svg';
-import { ReactComponent as HomeIcon } from '@/assets/icons/home-icon.svg';
-import { ReactComponent as BookIcon } from '@/assets/icons/book-icon.svg';
-import { ReactComponent as ProjectIcon } from '@/assets/icons/project-icon.svg';
-
 import Language from '@/components/Language';
 import Theme from '@/components/Theme';
 
@@ -52,38 +48,17 @@ const Navigation = () => {
       </button>
       <div className="app-nav-content">
         <h4 className='app-nav-title'>{t('navigation.title')}</h4>
-        <NavLink
-          className={({ isActive }: any) => (isActive ? 'app-nav-item active' : 'app-nav-item')}
-          to="/"
-          end
-        >
-          <HomeIcon />
-          <span>{t('navigation.home')}</span>
-        </NavLink>
-        <NavLink
-          className={({ isActive }: any) => (isActive ? 'app-nav-item active' : 'app-nav-item')}
-          to="/projects"
-          end
-        >
-          <ProjectIcon />
-          <span>{t('navigation.projects')}</span>
-        </NavLink>
-        <NavLink
-          className={({ isActive }: any) => (isActive ? 'app-nav-item active' : 'app-nav-item')}
-          to="/formation"
-          end
-        >
-          <BookIcon />
-          <span>{t('navigation.formation')}</span>
-        </NavLink>
-        <NavLink
-          className={({ isActive }: any) => (isActive ? 'app-nav-item active' : 'app-nav-item')}
-          to="/contact"
-          end
-        >
-          <EmailIcon />
-          <span>{t('navigation.contact')}</span>
-        </NavLink>
+        {listNavigation.map((item) => (
+          <NavLink
+            className={({ isActive }: any) => (isActive ? 'app-nav-item active' : 'app-nav-item')}
+            to={item.url}
+            key={item.name}
+            end
+          >
+            <item.icon />
+            <span>{t(`navigation.${item.name}`)}</span>
+          </NavLink>
+        ))}
         <div className='nav-footer'>
           <Language />
           <Theme />
