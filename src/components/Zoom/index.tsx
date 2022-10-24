@@ -1,6 +1,8 @@
 import { useEffect, useState } from 'react';
 import './style.scss';
 
+import Portal from '@/components/Portal'
+
 type ZoomSize = {
   width?: string;
   height?: string;
@@ -23,7 +25,6 @@ const Zoom = ({size, img, alt} : ZoomTypes) => {
   const [width, setWidth] = useState<string | number>(getWidth(initialCodition))
   const [height, setHeight] = useState<string | number>(getHeight(initialCodition))
 
-
   useEffect(() => {
     if (figureZoom) {
       document.body.style.overflow = 'hidden';
@@ -44,19 +45,23 @@ const Zoom = ({size, img, alt} : ZoomTypes) => {
     }
   }, [height, width, setWidth, setHeight])
 
+  const FigureContent = () => (
+    <div
+      className={figureZoom ? 'app-zoom-content active' : 'app-zoom-content'}
+      onClick={HandleZoom}
+    >
+      <img
+        width={figureZoom ? width : size?.width}
+        height={figureZoom ? height : size?.height}
+        src={img}
+        alt={alt}
+      />
+    </div>
+  );
+
   return (
     <section className='app-zoom' data-testid="app-zoom">
-      <div
-        className={figureZoom ? 'content active' : 'content'}
-        onClick={HandleZoom}
-      >
-        <img
-          width={figureZoom ? width : size?.width}
-          height={figureZoom ? height : size?.height}
-          src={img}
-          alt={alt}
-        />
-      </div>
+      {figureZoom ? <Portal><FigureContent /></Portal> : <FigureContent />}
     </section>
   )
 }
