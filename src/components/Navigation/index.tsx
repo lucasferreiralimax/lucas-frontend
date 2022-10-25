@@ -55,6 +55,8 @@ const Navigation = () => {
             to={item.url}
             key={item.name}
             end
+            role='link'
+            aria-label={`Link ${t(`navigation.${item.name}`)}`}
           >
             <item.icon />
             <span>{t(`navigation.${item.name}`)}</span>
