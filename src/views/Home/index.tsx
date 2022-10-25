@@ -14,7 +14,7 @@ const Home = () => {
   }, []);
 
   return (
-    <div className='app-home'>
+    <div className='app-home' data-testid='app-home'>
       <img width='70%' className='app-profile__photo' src={Lucas} alt='Lucas Ferreira de Lima' />
       <p>
         {t('pageHome.paragraphOne.textOne')}<br/>

@@ -23,13 +23,12 @@ const renderWithRouter = (ui: any, { route = '/' } = {}) => {
   return render(ui)
 }
 
-beforeEach(async () => {
-  await act(async () => {
-    renderWithRouter(<AppWapper />, { route: '/' });
-  });
-});
-
 describe('App', () => {
+  beforeEach(async () => {
+    await act(async () => {
+      renderWithRouter(<AppWapper />, { route: '/' });
+    });
+  });
   it('renders app-loading', async () => {
     let loading = await screen.findByTestId('app-loading');
     expect(loading).toBeInTheDocument();
@@ -46,4 +45,27 @@ describe('App', () => {
     let footer = await screen.findByTestId('app-footer');
     expect(footer).toBeInTheDocument();
   });
-})
+});
+
+describe('App Routes Test View', () => {
+  it('renders app-home', async () => {
+    renderWithRouter(<AppWapper />, { route: '/' });
+    let home = await screen.findByTestId('app-home');
+    expect(home).toBeInTheDocument();
+  });
+  it('renders app-projects', async () => {
+    renderWithRouter(<AppWapper />, { route: '/projects' });
+    let projects = await screen.findByTestId('app-projects');
+    expect(projects).toBeInTheDocument();
+  });
+  it('renders app-formations', async () => {
+    renderWithRouter(<AppWapper />, { route: '/formation' });
+    let formations = await screen.findByTestId('app-formations');
+    expect(formations).toBeInTheDocument();
+  });
+  it('renders app-social', async () => {
+    renderWithRouter(<AppWapper />, { route: '/contact' });
+    let social = await screen.findByTestId('app-social');
+    expect(social).toBeInTheDocument();
+  });
+});
