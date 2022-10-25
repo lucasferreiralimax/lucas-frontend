@@ -38,4 +38,12 @@ describe('App', () => {
     let container = await screen.findByTestId('app-container');
     expect(container).toBeInTheDocument();
   });
+  it('renders app-header', async () => {
+    let header = await screen.findByTestId('app-header');
+    expect(header).toBeInTheDocument();
+  });
+  it('renders app-footer', async () => {
+    let footer = await screen.findByTestId('app-footer');
+    expect(footer).toBeInTheDocument();
+  });
 })
