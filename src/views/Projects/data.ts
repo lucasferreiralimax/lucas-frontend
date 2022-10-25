@@ -11,6 +11,7 @@ import SlideReact from '@/assets/projects/slide-content-react.png';
 import SlideVue from '@/assets/projects/slide-content-vue.png';
 import SlideAngular from '@/assets/projects/slide-content-angular.png';
 import SlideEmber from '@/assets/projects/slide-content-ember.png';
+import ChatVue from '@/assets/projects/web-chat-vue.png';
 
 const projects: ProjectType[] = [
   {
@@ -54,6 +55,13 @@ const projects: ProjectType[] = [
     repo: 'https://github.com/lucasferreiralimax/angularbook-new',
     photo: AngularBookNew,
     techs: ['HTML', 'CSS', 'Typescript', 'Angular', 'Sass', 'Git', 'Karma']
+  },
+  {
+    translate: 'pageProjects.chatVue',
+    url: 'https://web-chat-vue.web.app',
+    repo: 'https://github.com/lucasferreiralimax/chat-vue',
+    photo: ChatVue,
+    techs: ['HTML', 'CSS', 'Typescript', 'Vue', 'Stylus', 'Git', 'Jest', 'Cypress.io']
   },
   {
     translate: 'pageProjects.slide.react',

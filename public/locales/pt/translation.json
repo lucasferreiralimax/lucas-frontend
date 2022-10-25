@@ -60,6 +60,10 @@
       "title": "Web Aplicativo de Notas com Svelte",
       "description": "Interface de notas criada com Svelte, Pug.js e Stylus\nExemplos de notas gravadas no localStorage\ncom design responsivo e darkmode\nAnimações nos botões e transições no modais"
     },
+    "chatVue": {
+      "title": "Web Chat Vue",
+      "description": "Interface de chat web escrito com Vue.js\nCom responsividade e página de login personalizada\ninternalização de idiomas\ntestes unitários e testes e2e"
+    },
     "facebook": {
       "old": {
         "title": "Facebook com Angular",
