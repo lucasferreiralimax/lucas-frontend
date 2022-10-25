@@ -22,7 +22,7 @@ const Navigation = () => {
   }
 
   useEffect(() => {
-    let links = document.querySelectorAll('.app-nav-item')
+    let links = document.querySelectorAll('.app-nav__item')
     for(let link of links) { link.addEventListener('click', menu) }
     document.addEventListener('keyup', menuEvent);
 
