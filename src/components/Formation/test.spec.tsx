@@ -4,7 +4,7 @@ import i18n from '@/i18n';
 import Formation from './index';
 
 describe('Should render <Formation/>', () => {
-  beforeEach(async () => {
+  beforeEach(() => {
     render(
       <I18nextProvider i18n={i18n}>
         <Formation

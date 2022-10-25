@@ -5,14 +5,27 @@ import i18n from '@/i18n';
 import Header from './index';
 
 describe('Should render <Header/>', () => {
-  it('renders simple', () => {
+  beforeEach(() => {
     render(
       <I18nextProvider i18n={i18n}>
         <BrowserRouter>
           <Header />
         </BrowserRouter>
       </I18nextProvider>
-    )
-    expect(screen.getByTestId('app-header')).toBeInTheDocument()
+    );
+  });
+  it('renders simple header', () => {
+    expect(screen.getByTestId('app-header')).toBeInTheDocument();
+  });
+  it('renders navigation', () => {
+    expect(screen.getByTestId('app-nav')).toBeInTheDocument();
+  });
+  it('render title Lucas Ferreira de Lima', () => {
+    const title = screen.getByText(/Lucas Ferreira de Lima/i);
+    expect(title).toBeInTheDocument();
+    expect(title.getAttribute('href')).toBe('/');
+  });
+  it('render flag Brasil', () => {
+    expect(screen.getByRole('img', { name: /Brasil/i })).toBeInTheDocument();
   });
 });

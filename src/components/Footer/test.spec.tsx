@@ -3,7 +3,7 @@ import { render, screen } from '@testing-library/react';
 import Footer from './index';
 
 describe('Should render <Footer/>', () => {
-  beforeEach(async () => {
+  beforeEach(() => {
     render(<Footer />);
   });
   it('renders simple footer', () => {
