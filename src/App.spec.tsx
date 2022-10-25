@@ -30,7 +30,12 @@ beforeEach(async () => {
 });
 
 describe('App', () => {
-  it('renders app-loading', () => {
-    expect(screen.getByTestId('app-loading')).toBeInTheDocument();
+  it('renders app-loading', async () => {
+    let loading = await screen.findByTestId('app-loading');
+    expect(loading).toBeInTheDocument();
+  });
+  it('renders app-container', async () => {
+    let container = await screen.findByTestId('app-container');
+    expect(container).toBeInTheDocument();
   });
 })
