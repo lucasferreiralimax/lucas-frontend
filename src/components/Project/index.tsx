@@ -26,11 +26,19 @@ const Project = ({ dataTestid, data }: ProjectProps) => {
           </>
         )}
         <div className='app-project__actions'>
-          <a href={data.url} target='_blank'>
+          <a
+            href={data.url} target='_blank'
+            role="link"
+            aria-label={`Link ${t(`${data.translate}.title`)}`}
+          >
             <LinkIcon className='app-project__icon link' />
             <span>Link</span>
           </a>
-          <a href={data.repo} target='_blank'>
+          <a
+            href={data.repo} target='_blank'
+            role="link"
+            aria-label={`Github ${t(`${data.translate}.title`)}`}
+          >
             <Github className='app-project__icon github' />
             <span>Github</span>
           </a>
