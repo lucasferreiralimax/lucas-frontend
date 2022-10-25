@@ -12,7 +12,12 @@ const Formation = ({ dataTestid, data }: FormationProps) => {
     <div data-testid={dataTestid} className='app-formation'>
       <h3 className='app-formation__title'>{t(`${data.translate}.title`)}</h3>
       <div className='app-formation__detail'>
-        <a href={`http://${data.url}`} target='_blank'>
+        <a
+          href={`http://${data.url}`}
+          target='_blank'
+          role="link"
+          aria-label={`Link ${t(`${data.translate}.title`)}`}
+        >
           <img width='70' src={data.photo} alt={t(`${data.translate}.title`)} />
         </a>
         <div className='app-formation__description'>
@@ -23,7 +28,12 @@ const Formation = ({ dataTestid, data }: FormationProps) => {
       </div>
       {data.url && (
         <div className='app-formation__actions'>
-          <a href={`http://${data.url}`} target='_blank'>
+          <a
+            href={`http://${data.url}`}
+            target='_blank'
+            role="link"
+            aria-label={`Link ${t(`${data.translate}.title`)}`}
+          >
             <LinkIcon className='app-formation__icon link' />
             <span>Site</span>
           </a>
