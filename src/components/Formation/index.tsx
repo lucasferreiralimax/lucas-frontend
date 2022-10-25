@@ -9,22 +9,22 @@ const Formation = ({ dataTestid, data }: FormationProps) => {
   const { t } = useTranslation();
 
   return (
-    <div data-testid={dataTestid} className="App-formation">
-      <h3 className="title">{t(`${data.translate}.title`)}</h3>
-      <div className='detail'>
-        <a href={`http://${data.url}`} target="_blank">
-          <img width="70" src={data.photo} alt={t(`${data.translate}.title`)} />
+    <div data-testid={dataTestid} className='app-formation'>
+      <h3 className='app-formation__title'>{t(`${data.translate}.title`)}</h3>
+      <div className='app-formation__detail'>
+        <a href={`http://${data.url}`} target='_blank'>
+          <img width='70' src={data.photo} alt={t(`${data.translate}.title`)} />
         </a>
-        <div className="description">
+        <div className='app-formation__description'>
           {data.date.start} - {data.date.end}<br/>
           <hr></hr>
           {t(`${data.translate}.description`)}
         </div>
       </div>
       {data.url && (
-        <div className="actions">
-          <a href={`http://${data.url}`} target="_blank">
-            <LinkIcon className="icon link" />
+        <div className='app-formation__actions'>
+          <a href={`http://${data.url}`} target='_blank'>
+            <LinkIcon className='app-formation__icon link' />
             <span>Site</span>
           </a>
         </div>

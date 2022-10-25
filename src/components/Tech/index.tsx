@@ -18,15 +18,15 @@ const Tech = ({ show } : TechProps) => {
   }, []);
 
   return (
-    <section className="app-tech" data-testid="app-tech">
+    <section className='app-tech' data-testid='app-tech'>
       {list.map((item: TechType) => (
         <a
           href={item.url}
-          target="_blank"
+          target='_blank'
           key={`tech-${item.title}`}
-          className={`tech-${item.title}`}
+          className={`app-tech__${item.title}`}
         >
-          <item.icon className='tech-icon' />
+          <item.icon className='app-tech__icon' />
         </a>
       ))}
     </section>

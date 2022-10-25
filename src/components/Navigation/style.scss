@@ -1,13 +1,13 @@
 .app-nav {
   position: relative;
   z-index: 99;
-  &.active .app-nav-content {
+  &.active .app-nav__content {
     box-shadow: 0 10px 20px rgba(0,0,0,.2);
     transform: translateX(0);
   }
 }
 
-.app-nav-content {
+.app-nav__content {
   background-color: var(--main-bg-color-primary);
   border-left: 1px solid rgba(var(--main-color-rgb), .2);
   bottom: 0;
@@ -34,24 +34,27 @@
   }
 }
 
-.app-nav-title {
+.app-nav__title {
   margin-top: 0;
   margin-bottom: .5rem;
 }
 
-.nav-footer {
+.app-nav__footer {
   margin-top: auto;
-  .version { text-align: center; }
+  .app-nav__version {
+    text-align: center;
+    font-size: .8rem;
+  }
 }
 
-.theme-light .app-nav-content {
+.theme-light .app-nav__content {
   @media (min-width: 1000px) {
     background-color: var(--main-bg-color-primary);
     backdrop-filter: none;
   }
 }
 
-.app-nav-item {
+.app-nav__item {
   -webkit-tap-highlight-color: transparent;
   background: var(--main-bg-color-primary);
   border: 1px solid rgba(var(--main-color-rgb), .2);
@@ -92,7 +95,7 @@
   }
 }
 
-.app-nav-menu {
+.app-nav__menu {
   position: fixed;
   top: 20px;
   right: 20px;
@@ -137,7 +140,7 @@
   }
 }
 
-.overlay {
+.app-nav__overlay {
   position: fixed;
   top: 0;
   right: 0;

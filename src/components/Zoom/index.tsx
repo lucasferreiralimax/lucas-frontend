@@ -44,15 +44,15 @@ const Zoom = ({size, img, alt} : ZoomTypes) => {
       setHeight(getHeight(window.innerWidth < window.innerHeight))
     };
 
-    window.addEventListener("resize", updateWidthAndHeight)
+    window.addEventListener('resize', updateWidthAndHeight)
     return () => {
-      window.removeEventListener("resize", updateWidthAndHeight)
+      window.removeEventListener('resize', updateWidthAndHeight)
     }
   }, [height, width, setWidth, setHeight])
 
   const FigureContent = () => (
     <div
-      className={figureZoom ? 'app-zoom-content active' : 'app-zoom-content'}
+      className={figureZoom ? 'app-zoom__content active' : 'app-zoom__content'}
       onClick={HandleZoom}
     >
       <img
@@ -65,7 +65,7 @@ const Zoom = ({size, img, alt} : ZoomTypes) => {
   );
 
   return (
-    <section className='app-zoom' data-testid="app-zoom">
+    <section className='app-zoom' data-testid='app-zoom'>
       {figureZoom ? <Portal><FigureContent /></Portal> : <FigureContent />}
     </section>
   )

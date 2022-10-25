@@ -7,7 +7,7 @@ const Language = () => {
   const { t, i18n } = useTranslation();
 
   useEffect(() => {
-    const language = localStorage.getItem("language");
+    const language = localStorage.getItem('language');
     if (language) {
       i18n.changeLanguage(language)
       document.documentElement.lang = language;
@@ -16,23 +16,23 @@ const Language = () => {
 
   const changeLanguages = (value: string) => {
     i18n.changeLanguage(value);
-    localStorage.setItem("language", value);
+    localStorage.setItem('language', value);
     document.documentElement.lang = value;
   }
 
   return (
     <>
-      <h4>{t('languages.title')}</h4>
+      <h4 className='app-language__title'>{t('languages.title')}</h4>
       <select
-        name="language"
-        className="app-language"
-        data-testid="app-language"
+        name='language'
+        className='app-language'
+        data-testid='app-language'
         value={i18n.language}
         onChange={({ target: { value }}) => changeLanguages(value)}
       >
-        <option value="pt">{t('languages.pt')}</option>
-        <option value="en">{t('languages.en')}</option>
-        <option value="es">{t('languages.es')}</option>
+        <option value='pt'>{t('languages.pt')}</option>
+        <option value='en'>{t('languages.en')}</option>
+        <option value='es'>{t('languages.es')}</option>
       </select>
     </>
   )

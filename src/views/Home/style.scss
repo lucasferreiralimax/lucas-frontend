@@ -1,16 +1,15 @@
-.home {
+.app-home {
   text-align: center;
   p {
     transition: .3s all;
     text-align: left;
+    @media (min-width: 1440px) {
+      font-size: 1.2rem;
+    }
   }
 }
 
-@media (min-width: 1440px) {
-  .home p { font-size: 1.2rem; }
-}
-
-.profile-photo {
+.app-profile__photo {
   border-radius: 100%;
   shape-outside: ellipse();
   margin: 1rem auto;

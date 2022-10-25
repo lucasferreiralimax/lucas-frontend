@@ -17,7 +17,7 @@ const Formations = () => {
   return (
     <>
       <h2>📚 { t('navigation.formation') }</h2>
-      <div className='formations'>
+      <div className='app-formations'>
         {formations.map((item: FormationType, index: number) => {
           return (
             <Formation

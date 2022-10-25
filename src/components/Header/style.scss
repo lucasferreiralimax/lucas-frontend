@@ -1,31 +1,28 @@
-@import "src/mixins/_responsive.scss";
+@import 'src/mixins/_responsive.scss';
 
-.app-header {
-  h1 {
-    line-height: 1.1;
-    &.name {
-      font-size: 5.2em;
-      font-family: 'Kaushan Script', cursive;
-      text-shadow: 2px 2px 2px var(--main-bg-color-primary);
-      a {
-        display: flex;
-        align-items: center;
-      }
-      svg {
-        margin-right: 1rem;
-        filter: drop-shadow(2px 2px 2px var(--main-bg-color-primary));
-      }
-      @include desktop {
-        font-size: 3.2em;
-      }
-      @include mobile {
-        font-size: 1.5em;
-        svg {
-          width: 40px;
-          height: 28px;
-          margin-right: .5rem;
-        }
-      }
+.app-header__name {
+  line-height: 1.1;
+  font-size: 5.2em;
+  margin-top: 0;
+  font-family: 'Kaushan Script', cursive;
+  text-shadow: 2px 2px 2px var(--main-bg-color-primary);
+  a {
+    display: flex;
+    align-items: center;
+  }
+  svg {
+    margin-right: 1rem;
+    filter: drop-shadow(2px 2px 2px var(--main-bg-color-primary));
+  }
+  @include desktop {
+    font-size: 3.2em;
+  }
+  @include mobile {
+    font-size: 1.5em;
+    svg {
+      width: 40px;
+      height: 28px;
+      margin-right: .5rem;
     }
   }
 }

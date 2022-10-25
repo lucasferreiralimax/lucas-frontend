@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
-import { NavLink } from "react-router-dom";
+import { NavLink } from 'react-router-dom';
 
 import pkg from '../../../package.json';
 
@@ -34,24 +34,24 @@ const Navigation = () => {
 
   return (
     <nav
-      data-testid="app-nav"
+      data-testid='app-nav'
       className={ `app-nav${nav ? ' active' : '' }`}
-      role="navigation"
+      role='navigation'
       aria-label={t('navigation.aria.description')}
     >
       <button
-        className="app-nav-menu"
+        className='app-nav__menu'
         aria-label={t('menu.arial_label.menu_button')}
         onClick={menu}
-        type="button"
+        type='button'
       >
         <MenuIcon />
       </button>
-      <div className="app-nav-content">
-        <h4 className='app-nav-title'>{t('navigation.title')}</h4>
+      <div className='app-nav__content'>
+        <h4 className='app-nav__title'>{t('navigation.title')}</h4>
         {listNavigation.map((item: NavigationTypes) => (
           <NavLink
-            className={({ isActive }: any) => (isActive ? 'app-nav-item active' : 'app-nav-item')}
+            className={({ isActive }: any) => (isActive ? 'app-nav__item active' : 'app-nav__item')}
             to={item.url}
             key={item.name}
             end
@@ -60,13 +60,13 @@ const Navigation = () => {
             <span>{t(`navigation.${item.name}`)}</span>
           </NavLink>
         ))}
-        <div className='nav-footer'>
+        <div className='app-nav__footer'>
           <Language />
           <Theme />
-          <p className="version">{t('version')} {appVersion}</p>
+          <p className='app-nav__version'>{t('version')} {appVersion}</p>
         </div>
       </div>
-      <div  className={`overlay${nav ? ' active' : '' }`} onClick={menu}></div>
+      <div  className={`app-nav__overlay${nav ? ' active' : '' }`} onClick={menu}></div>
     </nav>
   );
 }

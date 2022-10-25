@@ -12,26 +12,26 @@ const Project = ({ dataTestid, data }: ProjectProps) => {
   const { t } = useTranslation();
 
   return (
-    <div data-testid={dataTestid} className="App-project">
-      <h3 className="title">{t(`${data.translate}.title`)}</h3>
+    <div data-testid={dataTestid} className='app-project'>
+      <h3 className='app-project__title'>{t(`${data.translate}.title`)}</h3>
       <Zoom size={{ width: '300px' }} img={data.photo} alt={t(`${data.translate}.title`)} />
-      <div className='description'>
+      <div className='app-project__description'>
         {t(`${data.translate}.description`)}
       </div>
-      <div className='footer'>
+      <div className='app-project__footer'>
         {data.techs && (
           <>
             <strong>{t('pageProjects.techUsage')}</strong>
             <Tech show={data.techs} />
           </>
         )}
-        <div className="actions">
-          <a href={data.url} target="_blank">
-            <LinkIcon className="icon link" />
+        <div className='app-project__actions'>
+          <a href={data.url} target='_blank'>
+            <LinkIcon className='app-project__icon link' />
             <span>Link</span>
           </a>
-          <a href={data.repo} target="_blank">
-            <Github className="icon github" />
+          <a href={data.repo} target='_blank'>
+            <Github className='app-project__icon github' />
             <span>Github</span>
           </a>
         </div>

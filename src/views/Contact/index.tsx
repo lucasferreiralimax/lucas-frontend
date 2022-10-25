@@ -16,11 +16,11 @@ const Contact = () => {
   return (
     <>
       <h2>🌎 { t('pageContact.title') }</h2>
-      <section className='social'>
+      <section className='app-social'>
         {contacts.map((item: ContactItem) => (
           <a
             href={item.link}
-            target="_blank"
+            target='_blank'
             key={item.name}
           >
             {item.icon
@@ -33,11 +33,11 @@ const Contact = () => {
               )
               : (
                 <img
-                  width="30"
-                  height="30"
+                  width='30'
+                  height='30'
                   src={item.img}
                   className={
-                    `icon ${item.className ? item.className : item.name.toLocaleLowerCase()}`
+                    `app-social__icon ${item.className ? item.className : item.name.toLocaleLowerCase()}`
                   }
                 />
               )}

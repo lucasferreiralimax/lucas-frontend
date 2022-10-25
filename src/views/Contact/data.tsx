@@ -11,45 +11,45 @@ import PluralSight from '@/assets/icons/pluralsight-logo.png';
 
 const contacts: ContactItem[] = [
   {
-    name: "lucasferreiralimax@gmail.com",
-    className: "email",
+    name: 'lucasferreiralimax@gmail.com',
+    className: 'email',
     icon: Emailicon,
-    link: "mailto:lucasferreiralimax@gmail.com"
+    link: 'mailto:lucasferreiralimax@gmail.com'
   },
   {
-    name: "Linkedin",
+    name: 'Linkedin',
     icon: Linkedin,
-    link: "https://www.linkedin.com/in/lucasferreiralimax"
+    link: 'https://www.linkedin.com/in/lucasferreiralimax'
   },
   {
-    name: "Github",
+    name: 'Github',
     icon: Github,
-    link: "https://github.com/lucasferreiralimax"
+    link: 'https://github.com/lucasferreiralimax'
   },
   {
-    name: "Codepen",
+    name: 'Codepen',
     icon: Codepen,
-    link: "https://codepen.io/lucaslimax"
+    link: 'https://codepen.io/lucaslimax'
   },
   {
-    name: "YouTube",
+    name: 'YouTube',
     icon: Youtube,
-    link: "https://www.youtube.com/channel/UCZBURloZW7kmNqzgPS9OHrA"
+    link: 'https://www.youtube.com/channel/UCZBURloZW7kmNqzgPS9OHrA'
   },
   {
-    name: "Duolingo",
+    name: 'Duolingo',
     icon: Duolingo,
-    link: "https://www.duolingo.com/profile/ferreiralimax"
+    link: 'https://www.duolingo.com/profile/ferreiralimax'
   },
   {
-    name: "FreeCodeCamp",
+    name: 'FreeCodeCamp',
     img: FreeCodeCamp,
-    link: "https://www.freecodecamp.org/lucasferreiralimax"
+    link: 'https://www.freecodecamp.org/lucasferreiralimax'
   },
   {
-    name: "PluralSight",
+    name: 'PluralSight',
     img: PluralSight,
-    link: "https://app.pluralsight.com/profile/lucasferreiralimax"
+    link: 'https://app.pluralsight.com/profile/lucasferreiralimax'
   },
 ];
 

@@ -15,7 +15,7 @@ const views = [
 const App = () => {
   return (
     <Suspense fallback={<Loading/>}>
-      <div className='container'>
+      <div className='app-container'>
         <Header />
         <main>
           <Routes>

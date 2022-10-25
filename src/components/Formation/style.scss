@@ -1,13 +1,13 @@
-.theme-dark .App-formation {
+.theme-dark .app-formation {
   background: rgba(var(--main-bg-color-primary), .5);
   backdrop-filter: blur(5px);
 }
 
-.theme-light .App-formation {
+.theme-light .app-formation {
   background: var(--main-bg-color-primary);
 }
 
-.App-formation {
+.app-formation {
   align-items: center;
   display: flex;
   justify-content: center;
@@ -28,7 +28,7 @@
       transform: scale(1.05);
     }
   }
-  .title {
+  .app-formation__title {
     background: rgba(var(--main-color-rgb), .08);
     box-shadow: 0 10px 20px rgba(0,0,0,.2);
     margin: 0 0 2rem;
@@ -38,11 +38,11 @@
     text-shadow: 1px 1px var(--main-bg-color-primary);
     border-bottom: 1px solid rgba(var(--main-color-rgb), .2);
   }
-  .detail {
+  .app-formation__detail {
     display: flex;
     width: 100%;
   }
-  .description {
+  .app-formation__description {
     white-space: pre-wrap;
     margin: 0;
     width: 100%;
@@ -54,7 +54,7 @@
       color: var(--main-color-primary);
     }
   }
-  .actions {
+  .app-formation__actions {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -70,13 +70,13 @@
       border-radius: 10px;
       border: 1px solid rgba(var(--main-color-rgb), .2);
       &:hover {
-        .icon {
+        .app-formation__icon {
           transform: scale(1.2);
           fill: var(--main-color-primary);
         }
       }
     }
-    .icon {
+    .app-formation__icon {
       transition: .3s all;
       margin-right: .5rem;
     }
