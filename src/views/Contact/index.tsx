@@ -22,6 +22,8 @@ const Contact = () => {
             href={item.link}
             target='_blank'
             key={item.name}
+            role='link'
+            aria-label={`Link ${item.name}`}
           >
             {item.icon
               ? (
