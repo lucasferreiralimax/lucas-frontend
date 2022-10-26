@@ -17,7 +17,7 @@ describe('Test render home page', () => {
 describe('Test render home page list techs', () => {
   for(let tech of techs) {
     it(`Render tech ${tech.title}`, () => {
-      const item = cy.get(`[data-testid=app-tech-${tech.title}]`)
+      const item = cy.get(`[data-testid=app-tech-${tech.title.toLocaleLowerCase()}]`)
 
       item.should('exist');
       item.invoke('attr', 'href').should('contain', tech.url);
