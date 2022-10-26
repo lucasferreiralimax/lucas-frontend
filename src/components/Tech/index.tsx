@@ -17,7 +17,7 @@ const Tech = ({ show } : TechProps) => {
     <section className='app-tech' data-testid='app-tech'>
       {list.map((item: TechType) => (
         <a
-          data-testid={`app-tech-${item.title}`}
+          data-testid={`app-tech-${item.title.toLocaleLowerCase()}`}
           href={item.url}
           target='_blank'
           key={`tech-${item.title}`}

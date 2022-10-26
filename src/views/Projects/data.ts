@@ -26,14 +26,14 @@ const projects: ProjectType[] = [
     url: 'https://criar-curriculo.web.app',
     repo: 'https://github.com/lucasferreiralimax/criarcurriculo',
     photo: ProjetoCriar,
-    techs: ['HTML', 'CSS', 'JavaScript', 'Vue', 'Stylus', 'Git', 'Cypress.io', 'Jest']
+    techs: ['HTML', 'CSS', 'JavaScript', 'Vue', 'Stylus', 'Git', 'Cypress', 'Jest']
   },
   {
     translate: 'pageProjects.detran',
     url: 'https://detran-simulador.web.app',
     repo: 'https://github.com/lucasferreiralimax/detran-simulador',
     photo: Detran,
-    techs: ['HTML', 'CSS', 'Typescript', 'Angular', 'Sass', 'Git', 'Cypress.io', 'Karma']
+    techs: ['HTML', 'CSS', 'Typescript', 'Angular', 'Sass', 'Git', 'Cypress', 'Karma']
   },
   {
     translate: 'pageProjects.notes',
@@ -61,7 +61,7 @@ const projects: ProjectType[] = [
     url: 'https://web-chat-vue.web.app',
     repo: 'https://github.com/lucasferreiralimax/chat-vue',
     photo: ChatVue,
-    techs: ['HTML', 'CSS', 'Typescript', 'Vue', 'Stylus', 'Git', 'Jest', 'Cypress.io']
+    techs: ['HTML', 'CSS', 'Typescript', 'Vue', 'Stylus', 'Git', 'Jest', 'Cypress']
   },
   {
     translate: 'pageProjects.slide.react',
@@ -75,7 +75,7 @@ const projects: ProjectType[] = [
     url: 'https://slidecontent-vuejs.web.app',
     repo: 'https://github.com/lucasferreiralimax/slidecontent-vue',
     photo: SlideVue,
-    techs: ['HTML', 'CSS', 'JavaScript', 'Vue', 'Stylus', 'Git', 'Cypress.io', 'Jest']
+    techs: ['HTML', 'CSS', 'JavaScript', 'Vue', 'Stylus', 'Git', 'Cypress', 'Jest']
   },
   {
     translate: 'pageProjects.slide.angular',
@@ -96,7 +96,7 @@ const projects: ProjectType[] = [
     url: 'https://g00gle-reactjs.web.app',
     repo: 'https://github.com/lucasferreiralimax/google-react',
     photo: Google,
-    techs: ['HTML', 'CSS', 'JavaScript', 'React', 'Sass', 'Git', 'Cypress.io', 'Jest']
+    techs: ['HTML', 'CSS', 'JavaScript', 'React', 'Sass', 'Git', 'Cypress', 'Jest']
   },
   {
     translate: 'pageProjects.google.angular',
@@ -110,7 +110,7 @@ const projects: ProjectType[] = [
     url: 'https://g00gle-vue.web.app',
     repo: 'https://github.com/lucasferreiralimax/google-vue',
     photo: Google,
-    techs: ['HTML', 'CSS', 'JavaScript', 'Vue', 'Sass', 'Git', 'Cypress.io', 'Vitest']
+    techs: ['HTML', 'CSS', 'JavaScript', 'Vue', 'Sass', 'Git', 'Cypress', 'Vitest']
   },
   {
     translate: 'pageProjects.google.svelte',
