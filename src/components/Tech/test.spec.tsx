@@ -16,11 +16,11 @@ describe("Should render <Tech/>", () => {
   });
   it('render links tech', () => {
     for(let tech of dataTechs) {
-      const linkTest = screen.getByTestId(`app-tech-${tech.title}`);
+      const linkTest = screen.getByTestId(`app-tech-${tech.title.toLocaleLowerCase()}`);
 
       expect(linkTest).toBeInTheDocument();
       expect(linkTest.getAttribute('href')).toBe(tech.url);
-      expect(linkTest.getAttribute('class')).toBe(`app-tech__${tech.title}`);
+      expect(linkTest.getAttribute('class')).toBe(`app-tech__${tech.title.toLocaleLowerCase()}`);
       expect(linkTest.getAttribute('aria-label')).toBe(`Link ${tech.title}`);
     }
   });
@@ -34,11 +34,11 @@ describe("Should render <Tech/> with show filter", () => {
     const mockTechs = dataTechs.filter((item: TechType) => techsFilter.includes(item.title));
 
     for(let tech of mockTechs) {
-      const linkTest = screen.getByTestId(`app-tech-${tech.title}`);
+      const linkTest = screen.getByTestId(`app-tech-${tech.title.toLocaleLowerCase()}`);
 
       expect(linkTest).toBeInTheDocument();
       expect(linkTest.getAttribute('href')).toBe(tech.url);
-      expect(linkTest.getAttribute('class')).toBe(`app-tech__${tech.title}`);
+      expect(linkTest.getAttribute('class')).toBe(`app-tech__${tech.title.toLocaleLowerCase()}`);
       expect(linkTest.getAttribute('aria-label')).toBe(`Link ${tech.title}`);
     }
   });
