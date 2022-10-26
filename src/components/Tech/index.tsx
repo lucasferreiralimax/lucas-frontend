@@ -1,12 +1,8 @@
 import { useEffect, useState } from 'react';
 
-import { TechType } from './types';
+import { TechType, TechProps } from './types';
 import techs from './data';
 import './style.scss';
-
-type TechProps = {
-  show?: string[];
-}
 
 const Tech = ({ show } : TechProps) => {
   const [list, setList] = useState<TechType[]>([]);
@@ -21,10 +17,13 @@ const Tech = ({ show } : TechProps) => {
     <section className='app-tech' data-testid='app-tech'>
       {list.map((item: TechType) => (
         <a
+          data-testid={`app-tech-${item.title}`}
           href={item.url}
           target='_blank'
           key={`tech-${item.title}`}
           className={`app-tech__${item.title}`}
+          role="link"
+          aria-label={`Link ${item.title}`}
         >
           <item.icon className='app-tech__icon' />
         </a>
