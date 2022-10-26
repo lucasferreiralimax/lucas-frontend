@@ -11,7 +11,7 @@ describe('Test render contact page', () => {
 
 describe('Test render contact page', () => {
   for(let [index, contact] of contacts.entries()) {
-    it(`Render tech ${contact.name}`, () => {
+    it(`Render contact ${contact.name}`, () => {
       const item = cy.get(`.app-social a:nth-of-type(${++index})`)
 
       item.should('exist');
@@ -20,9 +20,27 @@ describe('Test render contact page', () => {
   }
 })
 
-describe('Test render home page', () => {
+describe('Test render contact footer', () => {
   it('Render footer', () => {
     cy.get('.app-footer').should('exist')
     cy.get('.app-footer').contains('2022 @lucasferreiralimax')
+  })
+})
+
+describe('Test render contact page languages', () => {
+  it('Render English', () => {
+    cy.get('.app-language').select('en')
+    cy.wait(1000)
+    cy.contains('Contacts')
+  })
+  it('Render Portuguese Brazilian', () => {
+    cy.get('.app-language').select('pt')
+    cy.wait(1000)
+    cy.contains('Contatos')
+  })
+  it('Render Spanish', () => {
+    cy.get('.app-language').select('es')
+    cy.wait(1000)
+    cy.contains('Contactos')
   })
 })
