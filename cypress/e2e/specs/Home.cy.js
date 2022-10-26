@@ -14,7 +14,7 @@ describe('Test render home page', () => {
   })
 })
 
-describe('Test render home page footer', () => {
+describe('Test render home page list techs', () => {
   for(let tech of techs) {
     it(`Render tech ${tech.title}`, () => {
       const item = cy.get(`[data-testid=app-tech-${tech.title}]`)
@@ -79,7 +79,7 @@ describe('Test render home page languages', () => {
   })
 })
 
-describe('Test render home page', () => {
+describe('Test render home page footer', () => {
   it('Render footer', () => {
     cy.get('.app-footer').should('exist')
     cy.get('.app-footer').contains('2022 @lucasferreiralimax')
