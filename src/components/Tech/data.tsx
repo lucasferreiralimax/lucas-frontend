@@ -37,14 +37,13 @@ const techs: TechType[] = [
   { title: 'Sass',       icon: Sass,       url: 'https://sass-lang.com'                                        },
   { title: 'Webpack',    icon: Webpack,    url: 'https://webpack.js.org'                                       },
   { title: 'Vite',       icon: Vite,       url: 'https://vitejs.dev'                                           },
-  { title: 'Gulp.js',    icon: Gulp,       url: 'https://gulpjs.com'                                           },
+  { title: 'Gulp',       icon: Gulp,       url: 'https://gulpjs.com'                                           },
   { title: 'Jest',       icon: Jest,       url: 'https://jestjs.io/pt-BR'                                      },
   { title: 'Karma',      icon: Karma,      url: 'https://karma-runner.github.io'                               },
   { title: 'Vitest',     icon: Vitest,     url: 'https://vitest.dev'                                           },
-  { title: 'Cypress.io', icon: Cypress,    url: 'https://www.cypress.io'                                       },
+  { title: 'Cypress',    icon: Cypress,    url: 'https://www.cypress.io'                                       },
   { title: 'Git',        icon: Git,        url: 'https://git-scm.com'                                          },
   { title: 'jQuery',     icon: JQuery,     url: 'https://jquery.com'                                           }
-
 ];
 
 export default techs;

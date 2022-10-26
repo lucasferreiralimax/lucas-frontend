@@ -21,7 +21,7 @@ const Tech = ({ show } : TechProps) => {
           href={item.url}
           target='_blank'
           key={`tech-${item.title}`}
-          className={`app-tech__${item.title}`}
+          className={`app-tech__${item.title.toLocaleLowerCase()}`}
           role="link"
           aria-label={`Link ${item.title}`}
         >
