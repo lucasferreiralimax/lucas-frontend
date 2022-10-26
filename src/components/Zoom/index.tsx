@@ -54,6 +54,7 @@ const Zoom = ({size, img, alt} : ZoomTypes) => {
     <div
       className={figureZoom ? 'app-zoom__content active' : 'app-zoom__content'}
       onClick={HandleZoom}
+      data-testid='app-zoom__content'
     >
       <img
         width={figureZoom ? width : size?.width}
