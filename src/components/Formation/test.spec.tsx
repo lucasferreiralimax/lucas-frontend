@@ -11,7 +11,7 @@ describe('Should render <Formation/>', () => {
           dataTestid='test-1'
           data={{
             translate: 'translate.object',
-            url: 'test.test',
+            url: 'https://test.test',
             date: {
               start: '2022'
             },
@@ -44,7 +44,7 @@ describe('Should render <Formation/>', () => {
 
     linkTest.forEach(link => {
       expect(link).toBeInTheDocument();
-      expect(link.getAttribute('href')).toBe('http://test.test');
+      expect(link.getAttribute('href')).toBe('https://test.test');
     });
   });
 });
