@@ -18,14 +18,14 @@ describe('Should render <Formations/>', () => {
   it('render list formations', () => {
 
     formations.forEach((formation, index) => {
-      const projectElement = screen.getByTestId(`app-formation-${++index}`);
-      const projectPhoto = screen.getByAltText(`${formation.translate}.title`);
+      const formationElement = screen.getByTestId(`app-formation-${++index}`);
+      const formationPhoto = screen.getByAltText(`${formation.translate}.title`);
       const linkRegex = new RegExp(`Link ${formation.translate}.title`, 'i');
       const linkTest = screen.getAllByRole('link', { name: linkRegex });
 
-      expect(projectElement).toBeInTheDocument();
-      expect(projectPhoto).toBeInTheDocument();
-      expect(projectPhoto).toHaveAttribute('src', formation.photo);
+      expect(formationElement).toBeInTheDocument();
+      expect(formationPhoto).toBeInTheDocument();
+      expect(formationPhoto).toHaveAttribute('src', formation.photo);
 
       linkTest.forEach(link => {
         expect(link).toBeInTheDocument();
