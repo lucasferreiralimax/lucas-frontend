@@ -17,25 +17,25 @@ const Home = () => {
     <div className='app-home' data-testid='app-home'>
       <img width='70%' className='app-profile__photo' src={Lucas} alt='Lucas Ferreira de Lima' />
       <p>
-        {t('pageHome.paragraphOne.textOne')}<br/>
-        {t('pageHome.paragraphOne.textTwo')}
+        {t<string>('pageHome.paragraphOne.textOne')}<br/>
+        {t<string>('pageHome.paragraphOne.textTwo')}
       </p>
       <p>
-        {t('pageHome.paragraphTwo.textOne')}<br/>
-        {t('pageHome.paragraphTwo.textTwo')}<br/>
-        {t('pageHome.paragraphTwo.textThree')}<br/>
-        {t('pageHome.paragraphTwo.textFour')}
+        {t<string>('pageHome.paragraphTwo.textOne')}<br/>
+        {t<string>('pageHome.paragraphTwo.textTwo')}<br/>
+        {t<string>('pageHome.paragraphTwo.textThree')}<br/>
+        {t<string>('pageHome.paragraphTwo.textFour')}
       </p>
       <p>
-        {t('pageHome.paragraphThree.textOne')}<br/>
-        {t('pageHome.paragraphThree.textTwo')}<br/>
-        {t('pageHome.paragraphThree.textThree')}<br/>
-        {t('pageHome.paragraphThree.textFour')}
+        {t<string>('pageHome.paragraphThree.textOne')}<br/>
+        {t<string>('pageHome.paragraphThree.textTwo')}<br/>
+        {t<string>('pageHome.paragraphThree.textThree')}<br/>
+        {t<string>('pageHome.paragraphThree.textFour')}
       </p>
       <p>
-        {t('pageHome.paragraphFour.textOne')}<br/>
-        {t('pageHome.paragraphFour.textTwo')}<br/>
-        {t('pageHome.paragraphFour.textThree')}
+        {t<string>('pageHome.paragraphFour.textOne')}<br/>
+        {t<string>('pageHome.paragraphFour.textTwo')}<br/>
+        {t<string>('pageHome.paragraphFour.textThree')}
       </p>
       <Tech />
     </div>

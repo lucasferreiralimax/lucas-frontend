@@ -15,7 +15,7 @@ const Contact = () => {
 
   return (
     <>
-      <h2>🌎 { t('pageContact.title') }</h2>
+      <h2>🌎 { t<string>('pageContact.title') }</h2>
       <section className='app-social' data-testid='app-social'>
         {contacts.map((item: ContactItem) => (
           <a

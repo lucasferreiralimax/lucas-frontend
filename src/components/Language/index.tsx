@@ -22,7 +22,7 @@ const Language = () => {
 
   return (
     <>
-      <h4 className='app-language__title'>{t('languages.title')}</h4>
+      <h4 className='app-language__title'>{t<string>('languages.title')}</h4>
       <select
         name='language'
         className='app-language'
@@ -30,9 +30,9 @@ const Language = () => {
         value={i18n.language}
         onChange={({ target: { value }}) => changeLanguages(value)}
       >
-        <option value='pt'>{t('languages.pt')}</option>
-        <option value='en'>{t('languages.en')}</option>
-        <option value='es'>{t('languages.es')}</option>
+        <option value='pt'>{t<string>('languages.pt')}</option>
+        <option value='en'>{t<string>('languages.en')}</option>
+        <option value='es'>{t<string>('languages.es')}</option>
       </select>
     </>
   )

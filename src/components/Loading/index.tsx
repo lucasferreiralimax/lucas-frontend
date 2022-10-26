@@ -11,7 +11,7 @@ const Loading = () => {
           <circle className="app-loading__path" cx="50" cy="50" r="20" fill="none" strokeWidth="2" strokeMiterlimit="10"/>
         </svg>
       </div>
-      <span>{t('loading')}</span>
+      <span>{t<string>('loading')}</span>
     </div>
   );
 }

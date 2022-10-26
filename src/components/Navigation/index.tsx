@@ -48,7 +48,7 @@ const Navigation = () => {
         <MenuIcon />
       </button>
       <div className='app-nav__content'>
-        <h4 className='app-nav__title'>{t('navigation.title')}</h4>
+        <h4 className='app-nav__title'>{t<string>('navigation.title')}</h4>
         {listNavigation.map((item: NavigationTypes) => (
           <NavLink
             className={({ isActive }: any) => (isActive ? 'app-nav__item active' : 'app-nav__item')}
@@ -56,16 +56,16 @@ const Navigation = () => {
             key={item.name}
             end
             role='link'
-            aria-label={`Link ${t(`navigation.${item.name}`)}`}
+            aria-label={`Link ${t<string>(`navigation.${item.name}`)}`}
           >
             <item.icon />
-            <span>{t(`navigation.${item.name}`)}</span>
+            <span>{t<string>(`navigation.${item.name}`)}</span>
           </NavLink>
         ))}
         <div className='app-nav__footer'>
           <Language />
           <Theme />
-          <p className='app-nav__version'>{t('version')} {appVersion}</p>
+          <p className='app-nav__version'>{t<string>('version')} {appVersion}</p>
         </div>
       </div>
       <div  className={`app-nav__overlay${nav ? ' active' : '' }`} onClick={menu}></div>
