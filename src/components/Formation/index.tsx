@@ -13,7 +13,7 @@ const Formation = ({ dataTestid, data }: FormationProps) => {
       <h3 className='app-formation__title'>{t(`${data.translate}.title`)}</h3>
       <div className='app-formation__detail'>
         <a
-          href={`http://${data.url}`}
+          href={data.url}
           target='_blank'
           role="link"
           aria-label={`Link ${t(`${data.translate}.title`)}`}
@@ -29,7 +29,7 @@ const Formation = ({ dataTestid, data }: FormationProps) => {
       {data.url && (
         <div className='app-formation__actions'>
           <a
-            href={`http://${data.url}`}
+            href={data.url}
             target='_blank'
             role="link"
             aria-label={`Link ${t(`${data.translate}.title`)}`}
