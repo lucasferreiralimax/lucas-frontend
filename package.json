@@ -22,13 +22,13 @@
     "@emotion/styled": "^11.10.4",
     "@mui/icons-material": "^5.10.6",
     "@mui/material": "^5.10.8",
-    "i18next": "^22.0.2",
-    "i18next-http-backend": "^2.0.0",
+    "i18next": "^22.0.4",
+    "i18next-http-backend": "^2.0.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-i18next": "^12.0.0",
     "react-redux": "^8.0.4",
-    "react-router-dom": "^6.4.2",
+    "react-router-dom": "^6.4.3",
     "vite-plugin-svgr": "^2.2.2"
   },
   "devDependencies": {
@@ -36,18 +36,18 @@
     "@testing-library/react": "^13.4.0",
     "@testing-library/react-hooks": "^8.0.1",
     "@testing-library/user-event": "^14.4.3",
-    "@types/react": "^18.0.23",
-    "@types/react-dom": "^18.0.7",
-    "@vitejs/plugin-react": "^2.1.0",
-    "@vitest/coverage-c8": "^0.24.3",
+    "@types/react": "^18.0.24",
+    "@types/react-dom": "^18.0.8",
+    "@vitejs/plugin-react": "^2.2.0",
+    "@vitest/coverage-c8": "^0.24.5",
     "cypress": "^10.11.0",
-    "jsdom": "^20.0.1",
+    "jsdom": "^20.0.2",
     "sass": "^1.55.0",
     "start-server-and-test": "^1.14.0",
     "typescript": "^4.6.4",
-    "vite": "^3.1.8",
+    "vite": "^3.2.2",
     "vite-plugin-html-env": "^1.2.7",
     "vite-plugin-react-svg": "^0.2.0",
-    "vitest": "^0.24.3"
+    "vitest": "^0.24.5"
   }
 }
