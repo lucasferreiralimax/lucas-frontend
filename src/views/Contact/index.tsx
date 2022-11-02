@@ -11,7 +11,7 @@ const Contact = () => {
 
   useEffect(() => {
     document.title = `Lucas ${t('navigation.contact')}`;
-  }, []);
+  }, [t]);
 
   return (
     <>

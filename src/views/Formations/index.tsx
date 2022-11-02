@@ -12,7 +12,7 @@ const Formations = () => {
 
   useEffect(() => {
     document.title = `Lucas ${t('navigation.formation')}`;
-  }, []);
+  }, [t]);
 
   return (
     <>

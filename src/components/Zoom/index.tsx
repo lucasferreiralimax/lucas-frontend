@@ -36,7 +36,7 @@ const Zoom = ({size, img, alt} : ZoomTypes) => {
       document.title = `Lucas ${t('navigation.projects')}`;
       document.body.removeAttribute('style');
     }
-  }, [figureZoom]);
+  }, [figureZoom, t]);
 
   useEffect(() => {
     const updateWidthAndHeight = () => {

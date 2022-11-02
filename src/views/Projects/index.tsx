@@ -11,7 +11,7 @@ const Projects = () => {
 
   useEffect(() => {
     document.title = `Lucas ${t('navigation.projects')}`;
-  }, []);
+  }, [t]);
 
   return (
     <>
