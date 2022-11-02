@@ -5,6 +5,7 @@ import Alura from '@/assets/formations/alura.jpg';
 import Origamid from '@/assets/formations/origamid.jpg';
 import CEI from '@/assets/formations/cei.jpg';
 import Senac from '@/assets/formations/senac.jpg';
+import Duo from '@/assets/formations/duolingo.png';
 
 const formations: FormationType[] = [
   {
@@ -40,6 +41,15 @@ const formations: FormationType[] = [
     date: {
       start: '2008',
       end: '2009'
+    }
+  },
+  {
+    translate: 'pageFormations.duolingo',
+    url: 'https://www.duolingo.com/profile/ferreiralimax',
+    photo: Duo,
+    date: {
+      start: '2012',
+      end: '2022'
     }
   },
   {

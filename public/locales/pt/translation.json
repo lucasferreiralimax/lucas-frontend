@@ -135,6 +135,10 @@
     "cei": {
       "title": "CEI - Centro de Ensino Integrado",
       "description": "Aprendi os conceitos e base da informática\nTrabalhei com todo o pacote Office da Microsoft\nWindows, Word, Excel, Power Point, Internet, Access e Digitação"
+    },
+    "duolingo": {
+      "title": "Duolingo",
+      "description": "Inglês\nEspanhol\nFrancês\nRusso"
     }
   }
 }

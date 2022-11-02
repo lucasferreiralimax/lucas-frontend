@@ -135,6 +135,10 @@
     "cei": {
       "title": "CEI - Integrated Teaching Center",
       "description": "I learned the basics of computing\nI worked with the entire Microsoft Office package\nWindows, Word, Excel, Power Point, Internet, Access and Typing"
+    },
+    "duolingo": {
+      "title": "Duolingo",
+      "description": "English\nSpanish\nFrench\nRussian"
     }
   }
 }
