@@ -109,6 +109,10 @@
         "title": "SlideContent com Ember.js",
         "description": "Slide de conteúdo escrito com Ember.js\nModo Slide infinito, Slide sem botões de navegação\nSlide com temporizador e internalização de idiomas"
       }
+    },
+    "steam": {
+      "title": "Steam Login",
+      "description": "Clone da interface de login com Angular\ndo vapor de jogos da Steam"
     }
   },
   "pageContact": {

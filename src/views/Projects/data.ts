@@ -12,6 +12,7 @@ import SlideVue from '@/assets/projects/slide-content-vue.png';
 import SlideAngular from '@/assets/projects/slide-content-angular.png';
 import SlideEmber from '@/assets/projects/slide-content-ember.png';
 import ChatVue from '@/assets/projects/web-chat-vue.png';
+import Steam from '@/assets/projects/steam-angular.png';
 
 const projects: ProjectType[] = [
   {
@@ -118,6 +119,13 @@ const projects: ProjectType[] = [
     repo: 'https://github.com/lucasferreiralimax/google-svelte',
     photo: Google,
     techs: ['HTML', 'CSS', 'JavaScript', 'Svelte', 'Sass', 'Git', 'Jest']
+  },
+  {
+    translate: 'pageProjects.steam',
+    url: 'https://angular-steam.web.app/',
+    repo: 'https://github.com/lucasferreiralimax/steam',
+    photo: Steam,
+    techs: ['HTML', 'CSS', 'Typescript', 'Angular', 'Sass', 'Git', 'Karma']
   }
 ];
 
