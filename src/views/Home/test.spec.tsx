@@ -18,6 +18,7 @@ describe('Should render <Home/>', () => {
     expect(photo).toHaveAttribute('src', '/src/assets/lucaslucas.jpg');
     expect(photo).toHaveAttribute('class', 'app-profile__photo');
     expect(photo).toHaveAttribute('width', '250');
+    expect(photo).toHaveAttribute('height', '250');
   });
   it('render translates paragraphs', () => {
     // paragraphOne
