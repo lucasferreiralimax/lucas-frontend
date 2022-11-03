@@ -1,5 +1,6 @@
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import { useTranslation } from 'react-i18next';
+import Skeleton from '@mui/material/Skeleton';
 
 import Tech from '@/components/Tech';
 
@@ -8,14 +9,35 @@ import Lucas from '@/assets/lucaslucas.jpg';
 
 const Home = () => {
   const { t } = useTranslation();
+  const [loadingImage, setLoadingImage] = useState(true);
+  const [skeletonImage, setSkeletonImage] = useState(true);
 
   useEffect(() => {
     document.title = 'Lucas Front-end';
   }, []);
 
+  useEffect(() => {
+    setSkeletonImage(loadingImage);
+  }, [loadingImage]);
+
   return (
     <div className='app-home' data-testid='app-home'>
-      <img width='70%' className='app-profile__photo' src={Lucas} alt='Lucas Ferreira de Lima' />
+      <img
+        className={`app-profile__photo${!loadingImage ? ' show' : ''}`}
+        alt='Lucas Ferreira de Lima'
+        src={Lucas}
+        width={250}
+        height={250}
+        onLoad={() => setLoadingImage(false)}
+      />
+      {skeletonImage && (
+        <Skeleton
+          variant="circular"
+          className='app-profile__photo-skeleton'
+          width={250}
+          height={250}
+        />
+      )}
       <p>
         {t<string>('pageHome.paragraphOne.textOne')}<br/>
         {t<string>('pageHome.paragraphOne.textTwo')}
