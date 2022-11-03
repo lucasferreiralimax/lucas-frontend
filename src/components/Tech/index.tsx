@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import Tooltip from '@mui/material/Tooltip';
 
 import { TechType, TechProps } from './types';
 import techs from './data';
@@ -16,17 +17,22 @@ const Tech = ({ show } : TechProps) => {
   return (
     <section className='app-tech' data-testid='app-tech'>
       {list.map((item: TechType) => (
-        <a
-          data-testid={`app-tech-${item.title.toLocaleLowerCase()}`}
-          href={item.url}
-          target='_blank'
+        <Tooltip
           key={`tech-${item.title}`}
-          className={`app-tech__${item.title.toLocaleLowerCase()}`}
-          role="link"
-          aria-label={`Link ${item.title}`}
+          title={item.title}
+          placement="bottom"
         >
-          <item.icon className='app-tech__icon' />
-        </a>
+          <a
+            data-testid={`app-tech-${item.title.toLocaleLowerCase()}`}
+            href={item.url}
+            target='_blank'
+            className={`app-tech__${item.title.toLocaleLowerCase()}`}
+            role="link"
+            aria-label={`Link ${item.title}`}
+          >
+              <item.icon className='app-tech__icon' />
+          </a>
+        </Tooltip>
       ))}
     </section>
   )

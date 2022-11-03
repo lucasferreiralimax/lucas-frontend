@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import Skeleton from '@mui/material/Skeleton';
+import Tooltip from '@mui/material/Tooltip';
 
 import Tech from '@/components/Tech';
 
@@ -22,14 +23,19 @@ const Home = () => {
 
   return (
     <div className='app-home' data-testid='app-home'>
-      <img
-        className={`app-profile__photo${!loadingImage ? ' show' : ''}`}
-        alt='Lucas Ferreira de Lima'
-        src={Lucas}
-        width={250}
-        height={250}
-        onLoad={() => setLoadingImage(false)}
-      />
+      <Tooltip
+        title='Lucas Ferreira de Lima'
+        placement="top"
+      >
+        <img
+          className={`app-profile__photo${!loadingImage ? ' show' : ''}`}
+          alt='Lucas Ferreira de Lima'
+          src={Lucas}
+          width={250}
+          height={250}
+          onLoad={() => setLoadingImage(false)}
+        />
+      </Tooltip>
       {skeletonImage && (
         <Skeleton
           variant="circular"
