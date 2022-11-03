@@ -22,6 +22,7 @@ describe("Should render <Theme/>", () => {
     expect(screen.getByText(/Light Mode/i)).toBeInTheDocument();
     const darkmode = localStorage.getItem('darkmode');
     expect(darkmode == null ? true : JSON.parse(darkmode)).toBeFalsy();
+    expect(document.body.classList.contains('theme-light')).toBeTruthy();
   });
   it('render toggle Dark Mode', () => {
     act(() => {
@@ -29,7 +30,9 @@ describe("Should render <Theme/>", () => {
     });
     expect(screen.getByRole('button', { name: /Icon Dark Mode/i })).toBeInTheDocument();
     expect(screen.getByText(/Dark Mode/i)).toBeInTheDocument();
+    console.log(document.body.classList.contains('theme-dark'))
     const darkmode = localStorage.getItem('darkmode');
     expect(darkmode == null ? true : JSON.parse(darkmode)).toBeTruthy();
+    expect(document.body.classList.contains('theme-dark')).toBeTruthy();
   });
 });
