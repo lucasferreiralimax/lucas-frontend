@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "baseUrl": ".",
     "paths": {
       "@/*": ["./src/*"]
     },
@@ -17,9 +18,16 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
+    "types": ["vite/client", "vitest/globals", "@testing-library/jest-dom"],
     "jsx": "react-jsx"
   },
-  "exclude": ["**/*.spec.tsx", "cypress"],
-  "include": ["src/**/*", "cypress.config.ts"],
+  "exclude": ["node_modules", "cypress"],
+  "include": [
+    "src",
+    "cypress.config.ts",
+    "@testing-library/jest-dom",
+    "vite.config.ts",
+    "vitest.config.ts"
+  ],
   "references": [{ "path": "./tsconfig.node.json" }]
 }

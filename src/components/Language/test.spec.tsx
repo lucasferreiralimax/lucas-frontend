@@ -1,3 +1,4 @@
+import { describe, expect, it, beforeEach } from 'vitest'
 import { render, screen } from '@testing-library/react';
 import { I18nextProvider } from 'react-i18next';
 import Language from './index';

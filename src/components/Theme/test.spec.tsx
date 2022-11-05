@@ -1,3 +1,4 @@
+import { describe, expect, it, beforeEach } from 'vitest'
 import { act, render, screen } from '@testing-library/react';
 import Theme from './index';
 
