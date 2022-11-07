@@ -21,7 +21,7 @@
     "@emotion/react": "^11.10.5",
     "@emotion/styled": "^11.10.5",
     "@mui/icons-material": "^5.10.9",
-    "@mui/material": "^5.10.12",
+    "@mui/material": "^5.10.13",
     "i18next": "^22.0.4",
     "i18next-http-backend": "^2.0.1",
     "react": "^18.2.0",
@@ -39,15 +39,15 @@
     "@types/react-dom": "^18.0.8",
     "@types/testing-library__jest-dom": "^5.14.5",
     "@vitejs/plugin-react": "^2.2.0",
-    "@vitest/coverage-c8": "^0.24.5",
+    "@vitest/coverage-c8": "^0.25.0",
     "cypress": "^10.11.0",
     "jsdom": "^20.0.2",
     "sass": "^1.56.0",
     "start-server-and-test": "^1.14.0",
     "typescript": "^4.6.4",
-    "vite": "^3.2.2",
+    "vite": "^3.2.3",
     "vite-plugin-html-env": "^1.2.7",
     "vite-plugin-react-svg": "^0.2.0",
-    "vitest": "^0.24.5"
+    "vitest": "^0.25.0"
   }
 }
