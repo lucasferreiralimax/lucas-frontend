@@ -1,12 +1,19 @@
 import { describe, expect, it, beforeEach } from 'vitest'
 import { render, screen } from '@testing-library/react';
+import { I18nextProvider } from 'react-i18next';
+import i18n from '@/i18n';
+
 import Formations from './index';
 
 import formations from './data';
 
 describe('Should render <Formations/>', () => {
   beforeEach(() => {
-    render(<Formations />);
+    render(
+      <I18nextProvider i18n={i18n}>
+        <Formations />
+      </I18nextProvider>
+    );
   });
   it('renders simple', () => {
     expect(screen.getByTestId('app-formations')).toBeInTheDocument();
