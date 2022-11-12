@@ -57,7 +57,7 @@ const formations: FormationType[] = [
     url: 'https://jornalista-francisco-mesquita.web.app',
     photo: Mesquita,
     date: {
-      start: '2010',
+      start: '2011',
       end: '2013'
     }
   }
