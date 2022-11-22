@@ -1,7 +1,7 @@
 {
   "name": "lucas-front",
   "private": true,
-  "version": "0.8.0",
+  "version": "0.8.1",
   "author": "lucasferreiralimax (https://github.com/lucasferreiralimax)",
   "repository": "https://github.com/lucasferreiralimax/lucas-frontend",
   "bugs": {
@@ -20,9 +20,9 @@
   "dependencies": {
     "@emotion/react": "^11.10.5",
     "@emotion/styled": "^11.10.5",
-    "@mui/icons-material": "^5.10.9",
-    "@mui/material": "^5.10.13",
-    "i18next": "^22.0.4",
+    "@mui/icons-material": "^5.10.14",
+    "@mui/material": "^5.10.14",
+    "i18next": "^22.0.6",
     "i18next-http-backend": "^2.0.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -36,18 +36,18 @@
     "@testing-library/react-hooks": "^8.0.1",
     "@testing-library/user-event": "^14.4.3",
     "@types/react": "^18.0.25",
-    "@types/react-dom": "^18.0.8",
+    "@types/react-dom": "^18.0.9",
     "@types/testing-library__jest-dom": "^5.14.5",
     "@vitejs/plugin-react": "^2.2.0",
-    "@vitest/coverage-c8": "^0.25.0",
-    "cypress": "^10.11.0",
-    "jsdom": "^20.0.2",
+    "@vitest/coverage-c8": "^0.25.2",
+    "cypress": "^11.1.0",
+    "jsdom": "^20.0.3",
     "sass": "^1.56.1",
     "start-server-and-test": "^1.14.0",
-    "typescript": "^4.6.4",
-    "vite": "^3.2.3",
+    "typescript": "^4.9.3",
+    "vite": "^3.2.4",
     "vite-plugin-html-env": "^1.2.7",
     "vite-plugin-react-svg": "^0.2.0",
-    "vitest": "^0.25.0"
+    "vitest": "^0.25.2"
   }
 }
