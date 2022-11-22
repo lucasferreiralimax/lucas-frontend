@@ -37,11 +37,11 @@ const Navigation = () => {
       data-testid='app-nav'
       className={ `app-nav${nav ? ' active' : '' }`}
       role='navigation'
-      aria-label={t('navigation.aria.description')}
+      aria-label={t<string>('navigation.aria.description')}
     >
       <button
         className='app-nav__menu'
-        aria-label={t('menu.arial_label.menu_button')}
+        aria-label={t<string>('menu.arial_label.menu_button')}
         onClick={menu}
         type='button'
       >
