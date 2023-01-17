@@ -82,6 +82,6 @@ describe('Test render home page languages', () => {
 describe('Test render home page footer', () => {
   it('Render footer', () => {
     cy.get('.app-footer').should('exist')
-    cy.get('.app-footer').contains('2022 @lucasferreiralimax')
+    cy.get('.app-footer').contains(`@lucasferreiralimax — ${new Date().getFullYear()}`)
   })
 })
