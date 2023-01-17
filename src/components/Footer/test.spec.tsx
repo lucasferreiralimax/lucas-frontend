@@ -9,7 +9,7 @@ describe('Should render <Footer/>', () => {
   it('renders simple footer', () => {
     expect(screen.getByTestId('app-footer')).toBeInTheDocument()
   });
-  it('render text 2022 @lucasferreiralimax', () => {
-    expect(screen.getByText('2022 @lucasferreiralimax')).toBeInTheDocument()
+  it('render text @lucasferreiralimax with year now', () => {
+    expect(screen.getByText(`@lucasferreiralimax — ${new Date().getFullYear()}`)).toBeInTheDocument()
   });
 });
