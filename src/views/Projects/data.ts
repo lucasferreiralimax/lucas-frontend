@@ -13,6 +13,7 @@ import SlideAngular from '@/assets/projects/slide-content-angular.png';
 import SlideEmber from '@/assets/projects/slide-content-ember.png';
 import ChatVue from '@/assets/projects/web-chat-vue.png';
 import Steam from '@/assets/projects/steam-angular.png';
+import WalletDigitalz from '@/assets/projects/walletdigitalz.png';
 
 const projects: ProjectType[] = [
   {
@@ -35,6 +36,13 @@ const projects: ProjectType[] = [
     repo: 'https://github.com/lucasferreiralimax/detran-simulador',
     photo: Detran,
     techs: ['HTML', 'CSS', 'Typescript', 'Angular', 'Sass', 'Git', 'Cypress', 'Karma']
+  },
+  {
+    translate: 'pageProjects.walletdigitalz',
+    url: 'https://walletdigitalz.web.app',
+    repo: 'https://github.com/lucasferreiralimax/wallet-digitalz',
+    photo: WalletDigitalz,
+    techs: ['HTML', 'CSS', 'JavaScript', 'Vue', 'SCSS', 'Git', 'Jest', 'Cypress', 'Vite']
   },
   {
     translate: 'pageProjects.notes',

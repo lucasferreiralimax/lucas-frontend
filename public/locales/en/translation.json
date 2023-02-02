@@ -56,6 +56,10 @@
       "title": "Detran Simulator",
       "description": "This social project to help peoples prepare for a test with questions about Brazilian traffic laws\nConstructed in a simple objective to helper every Brazilian citizen for preparation exam"
     },
+    "walletdigitalz": {
+      "title": "Wallet Digitalz",
+      "description": "Wallet Digitalz application\nis for help to manager your money\nexpenses and investiments"
+    },
     "notes": {
       "title": "Web Note Application Svelte",
       "description": "Notes interface created with Svelte, Pug.js and Stylus\nExamples of notes saved in localStorage\nwith responsive design and darkmode\nButton with animations and modal transitions"

@@ -56,6 +56,10 @@
       "title": "Detran Simulador",
       "description": "Esse projeto social tem o intuito de ajudar as pessoas a se preparar para uma prova com questões sobre leis de trânsito brasileira\nConstruído de uma forma simples para atingir todo cidadão brasileiro e ajudar em seu momento de preparo"
     },
+    "walletdigitalz": {
+      "title": "Wallet Digitalz",
+      "description": "O aplicativo Wallet Digitalz\né para ajudar a gerenciar seu dinheiro\ndespesas e investimentos"
+    },
     "notes": {
       "title": "Web Aplicativo de Notas com Svelte",
       "description": "Interface de notas criada com Svelte, Pug.js e Stylus\nExemplos de notas gravadas no localStorage\ncom design responsivo e darkmode\nAnimações nos botões e transições no modais"
