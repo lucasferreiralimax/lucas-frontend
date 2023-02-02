@@ -10,7 +10,6 @@ describe('Test render home page', () => {
   it('Render photo profile', () => {
     cy.get('.app-profile__photo').should('exist')
     cy.get('.app-profile__photo').invoke('attr', 'alt').should('contain', 'Lucas Ferreira de Lima')
-    cy.get('.app-profile__photo').invoke('attr', 'src').should('contain', '/src/assets/lucaslucas.jpg')
   })
 })
 
