@@ -51,6 +51,9 @@ describe('Test render projects page languages', () => {
     cy.contains('Web Note Application Svelte')
     cy.contains('Notes interface created with Svelte, Pug.js and Stylus Examples of notes saved in localStorage with responsive design and darkmode Button with animations and modal transitions')
 
+    cy.contains('Wallet Digitalz')
+    cy.contains('Wallet Digitalz application is for help to manager your money expenses and investiments')
+
     cy.contains('Interface Facebook with Angular')
     cy.contains('Notes interface created with Svelte, Pug.js and Stylus Examples of notes saved in localStorage with responsive design and darkmode Button with animations and modal transitions')
 
@@ -97,6 +100,9 @@ describe('Test render projects page languages', () => {
 
     cy.contains('Detran Simulador')
     cy.contains('Esse projeto social tem o intuito de ajudar as pessoas a se preparar para uma prova com questões sobre leis de trânsito brasileira Construído de uma forma simples para atingir todo cidadão brasileiro e ajudar em seu momento de preparo')
+
+    cy.contains('Wallet Digitalz')
+    cy.contains('O aplicativo Wallet Digitalz é para ajudar a gerenciar seu dinheiro despesas e investimentos')
 
     cy.contains('Web Aplicativo de Notas com Svelte')
     cy.contains('Interface de notas criada com Svelte, Pug.js e Stylus Exemplos de notas gravadas no localStorage com design responsivo e darkmode Animações nos botões e transições no modais')
@@ -147,6 +153,9 @@ describe('Test render projects page languages', () => {
 
     cy.contains('Detran Simulador')
     cy.contains('Este proyecto social tiene como objetivo ayudar a las personas a prepararse para un examen con preguntas sobre las leyes de tránsito de Brasil Construido de manera simple para llegar a todos los ciudadanos brasileños y ayudarlos en su tiempo de preparación')
+
+    cy.contains('Wallet Digitalz')
+    cy.contains('La aplicación Wallet Digitalz es una ayuda para administrar su dinero gastos e inversiones')
 
     cy.contains('Aplicación de notas con Svelte')
     cy.contains('Interfaz de notas creada con Svelte, Pug.js y Stylus Ejemplos de notas grabadas en localStorage con diseño receptivo y modo oscuro Animaciones de botones y transiciones modales')
