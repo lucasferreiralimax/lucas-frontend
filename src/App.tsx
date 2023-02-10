@@ -14,8 +14,8 @@ const views = [
 
 const App = () => {
   return (
-    <Suspense fallback={<Loading/>}>
-      <div className='app-container' data-testid='app-container'>
+    <div className='app-container' data-testid='app-container'>
+      <Suspense fallback={<Loading/>}>
         <Header />
         <main>
           <Routes>
@@ -25,8 +25,8 @@ const App = () => {
           </Routes>
         </main>
         <Footer />
-      </div>
-    </Suspense>
+      </Suspense>
+    </div>
   )
 }
 
