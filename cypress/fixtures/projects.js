@@ -18,6 +18,12 @@ const projects = [
     techs: ['HTML', 'CSS', 'Typescript', 'Angular', 'Sass', 'Git', 'Cypress', 'Karma']
   },
   {
+    name: 'walletdigitalz',
+    url: 'https://walletdigitalz.web.app',
+    repo: 'https://github.com/lucasferreiralimax/wallet-digitalz',
+    techs: ['HTML', 'CSS', 'JavaScript', 'Vue', 'Sass', 'Git', 'Jest', 'Cypress', 'Vite']
+  },
+  {
     name: 'notes',
     url: 'https://keep-cybernetically.web.app',
     repo: 'https://github.com/lucasferreiralimax/keep_cybernetically',
