@@ -42,7 +42,7 @@ const projects: ProjectType[] = [
     url: 'https://walletdigitalz.web.app',
     repo: 'https://github.com/lucasferreiralimax/wallet-digitalz',
     photo: WalletDigitalz,
-    techs: ['HTML', 'CSS', 'JavaScript', 'Vue', 'SCSS', 'Git', 'Jest', 'Cypress', 'Vite']
+    techs: ['HTML', 'CSS', 'JavaScript', 'Vue', 'Sass', 'Git', 'Jest', 'Cypress', 'Vite']
   },
   {
     translate: 'pageProjects.notes',
