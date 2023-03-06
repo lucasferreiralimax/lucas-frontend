@@ -12,7 +12,10 @@ jobs:
         version: [16, 18]
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: ${{ matrix.version }}
       - run: npm ci --force && npm run build
       - name: Test unit
         run: npm run test:unit
