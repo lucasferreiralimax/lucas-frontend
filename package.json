@@ -32,22 +32,22 @@
   },
   "devDependencies": {
     "@testing-library/jest-dom": "^5.16.5",
-    "@testing-library/react": "^13.4.0",
+    "@testing-library/react": "^14.0.0",
     "@testing-library/react-hooks": "^8.0.1",
     "@testing-library/user-event": "^14.4.3",
     "@types/react": "^18.0.27",
     "@types/react-dom": "^18.0.10",
     "@types/testing-library__jest-dom": "^5.14.5",
     "@vitejs/plugin-react": "^3.1.0",
-    "@vitest/coverage-c8": "^0.28.4",
+    "@vitest/coverage-c8": "^0.29.2",
     "cypress": "^12.5.1",
     "jsdom": "^21.1.0",
-    "sass": "^1.58.0",
-    "start-server-and-test": "^1.15.3",
+    "sass": "^1.58.3",
+    "start-server-and-test": "^2.0.0",
     "typescript": "^4.9.5",
-    "vite": "^4.1.1",
+    "vite": "^4.1.4",
     "vite-plugin-html-env": "^1.2.7",
     "vite-plugin-react-svg": "^0.2.0",
-    "vitest": "^0.28.4"
+    "vitest": "^0.29.2"
   }
 }
