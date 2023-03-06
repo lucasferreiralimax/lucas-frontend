@@ -1,6 +1,6 @@
 [Live Project Online](https://lucas-frontend.web.app/).
 
-This project was bootstrapped with [Vite](https://github.com/vitejs/vite).
+This project was bootstrapped for Portfolio with React.js
 
 ## Available Scripts
 
@@ -18,6 +18,11 @@ You will also see any lint errors in the console.
 
 Launches the test runner in the interactive watch mode.<br />
 See the section about [running tests with vitest](https://vitest.dev) for more information.
+
+### `npm run test:e2e` or `npm run test:e2e:dev`
+
+Launches the test end to end runner with cypress.io<br />
+See the section about [running tests with Cypress.io](https://www.cypress.io) for more information.
 
 ### `npm run build`
 
