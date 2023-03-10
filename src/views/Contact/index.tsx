@@ -25,24 +25,23 @@ const Contact = () => {
             role='link'
             aria-label={`Link ${item.name}`}
           >
-            {item.icon
-              ? (
-                <item.icon
-                  className={
-                    `icon ${item.className ? item.className : item.name.toLocaleLowerCase()}`
-                  }
-                />
-              )
-              : (
-                <img
-                  width='30'
-                  height='30'
-                  src={item.img}
-                  className={
-                    `app-social__icon ${item.className ? item.className : item.name.toLocaleLowerCase()}`
-                  }
-                />
-              )}
+            {item.icon && (
+              <item.icon
+                className={
+                  `icon ${item.className ? item.className : item.name.toLocaleLowerCase()}`
+                }
+              />
+            )}
+            {item.img && (
+              <img
+                width='30'
+                height='30'
+                src={item.img}
+                className={
+                  `app-social__icon ${item.className ? item.className : item.name.toLocaleLowerCase()}`
+                }
+              />
+            )}
             <span>{ item.name }</span>
           </a>
         ))}

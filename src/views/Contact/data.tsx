@@ -51,6 +51,10 @@ const contacts: ContactItem[] = [
     img: PluralSight,
     link: 'https://app.pluralsight.com/profile/lucasferreiralimax'
   },
+  {
+    name: 'C V',
+    link: './lucas-2023-en.pdf'
+  },
 ];
 
 export default contacts;

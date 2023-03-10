@@ -1,6 +1,8 @@
 .app-social {
   margin-bottom: 1rem;
-  a, p {
+  display: inline-flex;
+  flex-wrap: wrap;
+  a {
     display: inline-flex;
     align-items: center;
     padding: 1rem;
@@ -9,6 +11,7 @@
     margin: 1rem 1rem 0 0;
     color: var(--main-color);
     background: var(--main-bg-color-primary);
+    min-width: 30px;
     &:hover {
       box-shadow: 0 0 20px var(--main-color-primary);
       color: var(--main-color-primary);
@@ -17,7 +20,7 @@
     &:first-of-type { margin-left: 0; }
     &:last-of-type { margin-right: 0; }
     .app-social__icon { transition: .3s all; }
-    span { margin-left: .5rem; }
+    svg, img { margin-right: .5rem; }
   }
   @media (max-width: 600px) {
     display: flex;
