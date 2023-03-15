@@ -49,7 +49,7 @@
       "description": "Projeto com listagem de contatos internacionais para prevenção a vida, escrito do zero com JavaScript puro"
     },
     "createCurriculum": {
-      "title": "Projeto Criar Currículo",
+      "title": "Criar Currículo",
       "description": "Esse web aplicativo é uma ação social e auxilia as pessoas a criar um curriculo profissional, elegante, de uma forma simples e objetiva"
     },
     "detran": {
@@ -61,11 +61,11 @@
       "description": "O aplicativo Wallet Digitalz\né para ajudar a gerenciar seu dinheiro\ndespesas e investimentos"
     },
     "notes": {
-      "title": "Web Aplicativo de Notas com Svelte",
+      "title": "Aplicativo de Notas com Svelte",
       "description": "Interface de notas criada com Svelte, Pug.js e Stylus\nExemplos de notas gravadas no localStorage\ncom design responsivo e darkmode\nAnimações nos botões e transições no modais"
     },
     "chatVue": {
-      "title": "Web Chat Vue",
+      "title": "Chat Vue",
       "description": "Interface de chat web escrito com Vue.js\nCom responsividade e página de login personalizada\ninternalização de idiomas\ntestes unitários e testes e2e"
     },
     "facebook": {

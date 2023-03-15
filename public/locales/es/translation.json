@@ -49,7 +49,7 @@
       "description": "Proyecto con listado de contactos internacionales para la prevención de la vida, escrito desde cero con puro JavaScript"
     },
     "createCurriculum": {
-      "title": "Proyecto Crear Currículum",
+      "title": "Crear Currículum",
       "description": "Esta aplicación web es una acción social y ayuda a las personas a crear un plan de estudios elegante y profesional de una manera simple y objetiva."
     },
     "detran": {
@@ -65,7 +65,7 @@
       "description": "Interfaz de notas creada con Svelte, Pug.js y Stylus\nEjemplos de notas grabadas en localStorage\ncon diseño receptivo y modo oscuro\nAnimaciones de botones y transiciones modales"
     },
     "chatVue": {
-      "title": "Web Chat Vue",
+      "title": "Chat Vue",
       "description": "Interfaz de chat web escrita con Vue.js\nCon design responsiva y página de inicio de sesión personalizada\ninternalización de idiomas\npruebas unitarias y pruebas e2e"
     },
     "facebook": {
