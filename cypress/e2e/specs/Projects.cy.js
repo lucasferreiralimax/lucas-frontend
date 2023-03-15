@@ -42,13 +42,13 @@ describe('Test render projects page languages', () => {
     cy.contains('Contact Prevention of Life')
     cy.contains('Project with listing of international contacts for life prevention, written with pure JavaScript, HTML and CSS')
 
-    cy.contains('Project Create Curriculum')
+    cy.contains('Create Curriculum')
     cy.contains('This web application is a social action and helps peoples to create a professional, elegant curriculum in a simple and objective')
 
     cy.contains('Detran Simulator')
     cy.contains('This social project to help peoples prepare for a test with questions about Brazilian traffic laws Constructed in a simple objective to helper every Brazilian citizen for preparation exam')
 
-    cy.contains('Web Note Application Svelte')
+    cy.contains('Note Application Svelte')
     cy.contains('Notes interface created with Svelte, Pug.js and Stylus Examples of notes saved in localStorage with responsive design and darkmode Button with animations and modal transitions')
 
     cy.contains('Wallet Digitalz')
@@ -60,7 +60,7 @@ describe('Test render projects page languages', () => {
     cy.contains('Interface New Facebook with Angular')
     cy.contains('Clone of the new Facebook interface with Angular Darkmode and Responsive Design')
 
-    cy.contains('Web Chat Vue')
+    cy.contains('Chat Vue')
     cy.contains('Web chat interface written with Vue.js With responsive and custom login page language internalization unitary tests and e2e tests')
 
     cy.contains('SlideContent with React.js')
@@ -95,7 +95,7 @@ describe('Test render projects page languages', () => {
     cy.contains('Contatos de Prevenção a Vida')
     cy.contains('Projeto com listagem de contatos internacionais para prevenção a vida, escrito do zero com JavaScript puro')
 
-    cy.contains('Projeto Criar Currículo')
+    cy.contains('Criar Currículo')
     cy.contains('Esse web aplicativo é uma ação social e auxilia as pessoas a criar um curriculo profissional, elegante, de uma forma simples e objetiva')
 
     cy.contains('Detran Simulador')
@@ -104,7 +104,7 @@ describe('Test render projects page languages', () => {
     cy.contains('Wallet Digitalz')
     cy.contains('O aplicativo Wallet Digitalz é para ajudar a gerenciar seu dinheiro despesas e investimentos')
 
-    cy.contains('Web Aplicativo de Notas com Svelte')
+    cy.contains('Aplicativo de Notas com Svelte')
     cy.contains('Interface de notas criada com Svelte, Pug.js e Stylus Exemplos de notas gravadas no localStorage com design responsivo e darkmode Animações nos botões e transições no modais')
 
     cy.contains('Facebook com Angular')
@@ -113,7 +113,7 @@ describe('Test render projects page languages', () => {
     cy.contains('Novo Facebook com Angular')
     cy.contains('Clone da interface nova do Facebook com Angular Darkmode e Design Responsivo')
 
-    cy.contains('Web Chat Vue')
+    cy.contains('Chat Vue')
     cy.contains('Interface de chat web escrito com Vue.js Com responsividade e página de login personalizada internalização de idiomas testes unitários e testes e2e')
 
     cy.contains('SlideContent com React.js')
@@ -148,7 +148,7 @@ describe('Test render projects page languages', () => {
     cy.contains('Contactos Prevención de la Vida')
     cy.contains('Proyecto con listado de contactos internacionales para la prevención de la vida, escrito desde cero con puro JavaScript')
 
-    cy.contains('Proyecto Crear Currículum')
+    cy.contains('Crear Currículum')
     cy.contains('Esta aplicación web es una acción social y ayuda a las personas a crear un plan de estudios elegante y profesional de una manera simple y objetiva.')
 
     cy.contains('Detran Simulador')
@@ -166,7 +166,7 @@ describe('Test render projects page languages', () => {
     cy.contains('Facebook Nuevo con Angular')
     cy.contains('Clon de la nueva interfaz de Facebook con Angular Darkmode y Responsive Design')
 
-    cy.contains('Web Chat Vue')
+    cy.contains('Chat Vue')
     cy.contains('Interfaz de chat web escrita con Vue.js Con design responsiva y página de inicio de sesión personalizada internalización de idiomas pruebas unitarias y pruebas e2e')
 
     cy.contains('SlideContent con React.js')
