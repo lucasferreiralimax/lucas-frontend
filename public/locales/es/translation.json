@@ -44,6 +44,10 @@
   },
   "pageProjects": {
     "techUsage": "Tecnologías utilizadas",
+    "criarArt": {
+      "title": "Criar Art",
+      "description": "Empresa de desarrollo enfocada en web y aplicaciones"
+    },
     "listSOS": {
       "title": "Contactos Prevención de la Vida",
       "description": "Proyecto con listado de contactos internacionales para la prevención de la vida, escrito desde cero con puro JavaScript"

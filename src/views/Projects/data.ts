@@ -1,5 +1,6 @@
 import { ProjectType } from '@/components/Project/types';
 
+import Criar from '@/assets/projects/criar-art.jpg';
 import SOS from '@/assets/projects/sos.png';
 import ProjetoCriar from '@/assets/projects/projeto-criar-curriculo.png';
 import Detran from '@/assets/projects/detran-simulador.png';
@@ -16,6 +17,13 @@ import Steam from '@/assets/projects/steam-angular.png';
 import WalletDigitalz from '@/assets/projects/walletdigitalz.png';
 
 const projects: ProjectType[] = [
+  {
+    translate: 'pageProjects.criarArt',
+    url: 'https://criar.art',
+    repo: 'https://github.com/criar-art',
+    photo: Criar,
+    techs: ['HTML', 'CSS', 'JavaScript', 'Vue', 'React', 'Angular', 'Git']
+  },
   {
     translate: 'pageProjects.listSOS',
     url: 'https://lucasferreiralimax.github.io/save-our-soul',
