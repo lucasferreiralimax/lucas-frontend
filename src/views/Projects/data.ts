@@ -41,14 +41,14 @@ const projects: ProjectType[] = [
   {
     translate: 'pageProjects.detran',
     url: 'https://detran-simulador.web.app',
-    repo: 'https://github.com/lucasferreiralimax/detran-simulador',
+    repo: 'https://github.com/criar-art/detran.simulador',
     photo: Detran,
     techs: ['HTML', 'CSS', 'Typescript', 'Angular', 'Sass', 'Git', 'Cypress', 'Karma']
   },
   {
     translate: 'pageProjects.walletdigitalz',
     url: 'https://walletdigitalz.web.app',
-    repo: 'https://github.com/lucasferreiralimax/wallet-digitalz',
+    repo: 'https://github.com/criar-art/wallet.digitalz',
     photo: WalletDigitalz,
     techs: ['HTML', 'CSS', 'JavaScript', 'Vue', 'Sass', 'Git', 'Jest', 'Cypress', 'Vite']
   },
