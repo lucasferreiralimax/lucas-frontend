@@ -48,6 +48,14 @@
       "title": "Criar Art",
       "description": "Empresa de desenvolvimento focado em web e aplicativos"
     },
+    "vueTechsLogos": {
+      "title": "vue-techs-logos",
+      "description": "Componente Vue com listagem de logos de tecnologias, linguages e empresas de tecnologia ou relacionado."
+    },
+    "darkModeVue": {
+      "title": "darkmode-vue",
+      "description": "Componente Vue para ativar darkmode em uma aplicação Vue, botão estilizado e com diversas formas de costumização."
+    },
     "listSOS": {
       "title": "Contatos de Prevenção a Vida",
       "description": "Projeto com listagem de contatos internacionais para prevenção a vida, escrito do zero com JavaScript puro"

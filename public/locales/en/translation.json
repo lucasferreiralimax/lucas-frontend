@@ -48,6 +48,14 @@
       "title": "Criar Art",
       "description": "Development company focused on web and applications"
     },
+    "vueTechsLogos": {
+      "title": "vue-techs-logos",
+      "description": "Vue component listing logos of technologies, languages and technology companies or related."
+    },
+    "darkModeVue": {
+      "title": "darkmode-vue",
+      "description": "Vue component to activate darkmode in a Vue application, stylized button with several ways of customization."
+    },
     "listSOS": {
       "title": "Contact Prevention of Life",
       "description": "Project with listing of international contacts for life prevention, written with pure JavaScript, HTML and CSS"

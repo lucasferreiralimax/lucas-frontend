@@ -1,6 +1,8 @@
 import { ProjectType } from '@/components/Project/types';
 
 import Criar from '@/assets/projects/criar-art.jpg';
+import VueTechsLogos from '@/assets/projects/vue-techs-logos.png';
+import DarkModeVue from '@/assets/projects/darkmode-vue.png';
 import SOS from '@/assets/projects/sos.png';
 import ProjetoCriar from '@/assets/projects/projeto-criar-curriculo.png';
 import Detran from '@/assets/projects/detran-simulador.png';
@@ -23,6 +25,20 @@ const projects: ProjectType[] = [
     repo: 'https://github.com/criar-art',
     photo: Criar,
     techs: ['HTML', 'CSS', 'JavaScript', 'Vue', 'React', 'Angular', 'Git']
+  },
+  {
+    translate: 'pageProjects.vueTechsLogos',
+    url: 'https://vue-techs-logos.web.app',
+    repo: 'https://github.com/criar-art/vue-techs-logos',
+    photo: VueTechsLogos,
+    techs: ['HTML', 'CSS', 'JavaScript', 'Vue', 'Vite', 'Git']
+  },
+  {
+    translate: 'pageProjects.darkModeVue',
+    url: 'https://darkmode-vue.web.app',
+    repo: 'https://github.com/livresaber/darkmode-vue',
+    photo: DarkModeVue,
+    techs: ['HTML', 'CSS', 'JavaScript', 'Vue', 'Vite', 'Git']
   },
   {
     translate: 'pageProjects.listSOS',
@@ -83,21 +99,21 @@ const projects: ProjectType[] = [
   {
     translate: 'pageProjects.slide.react',
     url: 'https://slidecontent-reactjs.web.app',
-    repo: 'https://github.com/lucasferreiralimax/slidecontent-react',
+    repo: 'https://github.com/criar-art/slidecontent-react',
     photo: SlideReact,
     techs: ['HTML', 'CSS', 'JavaScript', 'React', 'Git', 'Jest']
   },
   {
     translate: 'pageProjects.slide.vue',
     url: 'https://slidecontent-vuejs.web.app',
-    repo: 'https://github.com/lucasferreiralimax/slidecontent-vue',
+    repo: 'https://github.com/criar-art/slidecontent-vue',
     photo: SlideVue,
     techs: ['HTML', 'CSS', 'JavaScript', 'Vue', 'Stylus', 'Git', 'Cypress', 'Jest']
   },
   {
     translate: 'pageProjects.slide.angular',
     url: 'https://angular-slidecontent.web.app',
-    repo: 'https://github.com/lucasferreiralimax/slidecontent-angular',
+    repo: 'https://github.com/criar-art/slidecontent-angular',
     photo: SlideAngular,
     techs: ['HTML', 'CSS', 'Typescript', 'Angular', 'Sass', 'Git', 'Karma']
   },
