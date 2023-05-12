@@ -48,13 +48,17 @@
       "title": "Criar Art",
       "description": "Empresa de desarrollo enfocada en web y aplicaciones"
     },
+    "darkModeVue": {
+      "title": "darkmode-vue",
+      "description": "Componente Vue para activar el modo oscuro en una aplicación Vue, botón estilizado con varias formas de personalización."
+    },
     "vueTechsLogos": {
       "title": "vue-techs-logos",
       "description": "Componente de Vue que enumera logotipos de tecnologías, idiomas y empresas de tecnología o relacionadas."
     },
-    "darkModeVue": {
-      "title": "darkmode-vue",
-      "description": "Componente Vue para activar el modo oscuro en una aplicación Vue, botón estilizado con varias formas de personalización."
+    "reactTechsLogos": {
+      "title": "react-techs-logos",
+      "description": "Componente de React que enumera logotipos de tecnologías, idiomas y empresas de tecnología o relacionadas."
     },
     "listSOS": {
       "title": "Contactos Prevención de la Vida",

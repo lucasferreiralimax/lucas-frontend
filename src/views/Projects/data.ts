@@ -1,8 +1,9 @@
 import { ProjectType } from '@/components/Project/types';
 
 import Criar from '@/assets/projects/criar-art.jpg';
-import VueTechsLogos from '@/assets/projects/vue-techs-logos.png';
 import DarkModeVue from '@/assets/projects/darkmode-vue.png';
+import VueTechsLogos from '@/assets/projects/vue-techs-logos.png';
+import ReactTechsLogos from '@/assets/projects/react-techs-logos.png';
 import SOS from '@/assets/projects/sos.png';
 import ProjetoCriar from '@/assets/projects/projeto-criar-curriculo.png';
 import Detran from '@/assets/projects/detran-simulador.png';
@@ -27,18 +28,26 @@ const projects: ProjectType[] = [
     techs: ['HTML', 'CSS', 'JavaScript', 'Vue', 'React', 'Angular', 'Git']
   },
   {
+    translate: 'pageProjects.darkModeVue',
+    url: 'https://darkmode-vue.web.app',
+    repo: 'https://github.com/livresaber/darkmode-vue',
+    photo: DarkModeVue,
+    techs: ['HTML', 'CSS', 'JavaScript', 'Vue', 'Vite', 'Git']
+  },
+  {
     translate: 'pageProjects.vueTechsLogos',
     url: 'https://vue-techs-logos.web.app',
     repo: 'https://github.com/criar-art/vue-techs-logos',
     photo: VueTechsLogos,
     techs: ['HTML', 'CSS', 'JavaScript', 'Vue', 'Vite', 'Git']
   },
+
   {
-    translate: 'pageProjects.darkModeVue',
-    url: 'https://darkmode-vue.web.app',
-    repo: 'https://github.com/livresaber/darkmode-vue',
-    photo: DarkModeVue,
-    techs: ['HTML', 'CSS', 'JavaScript', 'Vue', 'Vite', 'Git']
+    translate: 'pageProjects.reactTechsLogos',
+    url: 'https://react-techs-logos.web.app',
+    repo: 'https://github.com/criar-art/react-techs-logos',
+    photo: ReactTechsLogos,
+    techs: ['HTML', 'CSS', 'JavaScript', 'React', 'Vite', 'Git']
   },
   {
     translate: 'pageProjects.listSOS',
