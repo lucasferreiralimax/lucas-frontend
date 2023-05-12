@@ -39,6 +39,18 @@ describe('Test render projects page languages', () => {
     cy.wait(1000)
     cy.contains('Projects')
 
+    cy.contains('Criar Art')
+    cy.contains('Development company focused on web and applications')
+
+    cy.contains('darkmode-vue')
+    cy.contains('Vue component to activate darkmode in a Vue application, stylized button with several ways of customization.')
+
+    cy.contains('vue-techs-logos')
+    cy.contains('Vue component listing logos of technologies, languages and technology companies or related.')
+
+    cy.contains('react-techs-logos')
+    cy.contains('React component listing logos of technologies, languages and technology companies or related.')
+
     cy.contains('Contact Prevention of Life')
     cy.contains('Project with listing of international contacts for life prevention, written with pure JavaScript, HTML and CSS')
 
@@ -92,6 +104,18 @@ describe('Test render projects page languages', () => {
     cy.wait(1000)
     cy.contains('Projetos')
 
+    cy.contains('Criar Art')
+    cy.contains('Empresa de desenvolvimento focado em web e aplicativos')
+
+    cy.contains('darkmode-vue')
+    cy.contains('Componente Vue para ativar darkmode em uma aplicação Vue, botão estilizado e com diversas formas de costumização.')
+
+    cy.contains('vue-techs-logos')
+    cy.contains('Componente Vue com listagem de logos de tecnologias, linguages e empresas de tecnologia ou relacionado.')
+
+    cy.contains('react-techs-logos')
+    cy.contains('Componente React com listagem de logos de tecnologias, linguages e empresas de tecnologia ou relacionado.')
+
     cy.contains('Contatos de Prevenção a Vida')
     cy.contains('Projeto com listagem de contatos internacionais para prevenção a vida, escrito do zero com JavaScript puro')
 
@@ -144,6 +168,18 @@ describe('Test render projects page languages', () => {
     cy.get('.app-language').select('es')
     cy.wait(1000)
     cy.contains('Proyectos')
+
+    cy.contains('Criar Art')
+    cy.contains('Development company focused on web and applications')
+
+    cy.contains('darkmode-vue')
+    cy.contains('Vue component to activate darkmode in a Vue application, stylized button with several ways of customization.')
+
+    cy.contains('vue-techs-logos')
+    cy.contains('Vue component listing logos of technologies, languages and technology companies or related.')
+
+    cy.contains('react-techs-logos')
+    cy.contains('React component listing logos of technologies, languages and technology companies or related.')
 
     cy.contains('Contactos Prevención de la Vida')
     cy.contains('Proyecto con listado de contactos internacionales para la prevención de la vida, escrito desde cero con puro JavaScript')
