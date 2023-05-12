@@ -170,16 +170,16 @@ describe('Test render projects page languages', () => {
     cy.contains('Proyectos')
 
     cy.contains('Criar Art')
-    cy.contains('Development company focused on web and applications')
+    cy.contains('Empresa de desarrollo enfocada en web y aplicaciones')
 
     cy.contains('darkmode-vue')
-    cy.contains('Vue component to activate darkmode in a Vue application, stylized button with several ways of customization.')
+    cy.contains('Componente Vue para activar el modo oscuro en una aplicación Vue, botón estilizado con varias formas de personalización.')
 
     cy.contains('vue-techs-logos')
-    cy.contains('Vue component listing logos of technologies, languages and technology companies or related.')
+    cy.contains('Componente de Vue que enumera logotipos de tecnologías, idiomas y empresas de tecnología o relacionadas.')
 
     cy.contains('react-techs-logos')
-    cy.contains('React component listing logos of technologies, languages and technology companies or related.')
+    cy.contains('Componente de React que enumera logotipos de tecnologías, idiomas y empresas de tecnología o relacionadas.')
 
     cy.contains('Contactos Prevención de la Vida')
     cy.contains('Proyecto con listado de contactos internacionales para la prevención de la vida, escrito desde cero con puro JavaScript')
