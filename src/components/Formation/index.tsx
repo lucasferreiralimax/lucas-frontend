@@ -10,20 +10,20 @@ const Formation = ({ dataTestid, data }: FormationProps) => {
 
   return (
     <div data-testid={dataTestid} className='app-formation'>
-      <h3 className='app-formation__title'>{t<string>(`${data.translate}.title`)}</h3>
+      <h3 className='app-formation__title'>{t(`${data.translate}.title`)}</h3>
       <div className='app-formation__detail'>
         <a
           href={data.url}
           target='_blank'
           role="link"
-          aria-label={`Link ${t<string>(`${data.translate}.title`)}`}
+          aria-label={`Link ${t(`${data.translate}.title`)}`}
         >
-          <img width='70' src={data.photo} alt={t<string>(`${data.translate}.title`)} />
+          <img width='70' src={data.photo} alt={t(`${data.translate}.title`)} />
         </a>
         <div className='app-formation__description'>
           {data.date.start} - {data.date.end}<br/>
           <hr></hr>
-          {t<string>(`${data.translate}.description`)}
+          {t(`${data.translate}.description`)}
         </div>
       </div>
       {data.url && (
@@ -32,7 +32,7 @@ const Formation = ({ dataTestid, data }: FormationProps) => {
             href={data.url}
             target='_blank'
             role="link"
-            aria-label={`Link ${t<string>(`${data.translate}.title`)}`}
+            aria-label={`Link ${t(`${data.translate}.title`)}`}
           >
             <LinkIcon className='app-formation__icon link' />
             <span>Site</span>

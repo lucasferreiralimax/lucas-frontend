@@ -13,15 +13,15 @@ const Project = ({ dataTestid, data }: ProjectProps) => {
 
   return (
     <div data-testid={dataTestid} className='app-project'>
-      <h3 className='app-project__title'>{t<string>(`${data.translate}.title`)}</h3>
-      <Zoom size={{ width: '300px' }} img={data.photo} alt={t<string>(`${data.translate}.title`)} />
+      <h3 className='app-project__title'>{t(`${data.translate}.title`)}</h3>
+      <Zoom size={{ width: '300px' }} img={data.photo} alt={t(`${data.translate}.title`)} />
       <div className='app-project__description'>
-        {t<string>(`${data.translate}.description`)}
+        {t(`${data.translate}.description`)}
       </div>
       <div className='app-project__footer'>
         {data.techs && (
           <>
-            <strong>{t<string>('pageProjects.techUsage')}</strong>
+            <strong>{t('pageProjects.techUsage')}</strong>
             <Tech show={data.techs} />
           </>
         )}
@@ -29,7 +29,7 @@ const Project = ({ dataTestid, data }: ProjectProps) => {
           <a
             href={data.url} target='_blank'
             role="link"
-            aria-label={`Link ${t<string>(`${data.translate}.title`)}`}
+            aria-label={`Link ${t(`${data.translate}.title`)}`}
           >
             <LinkIcon className='app-project__icon link' />
             <span>Link</span>
@@ -37,7 +37,7 @@ const Project = ({ dataTestid, data }: ProjectProps) => {
           <a
             href={data.repo} target='_blank'
             role="link"
-            aria-label={`Github ${t<string>(`${data.translate}.title`)}`}
+            aria-label={`Github ${t(`${data.translate}.title`)}`}
           >
             <Github className='app-project__icon github' />
             <span>Github</span>
