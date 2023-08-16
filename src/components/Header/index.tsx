@@ -11,7 +11,7 @@ const Header = () => {
       <Navigation />
       <h1 className='app-header__name'>
         <Link to='/'>
-          <Brasil /> Lucas Ferreira de Lima
+          Lucas Ferreira de Lima
         </Link>
       </h1>
     </header>

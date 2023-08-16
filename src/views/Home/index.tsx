@@ -6,7 +6,7 @@ import Tooltip from '@mui/material/Tooltip';
 import Tech from '@/components/Tech';
 
 import './style.scss';
-import Lucas from '@/assets/lucaslucas.jpg';
+import Lucas from '@/assets/lucaslima.png';
 
 const Home = () => {
   const { t } = useTranslation();
@@ -31,8 +31,8 @@ const Home = () => {
           className={`app-profile__photo${!loadingImage ? ' show' : ''}`}
           alt='Lucas Ferreira de Lima'
           src={Lucas}
-          width={250}
-          height={250}
+          width={150}
+          height={150}
           onLoad={() => setLoadingImage(false)}
         />
       </Tooltip>
@@ -40,8 +40,8 @@ const Home = () => {
         <Skeleton
           variant="circular"
           className='app-profile__photo-skeleton'
-          width={250}
-          height={250}
+          width={150}
+          height={150}
         />
       )}
       <p>
