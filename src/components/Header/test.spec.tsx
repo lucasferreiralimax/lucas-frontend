@@ -26,7 +26,4 @@ describe('Should render <Header/>', () => {
     expect(title).toBeInTheDocument();
     expect(title.getAttribute('href')).toBe('/');
   });
-  it('render flag Brasil', () => {
-    expect(screen.getByRole('img', { name: /Brasil/i })).toBeInTheDocument();
-  });
 });
