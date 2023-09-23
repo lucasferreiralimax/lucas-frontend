@@ -12,12 +12,6 @@ const projects = [
     techs: ['HTML', 'CSS', 'JavaScript', 'Vue', 'Stylus', 'Git', 'Cypress', 'Jest']
   },
   {
-    name: 'detran',
-    url: 'https://detran-simulador.web.app',
-    repo: 'https://github.com/lucasferreiralimax/detran-simulador',
-    techs: ['HTML', 'CSS', 'Typescript', 'Angular', 'Sass', 'Git', 'Cypress', 'Karma']
-  },
-  {
     name: 'walletdigitalz',
     url: 'https://walletdigitalz.web.app',
     repo: 'https://github.com/lucasferreiralimax/wallet-digitalz',

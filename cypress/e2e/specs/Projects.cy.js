@@ -56,9 +56,6 @@ describe('Test render projects page languages', () => {
     cy.contains('Create Curriculum')
     cy.contains('This web application is a social action and helps peoples to create a professional, elegant curriculum in a simple and objective')
 
-    cy.contains('Detran Simulator')
-    cy.contains('This social project to help peoples prepare for a test with questions about Brazilian traffic laws Constructed in a simple objective to helper every Brazilian citizen for preparation exam')
-
     cy.contains('Note Application Svelte')
     cy.contains('Notes interface created with Svelte, Pug.js and Stylus Examples of notes saved in localStorage with responsive design and darkmode Button with animations and modal transitions')
 
@@ -121,9 +118,6 @@ describe('Test render projects page languages', () => {
     cy.contains('Criar Currículo')
     cy.contains('Esse web aplicativo é uma ação social e auxilia as pessoas a criar um curriculo profissional, elegante, de uma forma simples e objetiva')
 
-    cy.contains('Detran Simulador')
-    cy.contains('Esse projeto social tem o intuito de ajudar as pessoas a se preparar para uma prova com questões sobre leis de trânsito brasileira Construído de uma forma simples para atingir todo cidadão brasileiro e ajudar em seu momento de preparo')
-
     cy.contains('Wallet Digitalz')
     cy.contains('O aplicativo Wallet Digitalz é para ajudar a gerenciar seu dinheiro despesas e investimentos')
 
@@ -185,9 +179,6 @@ describe('Test render projects page languages', () => {
 
     cy.contains('Crear Currículum')
     cy.contains('Esta aplicación web es una acción social y ayuda a las personas a crear un plan de estudios elegante y profesional de una manera simple y objetiva.')
-
-    cy.contains('Detran Simulador')
-    cy.contains('Este proyecto social tiene como objetivo ayudar a las personas a prepararse para un examen con preguntas sobre las leyes de tránsito de Brasil Construido de manera simple para llegar a todos los ciudadanos brasileños y ayudarlos en su tiempo de preparación')
 
     cy.contains('Wallet Digitalz')
     cy.contains('La aplicación Wallet Digitalz es una ayuda para administrar su dinero gastos e inversiones')

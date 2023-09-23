@@ -6,7 +6,6 @@ import VueTechsLogos from '@/assets/projects/vue-techs-logos.png';
 import ReactTechsLogos from '@/assets/projects/react-techs-logos.png';
 import SOS from '@/assets/projects/sos.png';
 import ProjetoCriar from '@/assets/projects/projeto-criar-curriculo.png';
-import Detran from '@/assets/projects/detran-simulador.png';
 import Keep from '@/assets/projects/keep-cybernetically.png';
 import AngularBook from '@/assets/projects/angularbook.png';
 import AngularBookNew from '@/assets/projects/angularbook-new.png';
@@ -62,13 +61,6 @@ const projects: ProjectType[] = [
     repo: 'https://github.com/lucasferreiralimax/criarcurriculo',
     photo: ProjetoCriar,
     techs: ['HTML', 'CSS', 'JavaScript', 'Vue', 'Stylus', 'Git', 'Cypress', 'Jest']
-  },
-  {
-    translate: 'pageProjects.detran',
-    url: 'https://detran-simulador.web.app',
-    repo: 'https://github.com/criar-art/detran.simulador',
-    photo: Detran,
-    techs: ['HTML', 'CSS', 'Typescript', 'Angular', 'Sass', 'Git', 'Cypress', 'Karma']
   },
   {
     translate: 'pageProjects.walletdigitalz',
