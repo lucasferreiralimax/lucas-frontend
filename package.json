@@ -45,7 +45,7 @@
     "sass": "^1.69.5",
     "start-server-and-test": "^2.0.3",
     "typescript": "^5.3.2",
-    "vite": "^5.0.2",
+    "vite": "^5.0.4",
     "vite-plugin-html-env": "^1.2.8",
     "vite-plugin-react-svg": "^0.1.0",
     "vitest": "^0.34.6"
