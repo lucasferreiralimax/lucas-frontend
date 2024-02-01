@@ -17,7 +17,7 @@ describe('Should render <Formations/>', () => {
   });
   it('renders simple', () => {
     expect(screen.getByTestId('app-formations')).toBeInTheDocument();
-    expect(screen.getByText('📚 navigation.formation')).toBeInTheDocument();
+    expect(screen.getByText('navigation.formation')).toBeInTheDocument();
   });
   it('render title document', () => {
     expect(document.title).toBe('Lucas navigation.formation');

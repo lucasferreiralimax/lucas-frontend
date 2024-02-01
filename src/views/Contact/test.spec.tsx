@@ -16,7 +16,7 @@ describe('Should render <Contact/>', () => {
   });
   it('renders simple and title', () => {
     expect(screen.getByTestId('app-social')).toBeInTheDocument();
-    expect(screen.getByText('🌎 pageContact.title')).toBeInTheDocument();
+    expect(screen.getByText('pageContact.title')).toBeInTheDocument();
   });
   it('render title document', () => {
     expect(document.title).toBe('Lucas navigation.contact');

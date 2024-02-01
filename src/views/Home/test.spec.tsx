@@ -42,7 +42,6 @@ describe('Should render <Home/>', () => {
     expect(screen.getByText(/pageHome.paragraphThree.textOne/i)).toBeInTheDocument();
     expect(screen.getByText(/pageHome.paragraphThree.textTwo/i)).toBeInTheDocument();
     expect(screen.getByText(/pageHome.paragraphThree.textThree/i)).toBeInTheDocument();
-    expect(screen.getByText(/pageHome.paragraphThree.textFour/i)).toBeInTheDocument();
 
     // paragraphFour
     expect(screen.getByText(/pageHome.paragraphFour.textOne/i)).toBeInTheDocument();

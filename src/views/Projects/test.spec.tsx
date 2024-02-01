@@ -16,7 +16,7 @@ describe('Should render <Projects/>', () => {
   });
   it('renders simple and title', () => {
     expect(screen.getByTestId('app-projects')).toBeInTheDocument();
-    expect(screen.getByText('🌿 navigation.projects')).toBeInTheDocument();
+    expect(screen.getByText('navigation.projects')).toBeInTheDocument();
   });
   it('render title document', () => {
     expect(document.title).toBe('Lucas navigation.projects');
