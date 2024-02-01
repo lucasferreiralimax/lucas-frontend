@@ -34,18 +34,25 @@ body {
   -webkit-text-size-adjust: 100%;
   --main-color-primary: #dc1919;
   &.theme-dark {
-    background: #000 url(./assets/icons/shattered.png);
+    background: #000 url(./assets/matrix.jpg) fixed;
+    background-size: cover;
     color: var(--main-color);
     --main-color: #fff;
     --main-color-rgb: 255,255,255;
     --main-bg-color-primary: #222;
+    .app-main, .app-footer small {
+      backdrop-filter: brightness(0.5) blur(5px);
+    }
   }
   &.theme-light {
-    background: #fff url(./assets/icons/shattered.png);
+    background: #fff url(./assets/swirl.jpg) fixed;
     color: var(--main-color);
     --main-color: #222;
     --main-color-rgb: 0,0,0;
     --main-bg-color-primary: #fff;
+    .app-main, .app-footer small {
+      backdrop-filter: brightness(2) blur(5px);
+    }
   }
 }
 
@@ -66,7 +73,13 @@ body {
   padding: 2rem;
   min-height: calc(100vh - 4rem);
   p, h2 { text-shadow: 1px 1px var(--main-bg-color-primary); }
+}
 
+.app-main {
+  padding: 1rem 2rem;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0,0,0, .5);
+  border: 1px solid rgba(255,255,255,.5);
 }
 
 a {

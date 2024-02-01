@@ -17,7 +17,7 @@ const App = () => {
     <div className='app-container' data-testid='app-container'>
       <Suspense fallback={<Loading/>}>
         <Header />
-        <main>
+        <main className='app-main'>
           <Routes>
             {views.map((view, index) => (
               <Route key={++index} path={view.url} element={<view.component />} />

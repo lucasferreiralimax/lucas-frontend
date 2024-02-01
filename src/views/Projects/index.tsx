@@ -15,7 +15,7 @@ const Projects = () => {
 
   return (
     <>
-      <h2>🌿 { t('navigation.projects') }</h2>
+      <h2>{ t('navigation.projects') }</h2>
       <div className='app-projects' data-testid='app-projects'>
         {projects.map((item: ProjectType, index: number) => {
           return (
