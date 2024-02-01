@@ -21,25 +21,24 @@
   },
   "pageHome": {
     "paragraphOne": {
-      "textOne": "Programador Front-end y Diseñador especialista en crea soluciones tecnológicas en estándares web",
-      "textTwo": "Yo estudio inglés, español y hablo portugués brasileño."
+      "textOne": "Soy Programador y Diseñador Front-end especializado en desarrollar soluciones tecnológicas siguiendo estándares web.",
+      "textTwo": "Tengo habilidades en varios idiomas, incluidos inglés y español, además de hablar con fluidez el portugués brasileño."
     },
     "paragraphTwo": {
-      "textOne": "Siempre desarrollando soluciones con las siguientes tecnologías: CSS, HTML, JavaScript",
-      "textTwo": "React.js y los frameworks Angular, Vue.js y Svelte.js",
-      "textThree": "Webpack, Gulp.js, Grunt.js, ParcelJS, Cypress.io, Quasar.js, Nuxt.js, Typescript, ES6",
-      "textFour": "Trabajando con pruebas unitarias en Vitest, Jest y Karma"
+      "textOne": "Mi experiencia abarca el uso de las siguientes tecnologías: CSS, HTML, JavaScript",
+      "textTwo": "React.js y los frameworks Angular, Vue.js y Svelte.js.",
+      "textThree": "Además, tengo experiencia en herramientas como Webpack, Gulp.js, Grunt.js, ParcelJS, Cypress.io, Quasar.js, Nuxt.js, Typescript y ES6.",
+      "textFour": "En el campo de pruebas, domino Vitest, Jest y Karma."
     },
     "paragraphThree": {
-      "textOne": "Uso Git como versionador de los código y Github, Bitbucket, Gitlab",
-      "textTwo": "El preprocesador Stylus.js para trabajar con CSS, también trabajo con Less y Sass",
-      "textThree": "Siempre buscando desarrollar y escribir HTML semántico en su última versión",
-      "textFour": "Utilizando el máximo que la lenguaje ofrece, también uso Pug.js como template"
+      "textOne": "Utilizo Git como versionador de código, administrando repositorios en plataformas como GitHub, Bitbucket y GitLab.",
+      "textTwo": "Al diseñar CSS, uso el preprocesador Stylus, además de trabajar con Less y Sass.",
+      "textThree": "Priorizo el desarrollo de HTML semántico en su última versión y uso Pug.js como plantilla."
     },
     "paragraphFour": {
-      "textOne": "Mi enfoque es mejorar la información con desempeño, brindando mucha calidad e innovación",
-      "textTwo": "Creando pruebas End-to-End usando Cypress.io, generando resultados positivos en los proyectos",
-      "textThree": "Realización de pruebas de investigación y usabilidad, mejorando la experiencia con animaciones CSS"
+      "textOne": "Mi enfoque principal es optimizar la información con énfasis en el rendimiento, brindando calidad e innovación.",
+      "textTwo": "Realizo pruebas End-to-End utilizando Cypress.io, obteniendo resultados positivos en los proyectos.",
+      "textThree": "Realizo investigaciones y pruebas de usabilidad para mejorar la experiencia del usuario incorporando animaciones en CSS para hacer más placentera la interacción."
     }
   },
   "pageProjects": {

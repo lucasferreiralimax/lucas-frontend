@@ -21,25 +21,24 @@
   },
   "pageHome": {
     "paragraphOne": {
-      "textOne": "Front-end Programmer and Designer specialist in creating technological solutions with Web standards",
-      "textTwo": "I study English, Spanish and speak brazilian portuguese"
+      "textOne": "I am a Front-end Programmer and Designer specialized in developing technological solutions following web standards.",
+      "textTwo": "I have skills in multiple languages, including English and Spanish, as well as being fluent in Brazilian Portuguese."
     },
     "paragraphTwo": {
-      "textOne": "Always developing solutions with technologies: CSS, HTML, JavaScript",
+      "textOne": "My experience covers the use of the following technologies: CSS, HTML, JavaScript",
       "textTwo": "React.js and the Framework's Angular, Vue.js, and Svelte.js",
-      "textThree": "Webpack, Gulp.js, Grunt.js, ParcelJS, Cypress.io, Quasar.js, Nuxt.js, Typescript, ES6",
-      "textFour": "Working with unit tests in Vitest, Jest and Karma"
+      "textThree": "Additionally, I have expertise in tools such as Webpack, Gulp.js, Grunt.js, ParcelJS, Cypress.io, Quasar.js, Nuxt.js, Typescript and ES6.",
+      "textFour": "In the testing ground, I am proficient in Vitest, Jest, and Karma."
     },
     "paragraphThree": {
-      "textOne": "I use Git as code versioner and Github, Bitbucket, Gitlab",
-      "textTwo": "The Stylus.js preprocessor for working with CSS, I also work with Less and Sass",
-      "textThree": "Always looking to develop and write semantic HTML with the latest version",
-      "textFour": "Using maximum that language offers, I also use Pug.js a template engine"
+      "textOne": "I use Git as a code versioner, managing repositories on platforms such as GitHub, Bitbucket and GitLab.",
+      "textTwo": "When styling CSS, I use the Stylus preprocessor, in addition to working with Less and Sass.",
+      "textThree": "Always looking to develop and write semantic HTML with the latest version"
     },
     "paragraphFour": {
-      "textOne": "My focus is improving information with performance, a lot of quality, and innovation",
-      "textTwo": "Creating End-to-End tests with Cypress.io, generating positive results in projects",
-      "textThree": "Doing research and usability tests, improving the experience with CSS animations"
+      "textOne": "My main focus is on optimizing information with an emphasis on performance, providing quality and innovation.",
+      "textTwo": "Creating End-to-End tests using Cypress.io, obtaining positive results in projects.",
+      "textThree": "I conduct research and usability tests to improve the user experience, incorporating CSS animations to make interaction more pleasant."
     }
   },
   "pageProjects": {

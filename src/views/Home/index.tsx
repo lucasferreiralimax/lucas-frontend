@@ -57,8 +57,7 @@ const Home = () => {
       <p>
         {t('pageHome.paragraphThree.textOne')}<br/>
         {t('pageHome.paragraphThree.textTwo')}<br/>
-        {t('pageHome.paragraphThree.textThree')}<br/>
-        {t('pageHome.paragraphThree.textFour')}
+        {t('pageHome.paragraphThree.textThree')}
       </p>
       <p>
         {t('pageHome.paragraphFour.textOne')}<br/>
