@@ -53,7 +53,7 @@ const contacts: ContactItem[] = [
   },
   {
     name: 'C V',
-    link: './lucas-2023-en.pdf'
+    link: './lucasferreiradelima-2024_pt-BR.pdf'
   },
 ];
 
