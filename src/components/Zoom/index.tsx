@@ -57,6 +57,7 @@ const Zoom = ({size, img, alt} : ZoomTypes) => {
       data-testid='app-zoom__content'
     >
       <img
+        className='app-zoom__img'
         width={figureZoom ? width : size?.width}
         height={figureZoom ? height : size?.height}
         src={img}
