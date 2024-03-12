@@ -31,6 +31,7 @@
     transform: translateX(0);
     background-color: transparent;
     backdrop-filter: brightness(0.5) blur(5px);
+    -webkit-backdrop-filter: brightness(0.5) blur(5px);
   }
 }
 
@@ -147,6 +148,7 @@
   opacity: 0;
   transition: .3s all;
   backdrop-filter: brightness(0.3) blur(5px);
+  -webkit-backdrop-filter: brightness(0.3) blur(5px);
   &.active {
     opacity: 1;
     pointer-events: all;

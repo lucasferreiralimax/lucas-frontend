@@ -42,6 +42,7 @@ body {
     --main-bg-color-primary: #222;
     .app-main, .app-footer small {
       backdrop-filter: brightness(0.5) blur(5px);
+      -webkit-backdrop-filter: brightness(0.5) blur(5px);
     }
   }
   &.theme-light {
@@ -52,6 +53,7 @@ body {
     --main-bg-color-primary: #fff;
     .app-main, .app-footer small {
       backdrop-filter: brightness(2) blur(5px);
+      -webkit-backdrop-filter: brightness(2) blur(5px);
     }
   }
 }
