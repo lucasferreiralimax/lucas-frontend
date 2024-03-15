@@ -35,7 +35,7 @@ const Formation = ({ dataTestid, data }: FormationProps) => {
             aria-label={`Link ${t(`${data.translate}.title`)}`}
           >
             <LinkIcon className='app-formation__icon link' />
-            <span>Site</span>
+            <span>Link</span>
           </a>
         </div>
       )}
