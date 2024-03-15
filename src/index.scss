@@ -32,29 +32,20 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
-  --main-color-primary: #dc1919;
+  --main-color-primary: #db3831;
   &.theme-dark {
-    background: #000 url(./assets/matrix.jpg) fixed;
-    background-size: cover;
+    background: var(--main-bg-color-primary);
     color: var(--main-color);
     --main-color: #fff;
     --main-color-rgb: 255,255,255;
-    --main-bg-color-primary: #222;
-    .app-main, .app-footer small {
-      backdrop-filter: brightness(0.5) blur(5px);
-      -webkit-backdrop-filter: brightness(0.5) blur(5px);
-    }
+    --main-bg-color-primary: #111;
   }
   &.theme-light {
-    background: #fff url(./assets/swirl.jpg) fixed;
+    background: var(--main-bg-color-primary);
     color: var(--main-color);
     --main-color: #222;
     --main-color-rgb: 0,0,0;
-    --main-bg-color-primary: #fff;
-    .app-main, .app-footer small {
-      backdrop-filter: brightness(2) blur(5px);
-      -webkit-backdrop-filter: brightness(2) blur(5px);
-    }
+    --main-bg-color-primary: #eee;
   }
 }
 
@@ -84,9 +75,21 @@ body {
   padding: .5rem 1rem;
   border-radius: 15px;
   box-shadow: 0 0 10px rgba(0,0,0, .5);
-  border: 1px solid rgba(255,255,255,.5);
+  border: 1px solid rgba(255,255,255, .2);
   @media (min-width: 640px) {
     padding: 1rem 2rem;
+  }
+}
+
+.theme-dark {
+  .app-main {
+    background: #222;
+  }
+}
+
+.theme-light {
+  .app-main {
+    background: #fff;
   }
 }
 
