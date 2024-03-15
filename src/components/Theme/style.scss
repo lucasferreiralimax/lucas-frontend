@@ -17,11 +17,14 @@
   &:hover,
   &:focus,
   &:active {
-    background: rgba(var(--main-color-rgb), .2);
-    color: var(--main-color);
+    background: var(--main-color-primary);
+    color: #fff;
   }
   &:hover, &:active {
-    svg { transform: scale(1.2); }
+    svg {
+      transform: scale(1.2);
+      fill: #fff;
+    }
   }
   svg {
     float: left;

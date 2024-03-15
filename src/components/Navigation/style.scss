@@ -71,7 +71,9 @@
   &:hover,
   &:focus,
   &:active {
-    color: var(--main-color);
+    background: var(--main-color-primary);
+    color: #fff;
+    svg { fill: #fff; }
   }
   &:hover, &:active, &.active {
     svg { transform: scale(1.2); }

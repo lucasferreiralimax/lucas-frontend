@@ -75,9 +75,10 @@
       border-radius: 10px;
       border: 1px solid rgba(var(--main-color-rgb), .2);
       &:hover {
+        background: var(--main-color-primary);
+        color: #fff;
         .app-project__icon {
-          transform: scale(1.2);
-          fill: var(--main-color-primary);
+          fill: #fff;
         }
       }
       &:first-of-type {
