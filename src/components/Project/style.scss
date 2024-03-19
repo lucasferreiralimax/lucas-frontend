@@ -1,20 +1,11 @@
-.theme-dark .app-project {
-  background: rgba(var(--main-bg-color-primary), .5);
-}
-
-.theme-light .app-project {
-  background: var(--main-bg-color-primary);
-}
-
 .app-project {
   align-items: center;
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
-  border: 1px solid rgba(var(--main-color-rgb), .2);
+  border: 1px solid rgba(var(--main-color-rgb), .1);
   border-radius: 10px;
   padding: 0 1rem 1rem;
-  box-shadow: 0 10px 20px rgba(0,0,0,.2);
   img {
     box-shadow: 0 10px 10px rgba(0,0,0,.2);
     border-radius: 10px;

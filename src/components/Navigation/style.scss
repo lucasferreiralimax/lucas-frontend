@@ -2,14 +2,13 @@
   position: relative;
   z-index: 99;
   &.active .app-nav__content {
-    box-shadow: 0 10px 20px rgba(0,0,0,.2);
     transform: translateX(0);
   }
 }
 
 .app-nav__content {
   background-color: var(--main-bg-color-primary);
-  border-left: 1px solid rgba(var(--main-color-rgb), .2);
+  border-left: 1px solid rgba(var(--main-color-rgb), .1);
   bottom: 0;
   box-sizing: border-box;
   color: var(--main-color);
@@ -27,7 +26,6 @@
   flex-direction: column;
   overflow-y: auto;
   @media (min-width: 1000px) {
-    box-shadow: 0 10px 20px rgba(0,0,0,.2);
     transform: translateX(0);
     background-color: transparent;
   }
