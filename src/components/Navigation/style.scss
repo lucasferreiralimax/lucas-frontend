@@ -92,9 +92,10 @@
 
 .app-nav__menu {
   position: fixed;
-  top: 20px;
-  right: 20px;
+  top: 10px;
+  right: 10px;
   opacity: .8;
+  padding-top: 5px;
   cursor: pointer;
   border: 1px solid rgba(var(--main-color-rgb), .2);
   box-shadow: 0 10px 20px rgba(0,0,0,.2);
