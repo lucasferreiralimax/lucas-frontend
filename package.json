@@ -20,8 +20,8 @@
   "dependencies": {
     "@emotion/react": "^11.11.4",
     "@emotion/styled": "^11.11.0",
-    "@mui/icons-material": "^5.15.13",
-    "@mui/material": "^5.15.13",
+    "@mui/icons-material": "^5.15.14",
+    "@mui/material": "^5.15.14",
     "i18next": "^23.10.1",
     "i18next-http-backend": "^2.5.0",
     "react": "^18.2.0",
@@ -32,7 +32,7 @@
   },
   "devDependencies": {
     "@testing-library/jest-dom": "^6.4.2",
-    "@testing-library/react": "^14.2.1",
+    "@testing-library/react": "^14.2.2",
     "@testing-library/react-hooks": "^8.0.1",
     "@testing-library/user-event": "^14.5.2",
     "@types/react": "^18.2.67",
@@ -44,8 +44,8 @@
     "jsdom": "^24.0.0",
     "sass": "^1.72.0",
     "start-server-and-test": "^2.0.3",
-    "typescript": "^5.4.2",
-    "vite": "^5.1.6",
+    "typescript": "^5.4.3",
+    "vite": "^5.2.2",
     "vite-plugin-html-env": "^1.2.8",
     "vite-plugin-react-svg": "^0.2.0",
     "vitest": "^1.4.0"
