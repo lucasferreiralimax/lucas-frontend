@@ -51,6 +51,14 @@
       "title": "darkmode-vue",
       "description": "Componente Vue para activar el modo oscuro en una aplicación Vue, botón estilizado con varias formas de personalización."
     },
+    "contactVueBook": {
+      "title": "contact-vue-book",
+      "description": "Web Aplicación de lista de contactos web para una gestión eficiente. Agregue, edite y organice contactos fácilmente."
+    },
+    "reactNativeTechsLogos": {
+      "title": "react-native-echs-logos",
+      "description": "Componente React Native que enumera logotipos de tecnologías, idiomas y empresas de tecnología o relacionadas."
+    },
     "vueTechsLogos": {
       "title": "vue-techs-logos",
       "description": "Componente de Vue que enumera logotipos de tecnologías, idiomas y empresas de tecnología o relacionadas."

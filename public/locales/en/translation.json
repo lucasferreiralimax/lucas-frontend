@@ -51,6 +51,14 @@
       "title": "darkmode-vue",
       "description": "Vue component to activate darkmode in a Vue application, stylized button with several ways of customization."
     },
+    "contactVueBook": {
+      "title": "contact-vue-book",
+      "description": "Ccontact list web app for efficient management. Easily add, edit and organize contacts."
+    },
+    "reactNativeTechsLogos": {
+      "title": "react-native-techs-logos",
+      "description": "React Native component listing logos of technologies, languages and technology companies or related."
+    },
     "vueTechsLogos": {
       "title": "vue-techs-logos",
       "description": "Vue component listing logos of technologies, languages and technology companies or related."

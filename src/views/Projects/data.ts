@@ -1,7 +1,9 @@
 import { ProjectType } from '@/components/Project/types';
 
-import Criar from '@/assets/projects/criar-art.jpg';
+import Criar from '@/assets/projects/criar-art.png';
 import DarkModeVue from '@/assets/projects/darkmode-vue.png';
+import ContactVueBook from '@/assets/projects/contact-vue-book.png';
+import ReactNativeTechsLogos from '@/assets/projects/react-native-techs-logos.png';
 import VueTechsLogos from '@/assets/projects/vue-techs-logos.png';
 import ReactTechsLogos from '@/assets/projects/react-techs-logos.png';
 import SOS from '@/assets/projects/sos.png';
@@ -27,35 +29,6 @@ const projects: ProjectType[] = [
     techs: ['HTML', 'CSS', 'JavaScript', 'Vue', 'React', 'Angular', 'Git']
   },
   {
-    translate: 'pageProjects.darkModeVue',
-    url: 'https://darkmode-vue.web.app',
-    repo: 'https://github.com/livresaber/darkmode-vue',
-    photo: DarkModeVue,
-    techs: ['HTML', 'CSS', 'JavaScript', 'Vue', 'Vite', 'Git']
-  },
-  {
-    translate: 'pageProjects.vueTechsLogos',
-    url: 'https://vue-techs-logos.web.app',
-    repo: 'https://github.com/criar-art/vue-techs-logos',
-    photo: VueTechsLogos,
-    techs: ['HTML', 'CSS', 'JavaScript', 'Vue', 'Vite', 'Git']
-  },
-
-  {
-    translate: 'pageProjects.reactTechsLogos',
-    url: 'https://react-techs-logos.web.app',
-    repo: 'https://github.com/criar-art/react-techs-logos',
-    photo: ReactTechsLogos,
-    techs: ['HTML', 'CSS', 'JavaScript', 'React', 'Vite', 'Git']
-  },
-  {
-    translate: 'pageProjects.listSOS',
-    url: 'https://lucasferreiralimax.github.io/save-our-soul',
-    repo: 'https://github.com/lucasferreiralimax/save-our-soul',
-    photo: SOS,
-    techs: ['HTML', 'CSS', 'JavaScript', 'Git']
-  },
-  {
     translate: 'pageProjects.createCurriculum',
     url: 'https://criar-curriculo.web.app',
     repo: 'https://github.com/lucasferreiralimax/criarcurriculo',
@@ -70,11 +43,53 @@ const projects: ProjectType[] = [
     techs: ['HTML', 'CSS', 'JavaScript', 'Vue', 'Sass', 'Git', 'Jest', 'Cypress', 'Vite']
   },
   {
+    translate: 'pageProjects.contactVueBook',
+    url: 'https://contact-vue-book.web.app',
+    repo: 'https://github.com/livresaber/contact-vue-book',
+    photo: ContactVueBook,
+    techs: ['HTML', 'CSS', 'JavaScript', 'Vue', 'Git', 'Vite']
+  },
+  {
+    translate: 'pageProjects.reactNativeTechsLogos',
+    url: 'https://www.npmjs.com/package/react-native-techs-logos',
+    repo: 'https://github.com/criar-art/react-native-techs-logos',
+    photo: ReactNativeTechsLogos,
+    techs: ['HTML', 'CSS', 'JavaScript', 'React', 'Typescript', 'Git', 'Jest']
+  },
+  {
+    translate: 'pageProjects.reactTechsLogos',
+    url: 'https://react-techs-logos.web.app',
+    repo: 'https://github.com/criar-art/react-techs-logos',
+    photo: ReactTechsLogos,
+    techs: ['HTML', 'CSS', 'JavaScript', 'React', 'Vite', 'Git']
+  },
+  {
+    translate: 'pageProjects.vueTechsLogos',
+    url: 'https://vue-techs-logos.web.app',
+    repo: 'https://github.com/criar-art/vue-techs-logos',
+    photo: VueTechsLogos,
+    techs: ['HTML', 'CSS', 'JavaScript', 'Vue', 'Vite', 'Git']
+  },
+  {
+    translate: 'pageProjects.listSOS',
+    url: 'https://lucasferreiralimax.github.io/save-our-soul',
+    repo: 'https://github.com/lucasferreiralimax/save-our-soul',
+    photo: SOS,
+    techs: ['HTML', 'CSS', 'JavaScript', 'Git']
+  },
+  {
     translate: 'pageProjects.notes',
     url: 'https://keep-cybernetically.web.app',
     repo: 'https://github.com/lucasferreiralimax/keep_cybernetically',
     photo: Keep,
     techs: ['HTML', 'CSS', 'JavaScript', 'Svelte', 'Stylus', 'Git', 'Jest']
+  },
+  {
+    translate: 'pageProjects.darkModeVue',
+    url: 'https://darkmode-vue.web.app',
+    repo: 'https://github.com/livresaber/darkmode-vue',
+    photo: DarkModeVue,
+    techs: ['HTML', 'CSS', 'JavaScript', 'Vue', 'Vite', 'Git']
   },
   {
     translate: 'pageProjects.facebook.old',
