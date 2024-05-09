@@ -49,5 +49,8 @@
     "vite-plugin-html-env": "^1.2.8",
     "vite-plugin-react-svg": "^0.2.0",
     "vitest": "^1.6.0"
+  },
+  "optionalDependencies": {
+    "@rollup/rollup-linux-x64-gnu": "4.6.1"
   }
 }
