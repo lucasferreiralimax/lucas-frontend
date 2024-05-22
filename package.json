@@ -40,7 +40,7 @@
     "@types/testing-library__jest-dom": "^6.0.0",
     "@vitejs/plugin-react": "^4.2.1",
     "@vitest/coverage-c8": "^0.33.0",
-    "cypress": "^13.9.0",
+    "cypress": "^13.10.0",
     "jsdom": "^24.0.0",
     "sass": "^1.77.2",
     "start-server-and-test": "^2.0.3",
