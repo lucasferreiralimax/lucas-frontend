@@ -1,6 +1,6 @@
 import { useTranslation } from 'react-i18next';
-import { ReactComponent as Github } from '@/assets/icons/github-logo.svg';
-import { ReactComponent as LinkIcon } from '@/assets/icons/link-icon.svg';
+import Github from '@/assets/icons/github-logo.svg?react';
+import LinkIcon from '@/assets/icons/link-icon.svg?react';
 import Tech from '@/components/Tech';
 import Zoom from '@/components/Zoom';
 

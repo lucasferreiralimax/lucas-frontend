@@ -1,8 +1,6 @@
 import { Link } from 'react-router-dom';
 import Navigation from '@/components/Navigation';
 
-import { ReactComponent as Brasil } from '@/assets/brasil-flag.svg';
-
 import './style.scss';
 
 const Header = () => {

@@ -1,5 +1,5 @@
 import { useTranslation } from 'react-i18next';
-import { ReactComponent as LinkIcon } from '@/assets/icons/link-icon.svg';
+import LinkIcon from '@/assets/icons/link-icon.svg?react';
 
 import { FormationProps } from './types';
 

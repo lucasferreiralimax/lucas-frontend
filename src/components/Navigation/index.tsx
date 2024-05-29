@@ -5,7 +5,7 @@ import { NavLink } from 'react-router-dom';
 import pkg from '../../../package.json';
 
 import listNavigation from './data';
-import { ReactComponent as MenuIcon } from '@/assets/icons/menu-icon.svg';
+import MenuIcon from '@/assets/icons/menu-icon.svg?react';
 import Language from '@/components/Language';
 import Theme from '@/components/Theme';
 

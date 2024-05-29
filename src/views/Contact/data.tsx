@@ -1,11 +1,11 @@
 import { ContactItem } from './types';
 
-import { ReactComponent as Linkedin } from '@/assets/icons/linkedin-logo.svg';
-import { ReactComponent as Duolingo } from '@/assets/icons/duolingo-logo.svg';
-import { ReactComponent as Codepen } from '@/assets/icons/codepen-logo.svg';
-import { ReactComponent as Github } from '@/assets/icons/github-logo.svg';
-import { ReactComponent as Emailicon } from '@/assets/icons/email-icon.svg';
-import { ReactComponent as Youtube } from '@/assets/icons/youtube-icon.svg';
+import Linkedin from '@/assets/icons/linkedin-logo.svg?react';
+import Duolingo from '@/assets/icons/duolingo-logo.svg?react';
+import Codepen from '@/assets/icons/codepen-logo.svg?react';
+import Github from '@/assets/icons/github-logo.svg?react';
+import Emailicon from '@/assets/icons/email-icon.svg?react';
+import Youtube from '@/assets/icons/youtube-icon.svg?react';
 import FreeCodeCamp from '@/assets/icons/freecodecamp-logo.png';
 import PluralSight from '@/assets/icons/pluralsight-logo.png';
 

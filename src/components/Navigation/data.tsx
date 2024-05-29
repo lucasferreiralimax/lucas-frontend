@@ -1,9 +1,9 @@
 import { NavigationTypes } from './types';
 
-import { ReactComponent as EmailIcon } from '@/assets/icons/email-icon.svg';
-import { ReactComponent as HomeIcon } from '@/assets/icons/home-icon.svg';
-import { ReactComponent as BookIcon } from '@/assets/icons/book-icon.svg';
-import { ReactComponent as ProjectIcon } from '@/assets/icons/project-icon.svg';
+import EmailIcon from '@/assets/icons/email-icon.svg?react';
+import HomeIcon from '@/assets/icons/home-icon.svg?react';
+import BookIcon from '@/assets/icons/book-icon.svg?react';
+import ProjectIcon from '@/assets/icons/project-icon.svg?react';
 
 const listNavigation: NavigationTypes[] = [
   { name: 'home',      icon: HomeIcon,    url: '/'          },
