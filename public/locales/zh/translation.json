@@ -1,0 +1,168 @@
+{
+  "version": "版本",
+  "loading": "请等待加载...",
+  "languages": {
+    "title": "语言"
+  },
+  "navigation": {
+    "title": "导航",
+    "home": "主页",
+    "projects": "项目",
+    "works": "工作经验",
+    "formation": "教育背景",
+    "courses": "课程",
+    "contact": "联系方式",
+    "aria": {
+      "description": "导航到作品集的页面"
+    }
+  },
+  "pageHome": {
+    "paragraphOne": {
+      "textOne": "我是一个前端开发者和设计师，专注于按照Web标准开发技术解决方案。",
+      "textTwo": "我掌握多种语言，包括英语和西班牙语，并且精通巴西葡萄牙语。"
+    },
+    "paragraphTwo": {
+      "textOne": "我的经验涵盖以下技术：CSS、HTML、JavaScript",
+      "textTwo": "React.js，以及框架Angular、Vue.js和Svelte.js。",
+      "textThree": "此外，我还擅长使用以下工具：Webpack、Gulp.js、Grunt.js、ParcelJS、Cypress.io、Quasar.js、Nuxt.js、Typescript和ES6。",
+      "textFour": "在测试领域，我精通Vitest、Jest和Karma。"
+    },
+    "paragraphThree": {
+      "textOne": "我使用Git进行代码版本控制，管理在GitHub、Bitbucket和GitLab平台上的仓库。",
+      "textTwo": "在CSS样式化方面，我使用Stylus预处理器，同时也使用Less和Sass。",
+      "textThree": "我优先开发最新版本的语义化HTML，并使用Pug.js作为模板。"
+    },
+    "paragraphFour": {
+      "textOne": "我的主要关注点是信息优化，注重性能，提供高质量和创新的解决方案。",
+      "textTwo": "我使用Cypress.io进行端到端测试，在项目中取得了积极的成果。",
+      "textThree": "我进行可用性研究和测试，以提升用户体验，结合CSS动画，使交互更加愉快。"
+    }
+  },
+  "pageProjects": {
+    "techUsage": "使用的技术",
+    "criarArt": {
+      "title": "Criar Art",
+      "description": "专注于Web和应用程序开发的公司"
+    },
+    "darkModeVue": {
+      "title": "darkmode-vue",
+      "description": "用于在Vue应用中启用暗模式的Vue组件，按钮样式多样且高度可定制。"
+    },
+    "contactVueBook": {
+      "title": "contact-vue-book",
+      "description": "联系人管理Web应用程序。轻松添加、编辑和组织联系人。"
+    },
+    "reactNativeTechsLogos": {
+      "title": "react-native-techs-logos",
+      "description": "包含技术、语言和相关技术公司的Logo列表的React Native组件。"
+    },
+    "vueTechsLogos": {
+      "title": "vue-techs-logos",
+      "description": "包含技术、语言和相关技术公司的Logo列表的Vue组件。"
+    },
+    "reactTechsLogos": {
+      "title": "react-techs-logos",
+      "description": "包含技术、语言和相关技术公司的Logo列表的React组件。"
+    },
+    "listSOS": {
+      "title": "生命预防联系列表",
+      "description": "包含国际生命预防联系列表的项目，纯JavaScript从零开始编写"
+    },
+    "createCurriculum": {
+      "title": "创建简历",
+      "description": "这是一个社会行动的Web应用程序，帮助人们以简单明了的方式创建专业且优雅的简历"
+    },
+    "walletdigitalz": {
+      "title": "Wallet Digitalz",
+      "description": "Wallet Digitalz应用程序帮助管理您的资金、支出和投资"
+    },
+    "notes": {
+      "title": "Svelte笔记应用",
+      "description": "使用Svelte、Pug.js和Stylus创建的笔记界面\n示例笔记存储在localStorage中\n响应式设计和暗模式\n按钮动画和模态转换"
+    },
+    "chatVue": {
+      "title": "Chat Vue",
+      "description": "使用Vue.js编写的Web聊天界面\n响应式和定制的登录页面\n语言国际化\n单元测试和端到端测试"
+    },
+    "facebook": {
+      "old": {
+        "title": "使用Angular的旧版Facebook",
+        "description": "使用Angular克隆旧版Facebook界面"
+      },
+      "new": {
+        "title": "使用Angular的新版Facebook",
+        "description": "使用Angular克隆新版Facebook界面\n暗模式和响应式设计"
+      }
+    },
+    "google": {
+      "react": {
+        "title": "使用React.js的Google界面",
+        "description": "使用React.js编写的Google界面克隆\n带有虚拟键盘、暗模式、语言国际化\n语音识别、单元测试和端到端测试"
+      },
+      "angular": {
+        "title": "使用Angular的Google界面",
+        "description": "使用Angular编写的Google界面克隆\n带有虚拟键盘、暗模式\n语音识别、单元测试"
+      },
+      "vue": {
+        "title": "使用Vue.js的Google界面",
+        "description": "使用Vue.js编写的Google界面克隆\n带有虚拟键盘、暗模式、语言国际化\n语音识别、单元测试和端到端测试"
+      },
+      "svelte": {
+        "title": "使用Svelte的Google界面",
+        "description": "使用Svelte编写的Google界面克隆\n带有虚拟键盘、暗模式\n语音识别、单元测试"
+      }
+    },
+    "slide": {
+      "react": {
+        "title": "使用React.js的SlideContent",
+        "description": "使用React.js编写的内容幻灯片\n无限幻灯片模式，无导航按钮\n带有计时器和语言国际化的幻灯片"
+      },
+      "vue": {
+        "title": "使用Vue.js的SlideContent",
+        "description": "使用Vue.js编写的内容幻灯片\n无限幻灯片模式，无导航按钮\n带有计时器和语言国际化的幻灯片"
+      },
+      "angular": {
+        "title": "使用Angular的SlideContent",
+        "description": "使用Angular编写的内容幻灯片\n无限幻灯片模式，无导航按钮\n带有计时器的幻灯片"
+      },
+      "ember": {
+        "title": "使用Ember.js的SlideContent",
+        "description": "使用Ember.js编写的内容幻灯片\n无限幻灯片模式，无导航按钮\n带有计时器和语言国际化的幻灯片"
+      }
+    },
+    "steam": {
+      "title": "Steam登录",
+      "description": "使用Angular编写的Steam登录界面克隆"
+    }
+  },
+  "pageContact": {
+    "title": "联系方式"
+  },
+  "pageFormations": {
+    "title": "学术教育",
+    "senac": {
+      "title": "Senac Brasil",
+      "description": "我使用CSS、HTML、JavaScript、PHP和MySQL创建了一个作品集\n学习了Adobe套件工具的概念和使用\n帮助同学更好地理解课程内容，并鼓励他们通过实际和功能性的例子来巩固和分享所学知识\n在课程期间，我开发了自己的个人页面，应用所学知识，同时在Intima Store的实习中实践和应用这些知识"
+    },
+    "alura": {
+      "title": "Alura",
+      "description": "前端开发\nReact培训\nTypescript开发者\nVue.js开发者\nAngular程序员"
+    },
+    "origamid": {
+      "title": "Origamid",
+      "description": "用户体验设计启发\n完整的React\nuseState、useEffect、useRef\nuseMemo、useCallback、useContext"
+    },
+    "mesquita": {
+      "title": "E.E. Jornalista Francisco Mesquita",
+      "description": "高中一年级\n高中二年级\n高中三年级"
+    },
+    "cei": {
+      "title": "CEI - 综合教育中心",
+      "description": "学习了计算机基础知识\n使用了Microsoft Office套件的所有工具\nWindows、Word、Excel、Power Point、Internet、Access和打字"
+    },
+    "duolingo": {
+      "title": "多邻国",
+      "description": "英语\n西班牙语\n法语\n俄语"
+    }
+  }
+}

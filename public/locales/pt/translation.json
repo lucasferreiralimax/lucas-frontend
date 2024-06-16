@@ -2,10 +2,7 @@
   "version": "Versão",
   "loading": "Aguarde carregar...",
   "languages": {
-    "title": "Idiomas",
-    "pt": "Português Brasileiro",
-    "en": "Inglês",
-    "es": "Espanhol"
+    "title": "Idiomas"
   },
   "navigation": {
     "title": "Navegação",
