@@ -24,7 +24,7 @@ const Language = () => {
   }
 
   return (
-    <section className='app-language'>
+    <section className='app-language' data-testid="app-language">
       <h4 className='app-language__title'>{t('languages.title')}</h4>
       {languages.map((language) => (
         <button

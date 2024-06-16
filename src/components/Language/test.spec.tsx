@@ -16,18 +16,18 @@ describe('Should render <Language/>', () => {
     expect(screen.getByTestId('app-language')).toBeInTheDocument();
   });
   it('render option pt', () => {
-    const language = screen.getByText(/languages.pt/i);
-    expect(language).toBeInTheDocument();
-    expect(language.getAttribute('value')).toBe('pt');
+    expect(screen.getByText(/pt-BR/i)).toBeInTheDocument();
   });
   it('render option es', () => {
-    const language = screen.getByText(/languages.es/i);
-    expect(language).toBeInTheDocument();
-    expect(language.getAttribute('value')).toBe('es');
+    expect(screen.getByText(/es-ES/i)).toBeInTheDocument();
   });
   it('render option en', () => {
-    const language = screen.getByText(/languages.en/i);
-    expect(language).toBeInTheDocument();
-    expect(language.getAttribute('value')).toBe('en');
+    expect(screen.getByText(/en-US/i)).toBeInTheDocument();
+  });
+  it('render option ru', () => {
+    expect(screen.getByText(/ru-RU/i)).toBeInTheDocument();
+  });
+  it('render option zh', () => {
+    expect(screen.getByText(/zh-CN/i)).toBeInTheDocument();
   });
 });
