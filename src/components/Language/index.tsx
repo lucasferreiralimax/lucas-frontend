@@ -23,6 +23,10 @@ const Language = () => {
     setCurrent(value)
   }
 
+  function getImageUrl(name: string) {
+    return new URL(`../../assets/flags/${name}.svg`, import.meta.url).href
+  }
+
   return (
     <section className='app-language' data-testid="app-language">
       <h4 className='app-language__title'>{t('languages.title')}</h4>
@@ -32,7 +36,7 @@ const Language = () => {
           onClick={() => changeLanguages(language.slice(0, 2))}
           className={`app-language-flag ${current === language.slice(0, 2) && 'active'}`}
         >
-          <img width="30px" src={`./src/assets/flags/${language}.svg`} alt={language} />
+          <img width="30px" src={getImageUrl(language)} alt={language} />
           {language}
         </button>
       ))}
