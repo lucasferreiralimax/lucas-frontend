@@ -1,16 +1,31 @@
 .app-language__title {
   margin-top: 1rem;
 }
-.app-language {
-  width: 100%;
-  padding: 1rem;
+
+.app-language-flag {
+  width: calc(20% - .4rem);
+  padding: .4rem;
   cursor: pointer;
   border-radius: 10px;
   border: 1px solid rgba(var(--main-color-rgb), .2);
   background: var(--main-bg-color-primary);
   color: var(--main-color);
-  option {
-    background: var(--main-bg-color-primary);
-    color: var(--main-color);
+  margin-right: .5rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  transition: .3s all;
+  font-size: .5rem;
+  font-weight: bold;
+  &:last-of-type {
+    margin-right: 0px;
   }
+  &:hover {
+    transform: scale(1.2);
+  }
+  &.active {
+    box-shadow: 0 0 0 2px var(--main-color-primary), 0 0 10px 2px var(--main-color-primary);
+  }
+  img { margin-bottom: .2rem; }
 }
