@@ -43,7 +43,7 @@
     "@vitest/coverage-c8": "^0.33.0",
     "cypress": "^13.11.0",
     "jsdom": "^24.1.0",
-    "sass": "^1.77.5",
+    "sass": "^1.77.6",
     "start-server-and-test": "^2.0.4",
     "typescript": "^5.4.5",
     "vite": "^5.3.1",
