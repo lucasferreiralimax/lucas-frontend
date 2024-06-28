@@ -72,9 +72,13 @@
       "title": "Crear Currículum",
       "description": "Esta aplicación web es una acción social y ayuda a las personas a crear un plan de estudios elegante y profesional de una manera simple y objetiva."
     },
+    "walletdigitalzApp": {
+      "title": "Wallet Digitalz Android",
+      "description": "La aplicación Wallet Digitalz\nAyuda para administrar su dinero\ngastos e inversiones"
+    },
     "walletdigitalz": {
-      "title": "Wallet Digitalz",
-      "description": "La aplicación Wallet Digitalz\nes una ayuda para administrar su dinero\ngastos e inversiones"
+      "title": "Wallet Digitalz Web",
+      "description": "La web aplicación Wallet Digitalz\nAyuda para administrar su dinero\ngastos e inversiones"
     },
     "notes": {
       "title": "Aplicación de notas con Svelte",
@@ -114,19 +118,19 @@
     },
     "slide": {
       "react": {
-        "title": "SlideContent con React.js",
+        "title": "SlideContentReact",
         "description": "Slide de contenido escrita con React.js\nInfinite Slide Mode, Slide sin botones de navegación\nSlide con temporizador e internalización de idioma"
       },
       "vue": {
-        "title": "SlideContent con Vue.js",
+        "title": "SlideContentVue",
         "description": "Slide de contenido escrita con Vue.js\nInfinite Slide Mode, Slide sin botones de navegación\nSlide con temporizador e internalización de idioma"
       },
       "angular": {
-        "title": "SlideContent con Angular",
-        "description": "Slide de contenido escrita con Angular\nInfinite Slide Mode, Slide sin botones de navegación\nSlide con temporizador"
+        "title": "SlideContentAngular",
+        "description": "Slide de contenido escrita con Angular\nInfinite Slide Mode, Slide sin botones de navegación\nSlide con temporizador e internalización de idioma"
       },
       "ember": {
-        "title": "SlideContent con Ember.js",
+        "title": "SlideContentEmber",
         "description": "Slide de contenido escrita con Ember.js\nInfinite Slide Mode, Slide sin botones de navegación\nSlide con temporizador e internalización de idioma"
       }
     },

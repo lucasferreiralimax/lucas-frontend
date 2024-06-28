@@ -72,9 +72,13 @@
       "title": "Criar Currículo",
       "description": "Esse web aplicativo é uma ação social e auxilia as pessoas a criar um curriculo profissional, elegante, de uma forma simples e objetiva"
     },
+    "walletdigitalzApp": {
+      "title": "Wallet Digitalz Android",
+      "description": "O aplicativo Wallet Digitalz\nVai ajudar a gerenciar seu dinheiro\nDespesas e investimentos"
+    },
     "walletdigitalz": {
-      "title": "Wallet Digitalz",
-      "description": "O aplicativo Wallet Digitalz\né para ajudar a gerenciar seu dinheiro\ndespesas e investimentos"
+      "title": "Wallet Digitalz Web",
+      "description": "O web aplicativo Wallet Digitalz\nVai ajudar a gerenciar seu dinheiro\nDespesas e investimentos"
     },
     "notes": {
       "title": "Aplicativo de Notas com Svelte",
@@ -123,7 +127,7 @@
       },
       "angular": {
         "title": "SlideContent com Angular",
-        "description": "Slide de conteúdo escrito com Angular\nModo Slide infinito, Slide sem botões de navegação\nSlide com temporizador"
+        "description": "Slide de conteúdo escrito com Angular\nModo Slide infinito, Slide sem botões de navegação\nSlide com temporizador e internalização de idiomas"
       },
       "ember": {
         "title": "SlideContent com Ember.js",

@@ -72,9 +72,13 @@
       "title": "创建简历",
       "description": "这是一个社会行动的Web应用程序，帮助人们以简单明了的方式创建专业且优雅的简历"
     },
+    "walletdigitalzApp": {
+      "title": "Wallet Digitalz 安卓",
+      "description": "Wallet Digitalz应用程序\n帮助管理您的资金\n支出和投资"
+    },
     "walletdigitalz": {
-      "title": "Wallet Digitalz",
-      "description": "Wallet Digitalz应用程序帮助管理您的资金、支出和投资"
+      "title": "Wallet Digitalz 网络",
+      "description": "Wallet Digitalz网络应用程序\n帮助管理您的资金\n支出和投资"
     },
     "notes": {
       "title": "Svelte笔记应用",
@@ -114,19 +118,19 @@
     },
     "slide": {
       "react": {
-        "title": "使用React.js的SlideContent",
+        "title": "SlideContentReact",
         "description": "使用React.js编写的内容幻灯片\n无限幻灯片模式，无导航按钮\n带有计时器和语言国际化的幻灯片"
       },
       "vue": {
-        "title": "使用Vue.js的SlideContent",
+        "title": "SlideContentVue",
         "description": "使用Vue.js编写的内容幻灯片\n无限幻灯片模式，无导航按钮\n带有计时器和语言国际化的幻灯片"
       },
       "angular": {
-        "title": "使用Angular的SlideContent",
-        "description": "使用Angular编写的内容幻灯片\n无限幻灯片模式，无导航按钮\n带有计时器的幻灯片"
+        "title": "SlideContentAngular",
+        "description": "使用Angular编写的内容幻灯片\n无限幻灯片模式，无导航按钮\n带有计时器和语言国际化的幻灯片"
       },
       "ember": {
-        "title": "使用Ember.js的SlideContent",
+        "title": "SlideContentEmber",
         "description": "使用Ember.js编写的内容幻灯片\n无限幻灯片模式，无导航按钮\n带有计时器和语言国际化的幻灯片"
       }
     },

@@ -19,8 +19,16 @@ import SlideEmber from '@/assets/projects/slide-content-ember.png';
 import ChatVue from '@/assets/projects/web-chat-vue.png';
 import Steam from '@/assets/projects/steam-angular.png';
 import WalletDigitalz from '@/assets/projects/walletdigitalz.png';
+import WalletDigitalApp from '@/assets/projects/walletdigitalz-app.png';
 
 const projects: ProjectType[] = [
+  {
+    translate: 'pageProjects.walletdigitalzApp',
+    url: 'https://play.google.com/store/apps/details?id=com.criar.art.walletdigitalzapp',
+    repo: 'https://github.com/criar-art/wallet.digitalz.app',
+    photo: WalletDigitalApp,
+    techs: ['HTML', 'CSS', 'Typescript', 'React', 'Git', 'Jest']
+  },
   {
     translate: 'pageProjects.criarArt',
     url: 'https://criar.art',
@@ -71,6 +79,34 @@ const projects: ProjectType[] = [
     techs: ['HTML', 'CSS', 'JavaScript', 'Vue', 'Vite', 'Git']
   },
   {
+    translate: 'pageProjects.slide.react',
+    url: 'https://slidecontent-reactjs.web.app',
+    repo: 'https://github.com/criar-art/slidecontent-react',
+    photo: SlideReact,
+    techs: ['HTML', 'CSS', 'JavaScript', 'React', 'Git', 'Jest']
+  },
+  {
+    translate: 'pageProjects.slide.vue',
+    url: 'https://slidecontent-vuejs.web.app',
+    repo: 'https://github.com/criar-art/slidecontent-vue',
+    photo: SlideVue,
+    techs: ['HTML', 'CSS', 'JavaScript', 'Vue', 'Stylus', 'Git', 'Cypress', 'Jest']
+  },
+  {
+    translate: 'pageProjects.slide.angular',
+    url: 'https://slidecontent-angularjs.web.app',
+    repo: 'https://github.com/criar-art/slidecontent-angular',
+    photo: SlideAngular,
+    techs: ['HTML', 'CSS', 'Typescript', 'Angular', 'Sass', 'Git', 'Karma']
+  },
+  {
+    translate: 'pageProjects.slide.ember',
+    url: 'https://slidecontent-ember.web.app',
+    repo: 'https://github.com/lucasferreiralimax/slidecontent-ember',
+    photo: SlideEmber,
+    techs: ['HTML', 'CSS', 'JavaScript', 'Ember', 'Git']
+  },
+  {
     translate: 'pageProjects.listSOS',
     url: 'https://lucasferreiralimax.github.io/save-our-soul',
     repo: 'https://github.com/lucasferreiralimax/save-our-soul',
@@ -111,34 +147,6 @@ const projects: ProjectType[] = [
     repo: 'https://github.com/lucasferreiralimax/chat-vue',
     photo: ChatVue,
     techs: ['HTML', 'CSS', 'Typescript', 'Vue', 'Stylus', 'Git', 'Jest', 'Cypress']
-  },
-  {
-    translate: 'pageProjects.slide.react',
-    url: 'https://slidecontent-reactjs.web.app',
-    repo: 'https://github.com/criar-art/slidecontent-react',
-    photo: SlideReact,
-    techs: ['HTML', 'CSS', 'JavaScript', 'React', 'Git', 'Jest']
-  },
-  {
-    translate: 'pageProjects.slide.vue',
-    url: 'https://slidecontent-vuejs.web.app',
-    repo: 'https://github.com/criar-art/slidecontent-vue',
-    photo: SlideVue,
-    techs: ['HTML', 'CSS', 'JavaScript', 'Vue', 'Stylus', 'Git', 'Cypress', 'Jest']
-  },
-  {
-    translate: 'pageProjects.slide.angular',
-    url: 'https://angular-slidecontent.web.app',
-    repo: 'https://github.com/criar-art/slidecontent-angular',
-    photo: SlideAngular,
-    techs: ['HTML', 'CSS', 'Typescript', 'Angular', 'Sass', 'Git', 'Karma']
-  },
-  {
-    translate: 'pageProjects.slide.ember',
-    url: 'https://slidecontent-ember.web.app',
-    repo: 'https://github.com/lucasferreiralimax/slidecontent-ember',
-    photo: SlideEmber,
-    techs: ['HTML', 'CSS', 'JavaScript', 'Ember', 'Git']
   },
   {
     translate: 'pageProjects.google.react',

@@ -72,9 +72,13 @@
       "title": "Создать резюме",
       "description": "Это веб-приложение является социальной акцией и помогает людям создавать профессиональные и элегантные резюме простым и понятным способом"
     },
+    "walletdigitalzApp": {
+      "title": "Wallet Digitalz Android",
+      "description": "Приложение Wallet Digitalz\nПоможет управлять вашими деньгами\nРасходы и инвестиции"
+    },
     "walletdigitalz": {
-      "title": "Wallet Digitalz",
-      "description": "Приложение Wallet Digitalz помогает управлять вашими деньгами, расходами и инвестициями"
+      "title": "Wallet Digitalz Web",
+      "description": "Веб-приложение Wallet Digitalz\nПоможет управлять вашими деньгами\nРасходы и инвестиции"
     },
     "notes": {
       "title": "Приложение для заметок на Svelte",
@@ -114,19 +118,19 @@
     },
     "slide": {
       "react": {
-        "title": "SlideContent на React.js",
+        "title": "SlideContentReact",
         "description": "Слайд с контентом, написанный на React.js\nБесконечный режим слайдов, слайд без навигационных кнопок\nСлайд с таймером и интернализацией языков"
       },
       "vue": {
-        "title": "SlideContent на Vue.js",
+        "title": "SlideContentVue",
         "description": "Слайд с контентом, написанный на Vue.js\nБесконечный режим слайдов, слайд без навигационных кнопок\nСлайд с таймером и интернализацией языков"
       },
       "angular": {
-        "title": "SlideContent на Angular",
-        "description": "Слайд с контентом, написанный на Angular\nБесконечный режим слайдов, слайд без навигационных кнопок\nСлайд с таймером"
+        "title": "SlideContentAngular",
+        "description": "Слайд с контентом, написанный на Angular\nБесконечный режим слайдов, слайд без навигационных кнопок\nСлайд с таймером и интернализацией языков"
       },
       "ember": {
-        "title": "SlideContent на Ember.js",
+        "title": "SlideContentEmber",
         "description": "Слайд с контентом, написанный на Ember.js\nБесконечный режим слайдов, слайд без навигационных кнопок\nСлайд с таймером и интернализацией языков"
       }
     },

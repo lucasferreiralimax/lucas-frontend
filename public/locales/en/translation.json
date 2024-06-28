@@ -72,9 +72,13 @@
       "title": "Create Curriculum",
       "description": "This web application is a social action and helps peoples to create a professional, elegant curriculum in a simple and objective"
     },
+    "walletdigitalzApp": {
+      "title": "Wallet Digitalz Android",
+      "description": "Wallet Digitalz application\nFor help to manager your money\nExpenses and investiments"
+    },
     "walletdigitalz": {
-      "title": "Wallet Digitalz",
-      "description": "Wallet Digitalz application\nis for help to manager your money\nexpenses and investiments"
+      "title": "Wallet Digitalz Web",
+      "description": "Wallet Digitalz web application\nFor help to manager your money\nExpenses and investiments"
     },
     "notes": {
       "title": "Note Application Svelte",
@@ -114,19 +118,19 @@
     },
     "slide": {
       "react": {
-        "title": "SlideContent with React.js",
+        "title": "SlideContentReact",
         "description": "Content slide written with React.js\nInfinite Slide Mode, Slide without navigation buttons\nSlide with timer and language internalization"
       },
       "vue": {
-        "title": "SlideContent with Vue.js",
+        "title": "SlideContentVue",
         "description": "Content slide written with Vue.js\nInfinite Slide Mode, Slide without navigation buttons\nSlide with timer and language internalization"
       },
       "angular": {
-        "title": "SlideContent with Angular",
-        "description": "Content slide written with Angular\nInfinite Slide Mode, Slide without navigation buttons\nSlide with timer"
+        "title": "SlideContentAngular",
+        "description": "Content slide written with Angular\nInfinite Slide Mode, Slide without navigation buttons\nSlide with timer and language internalization"
       },
       "ember": {
-        "title": "SlideContent with Ember.js",
+        "title": "SlideContentEmber",
         "description": "Content slide written with Ember.js\nInfinite Slide Mode, Slide without navigation buttons\nSlide with timer and language internalization"
       }
     },
