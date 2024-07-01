@@ -69,14 +69,14 @@ const projects: ProjectType[] = [
     url: 'https://react-techs-logos.web.app',
     repo: 'https://github.com/criar-art/react-techs-logos',
     photo: ReactTechsLogos,
-    techs: ['HTML', 'CSS', 'JavaScript', 'React', 'Vite', 'Git']
+    techs: ['HTML', 'CSS', 'Typescript', 'React', 'Vite', 'Vitest', 'Git']
   },
   {
     translate: 'pageProjects.vueTechsLogos',
     url: 'https://vue-techs-logos.web.app',
     repo: 'https://github.com/criar-art/vue-techs-logos',
     photo: VueTechsLogos,
-    techs: ['HTML', 'CSS', 'JavaScript', 'Vue', 'Vite', 'Git']
+    techs: ['HTML', 'CSS', 'Typescript', 'Vue', 'Vite', 'Vitest', 'Git']
   },
   {
     translate: 'pageProjects.slide.react',
