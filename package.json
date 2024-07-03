@@ -45,7 +45,7 @@
     "jsdom": "^24.1.0",
     "sass": "^1.77.6",
     "start-server-and-test": "^2.0.4",
-    "typescript": "^5.5.2",
+    "typescript": "^5.5.3",
     "vite": "^5.3.3",
     "vite-plugin-html-env": "^1.2.8",
     "vite-plugin-react-svg": "^0.2.0",
