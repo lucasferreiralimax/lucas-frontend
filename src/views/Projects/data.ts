@@ -6,6 +6,7 @@ import ContactVueBook from '@/assets/projects/contact-vue-book.png';
 import ReactNativeTechsLogos from '@/assets/projects/react-native-techs-logos.png';
 import VueTechsLogos from '@/assets/projects/vue-techs-logos.png';
 import ReactTechsLogos from '@/assets/projects/react-techs-logos.png';
+import AngularTechsLogos from '@/assets/projects/angular-techs-logos.png';
 import SOS from '@/assets/projects/sos.png';
 import ProjetoCriar from '@/assets/projects/projeto-criar-curriculo.png';
 import Keep from '@/assets/projects/keep-cybernetically.png';
@@ -63,6 +64,13 @@ const projects: ProjectType[] = [
     repo: 'https://github.com/criar-art/react-native-techs-logos',
     photo: ReactNativeTechsLogos,
     techs: ['HTML', 'CSS', 'JavaScript', 'React', 'Typescript', 'Git', 'Jest']
+  },
+  {
+    translate: 'pageProjects.angularTechsLogos',
+    url: 'https://angular-techs-logos.web.app',
+    repo: 'https://github.com/criar-art/angular-techs-logos',
+    photo: AngularTechsLogos,
+    techs: ['HTML', 'CSS', 'Typescript', 'Angular', 'Karma', 'Jasmine', 'Git']
   },
   {
     translate: 'pageProjects.reactTechsLogos',

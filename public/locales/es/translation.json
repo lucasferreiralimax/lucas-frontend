@@ -64,6 +64,10 @@
       "title": "react-techs-logos",
       "description": "Componente de React que enumera logotipos de tecnologías, idiomas y empresas de tecnología o relacionadas."
     },
+    "angularTechsLogos": {
+      "title": "angular-techs-logos",
+      "description": "Componente de Angular que enumera logotipos de tecnologías, idiomas y empresas de tecnología o relacionadas."
+    },
     "listSOS": {
       "title": "Contactos Prevención de la Vida",
       "description": "Proyecto con listado de contactos internacionales para la prevención de la vida, escrito desde cero con puro JavaScript"

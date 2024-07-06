@@ -64,6 +64,10 @@
       "title": "react-techs-logos",
       "description": "包含技术、语言和相关技术公司的Logo列表的React组件。"
     },
+    "angularTechsLogos": {
+      "title": "angular-techs-logos",
+      "description": "包含技术、语言和相关技术公司的Logo列表的Angular组件。"
+    },
     "listSOS": {
       "title": "生命预防联系列表",
       "description": "包含国际生命预防联系列表的项目，纯JavaScript从零开始编写"
