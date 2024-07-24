@@ -32,7 +32,7 @@
   },
   "devDependencies": {
     "@testing-library/dom": "^10.4.0",
-    "@testing-library/jest-dom": "^6.4.7",
+    "@testing-library/jest-dom": "^6.4.8",
     "@testing-library/react": "^16.0.0",
     "@testing-library/react-hooks": "^8.0.1",
     "@testing-library/user-event": "^14.5.2",
@@ -45,7 +45,7 @@
     "jsdom": "^24.1.1",
     "sass": "^1.77.8",
     "start-server-and-test": "^2.0.4",
-    "typescript": "^5.5.3",
+    "typescript": "^5.5.4",
     "vite": "^5.3.4",
     "vite-plugin-html-env": "^1.2.8",
     "vite-plugin-react-svg": "^0.2.0",
