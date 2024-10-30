@@ -6,7 +6,7 @@ import Tooltip from '@mui/material/Tooltip';
 import Tech from '@/components/Tech';
 
 import './style.scss';
-import Lucas from '@/assets/lucaslima.png';
+import Lucas from '@/assets/lucaslima.jpg';
 
 const Home = () => {
   const { t } = useTranslation();

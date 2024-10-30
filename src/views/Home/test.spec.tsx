@@ -22,7 +22,7 @@ describe('Should render <Home/>', () => {
   it('render photo-profile', () => {
     const photo = screen.getByAltText('Lucas Ferreira de Lima');
     expect(photo).toBeInTheDocument();
-    expect(photo).toHaveAttribute('src', '/src/assets/lucaslima.png');
+    expect(photo).toHaveAttribute('src', '/src/assets/lucaslima.jpg');
     expect(photo).toHaveAttribute('class', 'app-profile__photo');
     expect(photo).toHaveAttribute('width', '150');
     expect(photo).toHaveAttribute('height', '150');
